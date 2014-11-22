@@ -1,13 +1,28 @@
 var express = require('express');
 
 /* Mongoose Models */
-var Order     = require('../models/order');
-var Tender    = require('../models/tender');
+var Order  = require('../models/order');
+var Tender = require('../models/tender');
+var User   = require('../models/user');
 
 var router = express.Router();
 
-router.get('/', function(req, res) {
-  res.send('respond with a resource');
+/* POST REGISTER */
+/* {"email": "cplopez4@uc.cl", "pass": "abrecl2014", "preferences": ["Alimentos", "Insumos Médicos"]} */
+router.post('/register', function(req, res) {
+	var user = db.User.find({ where: { _uid: req.body.uid } }).success(function(user){
+		res.header('Access-Control-Allow-Origin', '*');
+		res.json(user);
+	})
+});
+
+/* POST LOGIN */
+/* {"email": "cplopez4@uc.cl", "pass": "abrecl2014"} */
+router.post('/login', function(req, res) {
+	var user = db.User.find({ where: { _uid: req.body.uid } }).success(function(user){
+		res.header('Access-Control-Allow-Origin', '*');
+		res.json(user);
+	})
 });
 
 /* ORDER ROUTES */

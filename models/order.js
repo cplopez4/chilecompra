@@ -8,12 +8,12 @@ var OrderSchema = new Schema({
 	code: String,
 	name: String,
 	tender_code: String,
-	dates: Schema.Types.Mixed,
 	areas: [String],
 	supplier: { code: String, name: String },
 	buyer: { code: String, name: String },
 	total: Number,
-	currency: String
+	currency: String,
+	created_at: Date
 });
 OrderSchema.plugin(mongoosePaginate);
 
