@@ -29,7 +29,7 @@ router.post('/login', function(req, res) {
 router.route('/orders')
 
 	/* POST New Order */
-	/* {"code":"codigo-de-la-orden", "name": "Insumos Médicos", "tender_code": "codigo-de-la-licitacion", "areas": "Alimentos / Bebidas / Gaseosas", "supplier": { "code": "codigo-de-la-empresa", "name": "Ventas de Gaseosas Marcelito" }, "buyer": { "code": "codigo-de-la-empresa", "name": "Cafetería de la Moneda" }, "total": 50300, "currency": "CLP", "created_at": Date } */
+	/* {"code":"codigo-de-la-orden", "name": "Insumos Médicos", "tender_code": "codigo-de-la-licitacion", "areas": "Alimentos / Bebidas / Gaseosas", "supplier": { "code": "codigo-de-la-empresa", "name": "Ventas de Gaseosas Marcelito" }, "buyer": { "code": "codigo-de-la-empresa", "name": "Cafetería de la Moneda" }, "total": 50300, "currency": "CLP", "created_at": Date, "state": 8, "states": [ { "state": 8, "date": "27022014" } ] } */
 	.post(function(req, res) {
 		var order = new Order();
 
@@ -44,6 +44,9 @@ router.route('/orders')
 		order.total = parseInt(req.body.total) || 0;
 		order.currency = req.body.currency || "CLP";
 		order.created_at = new Date(req.body.created_at) || new Date();
+		order.state = parseInt(req.body.state) || 5;
+		order.states = req.body.states || [{"state": 5, "date": "01012014"}];
+
 
 		order.save(function(err, order){
 			res.header('Access-Control-Allow-Origin', '*');
@@ -84,7 +87,7 @@ router.get('/orders_pag', function(req, res){
 router.route('/tenders')
 
 	/* POST New Tender */
-	/* {"code":"codigo-de-la-licitacion", "type": "L1", name": "Insumos Médicos", "desc": "Licitación para comprar bebidas", "areas_num": 2, "areas": ["Alimentos / Bebidas / Gaseosas", "Alimentos / Bebidas / Cafe"], "buyer": { "code": "codigo-de-la-empresa", "name": "Cafetería de la Moneda" }, "region": "Región Metropolitana", "published_at": Date, "closed_at": Date } */
+	/* {"code":"codigo-de-la-licitacion", "type": "L1", "name": "Insumos Médicos", "desc": "Licitación para comprar bebidas", "areas_num": 2, "areas": ["Alimentos / Bebidas / Gaseosas", "Alimentos / Bebidas / Cafe"], "buyer": { "code": "codigo-de-la-empresa", "name": "Cafetería de la Moneda" }, "region": "Región Metropolitana", "published_at": Date, "closed_at": Date, "state": 8, "states": [ { "state": 8, "date": "27022014" } ] } */
 	.post(function(req, res) {
 		var tender = new Tender();
 
@@ -99,6 +102,8 @@ router.route('/tenders')
 		tender.region = req.body.region || "Región Metropolitana de Santiago";
 		tender.published_at = new Date(req.body.published_at) || new Date();
 		tender.closed_at = new Date(req.body.closed_at) || new Date();
+		tender.state = parseInt(req.body.state) || 5;
+		tender.states = req.body.states || [{"state": 5, "date": "01012014"}];
 
 		tender.save(function(err, tender){
 			res.header('Access-Control-Allow-Origin', '*');
@@ -133,7 +138,7 @@ router.get('/tenders_pag', function(req, res){
 
 		res.json(tender);
 	}, { sortBy: { published_at: -1 } });
-});	
+});
 
 
 module.exports = router;

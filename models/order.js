@@ -13,7 +13,9 @@ var OrderSchema = new Schema({
 	buyer: { code: String, name: String },
 	total: Number,
 	currency: String,
-	created_at: Date
+	created_at: Date,
+    state: Number,
+    states: [Schema.Types.Mixed]
 });
 OrderSchema.plugin(mongoosePaginate);
 
