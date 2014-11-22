@@ -1,20 +1,33 @@
 var express = require('express')
-  , routes = require('./routes')
   , http = require('http')
-  , path = require('path');
+  , bodyParser = require('body-parser')
+  , path = require('path')
+  , favicon = require('static-favicon')
+  , logger = require('morgan')
+  ,cookieParser = require('cookie-parser');
+
+/* Mongoose - MongoDB */
+var mongoose = require('mongoose');
+var mongo = mongoose.connect('mongodb://127.0.0.1:27017/chilecompra');
+
+/* Routes */
+var routes = require('./routes/index');
+var api = require('./routes/api');
 
 var app = express();
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
+app.use(favicon());
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
 app.use(express.static(path.join(__dirname, 'public')));
 
-
-app.get('/', function(req, res){
-  res.render('ejemplo');
-});
+app.use('/', routes);
+app.use('/api', api);
 
 app.listen(3000, function(){
-	console.log("Server escuchando puerto 3000");
+	console.log("Bienvenido a Chile Compra - AbreCL 2014");
 });
