@@ -8,7 +8,7 @@ var OrderSchema = new Schema({
 	code: String,
 	name: String,
 	tender_code: String,
-	areas: [String],
+	areas: [Schema.Types.Mixed],
 	supplier: { code: String, name: String },
 	buyer: { code: String, name: String },
 	total: Number,
