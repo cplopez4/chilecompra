@@ -1,17 +1,17 @@
 var margin = { top: 150, right: 10, bottom: 50, left: 100 },
-  cellSize=12;
-  col_number=60;
-  row_number=50;
+  cellSize=30;
+  col_number=30;
+  row_number=15;
   width = cellSize*col_number, // - margin.left - margin.right,
   height = cellSize*row_number , // - margin.top - margin.bottom,
-  //gridSize = Math.floor(width / 24),
+  gridSize = Math.floor(width / 24),
   legendElementWidth = cellSize*2.5,
   colorBuckets = 21,
   colors = ['#005824','#1A693B','#347B53','#4F8D6B','#699F83','#83B09B','#9EC2B3','#B8D4CB','#D2E6E3','#EDF8FB','#FFFFFF','#F1EEF6','#E6D3E1','#DBB9CD','#D19EB9','#C684A4','#BB6990','#B14F7C','#A63467','#9B1A53','#91003F'];
   hcrow = [49,11,30,4,18,6,12,20,19,33,32,26,44,35,38,3,23,41,22,10,2,15,16,36,8,25,29,7,27,34,48,31,45,43,14,9,39,1,37,47,42,21,40,5,28,46,50,17,24,13], // change to gene name or probe id
   hccol = [6,5,41,12,42,21,58,56,14,16,43,15,17,46,47,48,54,49,37,38,25,22,7,8,2,45,9,20,24,44,23,19,13,40,11,1,39,53,10,52,3,26,27,60,50,51,59,18,31,32,30,4,55,28,29,57,36,34,33,35], // change to gene name or probe id
-  rowLabel = ['1759080_s_at','1759302_s_at','1759502_s_at','1759540_s_at','1759781_s_at','1759828_s_at','1759829_s_at','1759906_s_at','1760088_s_at','1760164_s_at','1760453_s_at','1760516_s_at','1760594_s_at','1760894_s_at','1760951_s_at','1761030_s_at','1761128_at','1761145_s_at','1761160_s_at','1761189_s_at','1761222_s_at','1761245_s_at','1761277_s_at','1761434_s_at','1761553_s_at','1761620_s_at','1761873_s_at','1761884_s_at','1761944_s_at','1762105_s_at','1762118_s_at','1762151_s_at','1762388_s_at','1762401_s_at','1762633_s_at','1762701_s_at','1762787_s_at','1762819_s_at','1762880_s_at','1762945_s_at','1762983_s_at','1763132_s_at','1763138_s_at','1763146_s_at','1763198_s_at','1763383_at','1763410_s_at','1763426_s_at','1763490_s_at','1763491_s_at'], // change to gene name or probe id
-  colLabel = ['con1027','con1028','con1029','con103','con1030','con1031','con1032','con1033','con1034','con1035','con1036','con1037','con1038','con1039','con1040','con1041','con108','con109','con110','con111','con112','con125','con126','con127','con128','con129','con130','con131','con132','con133','con134','con135','con136','con137','con138','con139','con14','con15','con150','con151','con152','con153','con16','con17','con174','con184','con185','con186','con187','con188','con189','con191','con192','con193','con194','con199','con2','con200','con201','con21']; // change to contrast name
+  rowLabel = ['Vendedor01','Vendedor02','Vendedor03','Vendedor9540','Vendedor9781','Vendedor9828','Vendedor9829','Vendedor9906','Vendedor0088','Vendedor0164','Vendedor0453','Vendedor0516','Vendedor0594','Vendedor0894','Vendedor0951','Vendedor1030','1761128_at','Vendedor1145','Vendedor1160','Vendedor1189','Vendedor1222','Vendedor1245','Vendedor1277','Vendedor1434','Vendedor1553','Vendedor1620','Vendedor1873','Vendedor1884','Vendedor1944','Vendedor2105','Vendedor2118','Vendedor2151','Vendedor2388','Vendedor2401','Vendedor2633','Vendedor2701','Vendedor2787','Vendedor2819','Vendedor2880','Vendedor2945','Vendedor2983','Vendedor3132','Vendedor3138','Vendedor3146','Vendedor3198','Vendedor99','Vendedor3410','Vendedor3426','Vendedor3490','Vendedor3491'], // change to gene name or probe id
+  colLabel = ['Comprador027','Comprador028','Comprador029','Comprador03','Comprador030','Comprador031','Comprador032','Comprador033','Comprador034','Comprador035','Comprador036','Comprador037','Comprador038','Comprador039','Comprador040','Comprador041','Comprador08','Comprador09','Comprador10','Comprador11','Comprador12','Comprador25','Comprador26','Comprador27','Comprador28','Comprador29','Comprador30','Comprador31','Comprador32','Comprador33','Comprador34','Comprador35','Comprador36','Comprador37','Comprador38','Comprador39','Comprador4','Comprador5','Comprador50','Comprador51','Comprador52','Comprador53','Comprador6','Comprador7','Comprador74','Comprador84','Comprador85','Comprador86','Comprador87','Comprador88','Comprador89','Comprador91','Comprador92','Comprador93','Comprador94','Comprador99','con2','con200','con201','con21']; // change to contrast name
 
 d3.tsv("heatmap.tsv",
 function(d) {
@@ -47,7 +47,8 @@ function(error, data) {
       .attr("class", function (d,i) { return "rowLabel mono r"+i;} ) 
       .on("mouseover", function(d) {d3.select(this).classed("text-hover",true);})
       .on("mouseout" , function(d) {d3.select(this).classed("text-hover",false);})
-      .on("click", function(d,i) {rowSortOrder=!rowSortOrder; sortbylabel("r",i,rowSortOrder);d3.select("#order").property("selectedIndex", 4).node().focus();;})
+      .on("click", function(d,i) {
+        rowSortOrder=!rowSortOrder; sortbylabel("r",i,rowSortOrder);d3.select("#order").property("selectedIndex", 4).node().focus();;})
       ;
 
   var colLabels = svg.append("g")
