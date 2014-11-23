@@ -3,8 +3,8 @@
     <meta charset="utf-8">
     <title>ProCompra</title>
 
+    <link rel="stylesheet" type="text/css" href="stylesheets/idangerous.swiper.css" />  
     <link rel="stylesheet" type="text/css" href="bubbletree/build/bubbletree.css" />  
-    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.mobile-1.4.5.min.css"/>
     <link rel="stylesheet" type="text/css" href="stylesheets/heatmap.css"/>
     <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
     <script type="text/javascript" src="bubbletree/lib/jquery-1.5.2.min.js"></script>
@@ -12,45 +12,61 @@
     <script type="text/javascript" src="bubbletree/lib/raphael.js"></script>
     <script type="text/javascript" src="bubbletree/lib/vis4.js"></script>
     <script type="text/javascript" src="bubbletree/lib/Tween.js"></script>
-    <!--<script type="text/javascript" src="javascripts/jquery.mobile-1.4.5.js"></script> -->
     <script type="text/javascript" src="javascripts/heat.js"></script>
     <script type="text/javascript" src="bubbletree/build/bubbletree.js"></script>
+    <script type="text/javascript" src="javascripts/idangerous.swiper.min.js"></script>    
     <!--<script type="text/javascript" src="bubbletree/styles/icons/style.cofog.js"></script>-->
     <script type="text/javascript" src="javascripts/sequence.js"></script>
 
 
   </head>
+
   <body>
-  
-  <div data-role="page" id="home">
-    <div data-role="content">
-      
-      <div id="main">
-        <div class="bubbletree-wrapper">
-          <div class="bubbletree"></div>
+    <div class="top-container">
+<!--       <a class="arrow-left" href="#"></a> 
+      <a class="arrow-right" href="#"></a> -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide noSwipingClass">
+            <div class="content-slide">
+              <div id="main">
+                <div class="bubbletree-wrapper">
+                  <div class="bubbletree"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="swiper-slide">
+            <div class="content-slide">
+              Order: 
+              <select id="order">
+              <option value="hclust">by cluster</option>
+              <option value="probecontrast">by probe name and contrast name</option>
+              <option value="probe">by probe name</option>
+              <option value="contrast">by contrast name</option>
+              <option value="custom">by log2 ratio</option>
+              </select>
+              </select>
+              <div id="chart" style='overflow:auto; width:50%; height:480px;'></div>
+            </div>
+          </div>
+        
         </div>
       </div>
-    
+      <div class="pagination"></div>
     </div>
-  </div>
-  
-  <div data-role="page" id="heatmap">
-    <div data-role="content">
-      
-      Order: 
-      <select id="order">
-      <option value="hclust">by cluster</option>
-      <option value="probecontrast">by probe name and contrast name</option>
-      <option value="probe">by probe name</option>
-      <option value="contrast">by contrast name</option>
-      <option value="custom">by log2 ratio</option>
-      </select>
-      </select>
-      <div id="chart" style='overflow:auto; width:960px; height:480px;'></div>
 
-    
-    </div>
-  </div>  
 
-  </body>
+  <script>
+  var mySwiper = new Swiper('.swiper-container',{
+    pagination: '.pagination',
+    loop:false,
+    grabCursor: false,
+    paginationClickable: true,
+    noSwiping: true
+  });
+  </script>
+
 </html>
