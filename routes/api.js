@@ -22,6 +22,7 @@ router.post('/login', function(req, res) {
 /* POST NEW STATE */
 /* {"state": 8, "date": "27022014", "type": 0, "code": "213-L12-20"} */
 router.post('/state', function(req, res) {
+	var type = parseInt(req.body.type);
 	var state = parseInt(req.body.state);
 	var state_hash = { "state": state, "date": req.body.date };
 	var code = req.body.code || "00-000-00";
@@ -33,7 +34,7 @@ router.post('/state', function(req, res) {
 				res.send(err);
 
 			if(tender == null){
-				res.json({ "status": "Not founded" });				
+				res.json({ "status": "Not founded" });
 			}
 			else{
 				tender.state = state;
@@ -43,7 +44,7 @@ router.post('/state', function(req, res) {
 					if(err)
 						res.send(err);
 
-					res.json(tenderSaved);				
+					res.json(tenderSaved);
 				})
 			}
 		});
@@ -55,18 +56,18 @@ router.post('/state', function(req, res) {
 				res.send(err);
 
 			if(order == null){
-				res.json({ "status": "Not founded" });				
+				res.json({ "status": "Not founded" });
 			}
 			else{
 				order.state = state;
 				order.states.push(state_hash);
-				
+
 				order.save(function(err, orderSaved){
 					if(err)
 						res.send(err);
 
-					res.json(orderSaved);				
-				})				
+					res.json(orderSaved);
+				})
 			}
 		});
 	}
@@ -85,10 +86,10 @@ router.get('/search', function(req, res){
 				res.send(err);
 
 			if(tender == null){
-				res.json({ "isCreated": "false", "state": 0 });				
+				res.json({ "isCreated": "false", "state": 0 });
 			}
 			else{
-				res.json({ "isCreated": "true", "state": tender.state });				
+				res.json({ "isCreated": "true", "state": tender.state });
 			}
 		});
 	}
@@ -99,10 +100,10 @@ router.get('/search', function(req, res){
 				res.send(err);
 
 			if(order == null){
-				res.json({ "isCreated": "false", "state": 0 });				
+				res.json({ "isCreated": "false", "state": 0 });
 			}
 			else{
-				res.json({ "isCreated": "true", "state": order.state });				
+				res.json({ "isCreated": "true", "state": order.state });
 			}
 		});
 	}
