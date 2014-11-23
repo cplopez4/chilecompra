@@ -998,8 +998,9 @@ BubbleTree.MouseEventGroup = function(target, members) {
 		var me = this;
 		console.log("test1")
 		console.log(target.node.children);
-		if(target.node.children.length==0)
-			$.mobile.navigate("#heatmap", { transition: "slide" });
+		if(target.node.children.length==0){
+			//jQuery.mobile.navigate("#heatmap", { transition: "slide" });
+		}
 		me.clickCallback({ target: me.target, origEvent: evt, mouseEventGroup: me });
 	};
 	
