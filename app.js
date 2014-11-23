@@ -4,7 +4,7 @@ var express = require('express')
   , path = require('path')
   , favicon = require('static-favicon')
   , logger = require('morgan')
-  ,cookieParser = require('cookie-parser');
+  , cookieParser = require('cookie-parser');
 
 /* Mongoose - MongoDB */
 var mongoose = require('mongoose');
