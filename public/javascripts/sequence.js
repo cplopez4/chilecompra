@@ -1,64 +1,55 @@
-var width = 960,
-    height = 700,
-    radius = Math.min(width, height) / 2,
-    color = d3.scale.category20c();
 
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height)
-  .append("g")
-    .attr("transform", "translate(" + width / 2 + "," + height * .52 + ")");
+$.getJSON( "flare.json", function( data2 ) {
+       
+  $(function() {
+    
+      //var randomNames = ['Burgis', 'Pascal', 'Lysann', 'Theo', 'Julia', 'Barnabas', 'Immanuel', 'Marisa', 'Folker', 'Hadumod', 'Friedegunde', 'Marco', 'Otto', 'Sonnhardt', 'Arntraud', 'Andree', 'Wiltrudis', 'Astrid', 'Kathrein', 'Raoul', 'Vivien', 'Ole', 'Leo', 'Dankward', 'David', 'Ferfried', 'Sonngard', 'Fabio', 'Hansjakob', 'Huberta', 'Doro', 'Gordian', 'Sturmius', 'Sturmhard', 'Reintraud', 'Sabine', 'Georg', 'Sylvia', 'Ann', 'Editha', 'Gunhard', 'Etienne', 'Hildtraud', 'Noah', 'Margarete', 'Stilla', 'Brian', 'Pauline', 'Edgar', 'Kathrin'];
+      var nodeCount = 1;
+      function generateRandomData(node, level) {
+        if (!level) level = 1;
+        var key, count = 0;
+        for(key in node.children) {
+            count++;
+          }
+        var numChildren = count; //3+Math.round(Math.random()*6);
+        //node.children = [];
+        if(node.amount!=undefined)
+          var amount = node.amount;
+        else
+          var amount = 1000
+        for (var i=0; i<numChildren; i++) {
+          nodeCount ++;
+          if(node.children[i].amount!=undefined)
+            var child = { 
+              label: node.children[i].label, 
+              amount: node.children[i].amount
+            };
+           else
+            var child = { 
+              label: node.children[i].label, 
+              amount: 1000
+            }; 
 
-var partition = d3.layout.partition()
-    .sort(null)
-    .size([2 * Math.PI, radius * radius])
-    .value(function(d) { return 1; });
+          node.color = vis4color.fromHex("#0000ff").lightness('*'+(.5+Math.random()*.5)).x;
+          //if (level == 1) child.color = vis4color.fromHSL(i/numChildren*360, .7, .5).x;
+          if (level == 2|| level ==1) child.color = vis4color.fromHex(node.color).lightness('*'+(.5+Math.random()*.5)).x;
+          amount -= child.amount;
+          node.children.push(child);
+          if (level < 3) generateRandomData(node.children[i], level+1);
+        }
+        return node;
+      }
+      
+      var data = generateRandomData(data2);
 
-var arc = d3.svg.arc()
-    .startAngle(function(d) { return d.x; })
-    .endAngle(function(d) { return d.x + d.dx; })
-    .innerRadius(function(d) { return Math.sqrt(d.y); })
-    .outerRadius(function(d) { return Math.sqrt(d.y + d.dy); });
-
-d3.json("flare.json", function(error, root) {
-  var path = svg.datum(root).selectAll("path")
-      .data(partition.nodes)
-    .enter().append("path")
-      .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
-      .attr("d", arc)
-      .style("stroke", "#fff")
-      .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
-      .style("fill-rule", "evenodd")
-      .each(stash);
-
-  d3.selectAll("input").on("change", function change() {
-    var value = this.value === "count"
-        ? function() { return 1; }
-        : function(d) { return d.size; };
-
-    path
-        .data(partition.value(value).nodes)
-      .transition()
-        .duration(1500)
-        .attrTween("d", arcTween);
-  });
+      console.log(data);
+      
+      new BubbleTree({
+        data: data,
+        container: '.bubbletree'
+      });
+    
+      
+    });
+                                        
 });
-
-// Stash the old values for transition.
-function stash(d) {
-  d.x0 = d.x;
-  d.dx0 = d.dx;
-}
-
-// Interpolate the arcs in data space.
-function arcTween(a) {
-  var i = d3.interpolate({x: a.x0, dx: a.dx0}, a);
-  return function(t) {
-    var b = i(t);
-    a.x0 = b.x;
-    a.dx0 = b.dx;
-    return arc(b);
-  };
-}
-
-d3.select(self.frameElement).style("height", height + "px");
