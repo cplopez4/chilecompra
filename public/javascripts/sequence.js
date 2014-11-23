@@ -11,25 +11,26 @@ $.getJSON( "flare.json", function( data2 ) {
         for(key in node.children) {
             count++;
           }
+
         var numChildren = count; //3+Math.round(Math.random()*6);
         //node.children = [];
           var amount = node.amount;
-          var name = "05.3"
+          //var name = "05.3"
         
         for (var i=0; i<numChildren; i++) {
           nodeCount ++;
             var child = { 
-              taxonomy: "cofog",
-              name: "05.1",
+              //taxonomy: "cofog",
+              //name: "05.1",
               label: node.children[i].label, 
-              amount: node.children[i].amount
+              amount: parseInt(node.children[i].amount)
             }
 
           node.color = vis4color.fromHex("#0000ff").lightness('*'+(.5+Math.random()*.5)).x;
           //if (level == 1) child.color = vis4color.fromHSL(i/numChildren*360, .7, .5).x;
           if (level == 2|| level ==1) child.color = vis4color.fromHex(node.color).lightness('*'+(.5+Math.random()*.5)).x;
           amount -= child.amount;
-          node.children.push(child);
+          //node.children.push(child);
           if (level < 3) generateRandomData(node.children[i], level+1);
         }
         return node;
@@ -37,7 +38,6 @@ $.getJSON( "flare.json", function( data2 ) {
       
       var data = generateRandomData(data2);
 
-      console.log(data);
       
       new BubbleTree({
         data: data,

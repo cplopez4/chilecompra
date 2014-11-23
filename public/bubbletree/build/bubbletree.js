@@ -526,6 +526,9 @@ var BubbleTree = function(config, onHover, onUnHover) {
 				t.$(grandpa).rad = 0;
 				//
 				var hw = me.width * 0.5;
+				
+				if(node.right == undefined){ node.right = node.left };
+				if(node.left == undefined){ node.left = node.right }
 
 				rad2 = 0 - Math.max(
 					//hw *0.8 - tgtScale * (a2rad(node.parent.amount)+a2rad(node.amount)), // maximum visible part
@@ -996,11 +999,9 @@ BubbleTree.MouseEventGroup = function(target, members) {
 	
 	me.handleClick = function(evt) {
 		var me = this;
-		console.log("test1")
-		console.log(target.node.children);
-		if(target.node.children.length==0){
-			//jQuery.mobile.navigate("#heatmap", { transition: "slide" });
-		}
+		
+		//console.log(target.node.children);
+		if(target.node.children.length==0){}
 		me.clickCallback({ target: me.target, origEvent: evt, mouseEventGroup: me });
 	};
 	
