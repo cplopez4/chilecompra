@@ -16,9 +16,9 @@ var margin = { top: 150, right: 10, bottom: 50, left: 100 },
 d3.tsv("heatmap.tsv",
 function(d) {
   return {
-    row:   +d.row_idx,
-    col:   +d.col_idx,
-    value: +d.log2ratio
+    row:   +d.x,
+    col:   +d.y,
+    value: +d.value
   };
 },
 function(error, data) {
