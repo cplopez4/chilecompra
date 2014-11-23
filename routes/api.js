@@ -113,14 +113,14 @@ router.get('/search', function(req, res){
 router.route('/orders')
 
 	/* POST New Order */
-	/* {"code":"codigo-de-la-orden", "name": "Insumos Médicos", "tender_code": "codigo-de-la-licitacion", "areas": "Alimentos / Bebidas / Gaseosas", "supplier": { "code": "codigo-de-la-empresa", "name": "Ventas de Gaseosas Marcelito" }, "buyer": { "code": "codigo-de-la-empresa", "name": "Cafetería de la Moneda" }, "total": 50300, "currency": "CLP", "created_at": "2014-01-20T10:00:17.173Z", "state": 8, "states": [ { "state": 8, "date": "27022014" } ] } */
+	/* {"code":"codigo-de-la-orden", "name": "Insumos Médicos", "tender_code": "codigo-de-la-licitacion", "areas": [{ "name": "Juguetes / Jueguetes para niños / Cascabeles", "amount": 4800 }, { "name": "Juguetes / Juguetes para niños / Puzzles", "amount": 50000 } ], "supplier": { "code": "codigo-de-la-empresa", "name": "Ventas de Gaseosas Marcelito" }, "buyer": { "code": "codigo-de-la-empresa", "name": "Cafetería de la Moneda" }, "total": 50300, "currency": "CLP", "created_at": "2014-01-20T10:00:17.173Z", "state": 8, "states": [ { "state": 8, "date": "27022014" } ] } */
 	.post(function(req, res) {
 		var order = new Order();
 
 		order.code = req.body.code || "02-000-00";
 		order.name = req.body.name || "Compra Chilecompra";
 		order.tender_code = req.body.tender_code || "00-000-00";
-		order.areas = req.body.areas.split(" / ") || [];
+		order.areas = req.body.areas || [];
 		order.supplier.code = req.body.supplier.code || "03-000-00";
 		order.supplier.name = req.body.supplier.name || "Vendedor";
 		order.buyer.code = req.body.buyer.code || "01-000-00";
