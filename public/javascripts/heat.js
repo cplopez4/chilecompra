@@ -27,8 +27,8 @@ function(error, data) {
       .range(colors);
   
   var svg = d3.select("#chart").append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
+      .attr("width", width + margin.left + margin.right + 260)
+      .attr("height", height + margin.top + margin.bottom - 50)
       .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
       ;
