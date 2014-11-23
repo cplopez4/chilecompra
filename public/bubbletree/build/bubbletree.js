@@ -985,6 +985,8 @@ BubbleTree.MouseEventGroup = function(target, members) {
 	 */
 	me.click = function(callback) {
 		var me = this, members = me.members, i, mem;
+		
+
 		me.clickCallback = callback;
 		for (i in members) {
 			mem = members[i];
@@ -994,6 +996,10 @@ BubbleTree.MouseEventGroup = function(target, members) {
 	
 	me.handleClick = function(evt) {
 		var me = this;
+		console.log("test1")
+		console.log(target.node.children);
+		if(target.node.children.length==0)
+			$.mobile.navigate("#heatmap", { transition: "slide" });
 		me.clickCallback({ target: me.target, origEvent: evt, mouseEventGroup: me });
 	};
 	
@@ -1594,6 +1600,7 @@ BubbleTree.Bubbles.Donut = function(node, bubblechart, origin, radius, angle, co
 	 */
 	me.onclick = function(e) {
 		var me = this;
+		
 
 		me.bc.navigateTo(me.node);
 		

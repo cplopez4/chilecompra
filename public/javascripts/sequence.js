@@ -13,22 +13,17 @@ $.getJSON( "flare.json", function( data2 ) {
           }
         var numChildren = count; //3+Math.round(Math.random()*6);
         //node.children = [];
-        if(node.amount!=undefined)
           var amount = node.amount;
-        else
-          var amount = 1000
+          var name = "05.3"
+        
         for (var i=0; i<numChildren; i++) {
           nodeCount ++;
-          if(node.children[i].amount!=undefined)
             var child = { 
+              taxonomy: "cofog",
+              name: "05.1",
               label: node.children[i].label, 
               amount: node.children[i].amount
-            };
-           else
-            var child = { 
-              label: node.children[i].label, 
-              amount: 1000
-            }; 
+            }
 
           node.color = vis4color.fromHex("#0000ff").lightness('*'+(.5+Math.random()*.5)).x;
           //if (level == 1) child.color = vis4color.fromHSL(i/numChildren*360, .7, .5).x;
