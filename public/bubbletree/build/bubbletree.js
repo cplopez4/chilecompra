@@ -1000,7 +1000,7 @@ BubbleTree.MouseEventGroup = function(target, members) {
 	me.handleClick = function(evt) {
 		var me = this;
 		//console.log(target.node.children);
-		if(target.node.children.length==0){
+		if(target.node.children.length<2){
 			mySwiper.swipeNext();
 		}
 		me.clickCallback({ target: me.target, origEvent: evt, mouseEventGroup: me });
