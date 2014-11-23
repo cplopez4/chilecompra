@@ -5,7 +5,7 @@
 }
 
 .bubbletree { 
-	background: rgb(237,237,237); 
+	background: #d5d5d5; 
 	position: relative; 
 	height: 100%; 
 	overflow: hidden; 
