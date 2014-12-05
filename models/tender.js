@@ -16,7 +16,9 @@ var TenderSchema = new Schema({
 	published_at: Date,
 	closed_at: Date,
 	state: Number,
-    states: [Schema.Types.Mixed]
+    states: [Schema.Types.Mixed],
+    items_num: Number,
+    items: [Schema.Types.Mixed]
 });
 TenderSchema.plugin(mongoosePaginate);
 

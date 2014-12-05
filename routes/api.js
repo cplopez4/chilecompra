@@ -113,7 +113,7 @@ router.get('/search', function(req, res){
 router.route('/orders')
 
 	/* POST New Order */
-	/* {"code":"codigo-de-la-orden", "name": "Insumos Médicos", "tender_code": "codigo-de-la-licitacion", "areas": [{ "name": "Juguetes / Jueguetes para niños / Cascabeles", "amount": 4800 }, { "name": "Juguetes / Juguetes para niños / Puzzles", "amount": 50000 } ], "supplier": { "code": "codigo-de-la-empresa", "name": "Ventas de Gaseosas Marcelito" }, "buyer": { "code": "codigo-de-la-empresa", "name": "Cafetería de la Moneda" }, "total": 50300, "currency": "CLP", "created_at": "2014-01-20T10:00:17.173Z", "state": 8, "states": [ { "state": 8, "date": "27022014" } ] } */
+	/* {"code":"codigo-de-la-orden", "name": "Insumos Médicos", "tender_code": "codigo-de-la-licitacion", "areas": [{ "name": "Juguetes / Jueguetes para niños / Cascabeles", "amount": 4800 }, { "name": "Juguetes / Juguetes para niños / Puzzles", "amount": 50000 } ], "supplier": { "code": "codigo-de-la-empresa", "name": "Ventas de Gaseosas Marcelito" }, "buyer": { "code": "codigo-de-la-empresa", "name": "Cafetería de la Moneda" }, "total": 50300, "currency": "CLP", "created_at": "2014-01-20T10:00:17.173Z", "state": 8, "states": [ { "state": 8, "date": "27022014" } ], "items_num": 2, "items_desc": [ {"cantidad": 1, "producto": "Unidades Dentales", "monto": 35000 }, { "cantidad": 2, "producto": "Frenillos", "monto": 60000 } ] } */
 	.post(function(req, res) {
 		var order = new Order();
 
@@ -130,6 +130,8 @@ router.route('/orders')
 		order.created_at = new Date(req.body.created_at) || new Date();
 		order.state = parseInt(req.body.state) || 5;
 		order.states = req.body.states || [{"state": 5, "date": "01012014"}];
+		order.items_num = parseInt(req.body.items_num) || 0
+		order.items_desc = req.body.items_desc || []
 
 
 		order.save(function(err, order){
@@ -171,7 +173,7 @@ router.get('/orders_pag', function(req, res){
 router.route('/tenders')
 
 	/* POST New Tender */
-	/* {"code":"codigo-de-la-licitacion", "type": "L1", "name": "Insumos Médicos", "desc": "Licitación para comprar bebidas", "areas_num": 2, "areas": ["Alimentos / Bebidas / Gaseosas", "Alimentos / Bebidas / Cafe"], "buyer": { "code": "codigo-de-la-empresa", "name": "Cafetería de la Moneda" }, "region": "Región Metropolitana", "published_at": "2014-01-20T10:00:17.173Z", "closed_at": "2014-01-27T15:54:00.000Z", "state": 8, "states": [ { "state": 8, "date": "27022014" } ] } */
+	/* {"code":"codigo-de-la-licitacion", "type": "L1", "name": "Insumos Médicos", "desc": "Licitación para comprar bebidas", "areas_num": 2, "areas": ["Alimentos / Bebidas / Gaseosas", "Alimentos / Bebidas / Cafe"], "buyer": { "code": "codigo-de-la-empresa", "name": "Cafetería de la Moneda" }, "region": "Región Metropolitana", "published_at": "2014-01-20T10:00:17.173Z", "closed_at": "2014-01-27T15:54:00.000Z", "state": 8, "states": [ { "state": 8, "date": "27022014" } ], "items_num": 4, "items": [aquí se envía el objeto LISTADO completo, que está dentro de la licitación] } */
 	.post(function(req, res) {
 		var tender = new Tender();
 
@@ -188,6 +190,8 @@ router.route('/tenders')
 		tender.closed_at = new Date(req.body.closed_at) || new Date();
 		tender.state = parseInt(req.body.state) || 5;
 		tender.states = req.body.states || [{"state": 5, "date": "01012014"}];
+		tender.items_num = parseInt(req.body.items_num) || 0
+		tender.items = req.body.items || []
 
 		tender.save(function(err, tender){
 			res.header('Access-Control-Allow-Origin', '*');

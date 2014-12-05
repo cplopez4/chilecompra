@@ -15,7 +15,9 @@ var OrderSchema = new Schema({
 	currency: String,
 	created_at: Date,
     state: Number,
-    states: [Schema.Types.Mixed]
+    states: [Schema.Types.Mixed],
+    items_num: Number,
+    items_desc: [Schema.Types.Mixed]
 });
 OrderSchema.plugin(mongoosePaginate);
 
