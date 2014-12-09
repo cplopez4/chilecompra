@@ -198,6 +198,9 @@
                         url: url,
                         cache: false,
                         crossDomain: true,
+                        beforeSend: function(request){
+                          request.setRequestheader("Access-Control-Allow-Origin", "*");
+                        },
                         dataType: 'json',
                         xhrFields: {
                             withCredentials: true
