@@ -199,7 +199,7 @@
                         cache: false,
                         headers: {
                           "Access-Control-Allow-Origin": "*"
-                        }
+                        },
                         // NO setCookies option available, set cookie to document
                         //setCookies: "lkfh89asdhjahska7al446dfg5kgfbfgdhfdbfgcvbcbc dfskljvdfhpl",
                         crossDomain: true,
