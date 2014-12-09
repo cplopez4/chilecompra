@@ -10,17 +10,23 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/styles.css"/>
     <script type="text/javascript" src="javascripts/d3.v3.min.js"></script>
     <script type="text/javascript" src="bubbletree/lib/jquery-1.5.2.min.js"></script>
-    <script type="text/javascript" src="javascripts/idangerous.swiper.min.js"></script>    
+
+    <script src="javascripts/bjqs.min.js"></script>
+    <script src="javascripts/popup.js"></script>
+    <script src="javascripts/slides.js"></script>
+
+    <script type="text/javascript" src="javascripts/idangerous.swiper.js"></script>    
     <script type="text/javascript" src="javascripts/slidebars.min.js"></script>
     <script type="text/javascript" src="bubbletree/lib/jquery.history.js"></script>
     <script type="text/javascript" src="bubbletree/lib/raphael.js"></script>
     <script type="text/javascript" src="bubbletree/lib/vis4.js"></script>
     <script type="text/javascript" src="bubbletree/lib/Tween.js"></script>
-    <script type="text/javascript" src="javascripts/heat.js"></script>
+    <!---->
+    <script type="text/javascript" src="javascripts/heat.js"></script> 
     <script type="text/javascript" src="bubbletree/build/bubbletree.js"></script>
     <!--<script type="text/javascript" src="bubbletree/styles/icons/style.cofog.js"></script>-->
     <script type="text/javascript" src="javascripts/sequence.js"></script>
-
+    
 
   </head>
 
@@ -30,11 +36,12 @@
     <div class="top-container" id="sb-site">
 <!--       <a class="arrow-left" href="#"></a> 
       <a class="arrow-right" href="#"></a> -->
+
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          
+
           <div class="swiper-slide noSwipingClass">
-            <div class="content-slide">
+            <div class="content-slide">  
               <div id="main">
                 <div class="bubbletree-wrapper">
                   <div class="bubbletree"></div>
@@ -54,31 +61,34 @@
               <!--<option value="custom">Por Variable po</option>-->
               </select>
               </select>
-              <div id="chart" style='overflow:auto; width:100%; height:100%;'></div>
+              <div id="tooltip" class="hidden">
+                      <p><span id="value"></p>
+              </div>
+              <div id="chart" style='overflow:scroll; width:100%; height:100%;'></div>
             </div>
           </div>
+
+
+          <div class="swiper-slide">
+            <div class="content-slide">
+             Hola!
+            </div>
+          </div>
+
+
         
         </div>
       </div>
-      <div class="pagination"></div>
     </div>
 
-    <div class="sb-slidebar sb-right sb-style-overlay">
-      <ul>
-        <li>Hola!</li>
-        <li>Hola!</li>
-        <li>Hola!</li>
-        <li>Hola!</li>
-      </ul>
-    </div>
+  
 
 
   <script>
   var mySwiper = new Swiper('.swiper-container',{
-    pagination: '.pagination',
     loop:false,
     grabCursor: false,
-    paginationClickable: true,
+    paginationClickable: false,
     noSwiping: true
   });
   </script>

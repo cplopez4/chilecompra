@@ -372,7 +372,7 @@ var BubbleTree = function(config, onHover, onUnHover) {
 
 		if (children.length > 0) {
 			// create ring
-			ring = me.createRing(parentBubble.node, parentBubble.pos, 0, { stroke: '#888', 'stroke-dasharray': "-" });
+			ring = me.createRing(parentBubble.node, parentBubble.pos, 0, { stroke: '#888',  'stroke-dasharray': "-" });
 		}
 
 		$.each(children, function(i,c) {
@@ -1002,6 +1002,9 @@ BubbleTree.MouseEventGroup = function(target, members) {
 		//console.log(target.node.children);
 		if(target.node.children.length<2){
 			mySwiper.swipeNext();
+			var tsv = "heatmap2.tsv";
+			update(tsv);
+
 		}
 		me.clickCallback({ target: me.target, origEvent: evt, mouseEventGroup: me });
 	};
@@ -2142,3 +2145,7 @@ BubbleTree.Bubbles.Icon = function(node, bubblechart, origin, radius, angle, col
 	
 	me.init();
 };
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////

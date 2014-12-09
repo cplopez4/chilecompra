@@ -1,6 +1,6 @@
 svg *::selection {
    background : transparent;
-}
+  }
 
 svg *::-moz-selection {
    background:transparent;
