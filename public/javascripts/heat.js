@@ -1,37 +1,3 @@
-  $(document).ready(function(){
-    checkCookie();
-  });
-  /*Array.prototype.unique=function(a){
-    return function(){return this.filter(a)}}(function(a,b,c){return c.indexOf(a,b+1)<0
-  });*/
-
-  function setCookie(cname, cvalue, exdays) {
-      var d = new Date();
-      d.setTime(d.getTime() + (exdays*24*60*60*1000));
-      var expires = "expires="+d.toUTCString();
-      document.cookie = cname + "=" + cvalue + "; " + expires;
-  }
-
-  function getCookie(cname) {
-      var name = cname + "=";
-      var ca = document.cookie.split(';');
-      for(var i=0; i<ca.length; i++) {
-          var c = ca[i];
-          while (c.charAt(0)==' ') c = c.substring(1);
-          if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
-      }
-      return "";
-  }
-
-  function checkCookie() {
-      var user = getCookie("recurent");
-      if (user != "") {
-          //console.log("¡Bienvenido nuevamente a la Puerta Giratoria del Poder!");
-      } else {
-          setCookie("recurent", "true", 60);
-      }
-  }
-
   function eliminateDuplicates(arr) {
       var i,
           len = arr.length,
@@ -90,8 +56,8 @@
             //colLabel = colLabel.unique();
             rowLabel = eliminateDuplicates(rowLabel);
             colLabel = eliminateDuplicates(colLabel);
-            console.log(rowLabel);
-            console.log(colLabel);
+            //console.log(rowLabel);
+            //console.log(colLabel);
 
             var colorScale = d3.scale.quantile()
                 .domain([-10, 0, 10])
@@ -186,24 +152,20 @@
                     return colorScale(d.value);
                 })
                 .on("click", function(d) {
-                    console.log(d, " click");
+                    //console.log(d, " click");
                     mySwiper.swipeNext();
 
-                    var code = "1509-5-L114"
-                    var ticket = "0942223B-FAE2-4060-950E-36D16916F7E2"
-                    var url = "http://www.google.cl";
+                    var code = "1509-5-L114";
+                    var ticket = "0942223B-FAE2-4060-950E-36D16916F7E2";
+                    var url = "http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.jsonp?codigo="+code+"&ticket="+ticket+"";
                     
-                    $.ajax({
-                        type: "GET",    
+                    $.ajax({    
                         url: url,
-                        cache: false,
+                        jsonp: "callback",
                         crossDomain: true,
-                        dataType: 'json',
+                        dataType: 'jsonp',
                         success: function (data) {
-                            alert(JSON.stringify(data));
-                            var json = JSON.stringify(data);
-
-                            console.log(json);
+                            console.log(data);
                         }
                     });
 

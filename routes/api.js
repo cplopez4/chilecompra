@@ -7,6 +7,32 @@ var User   = require('../models/user');
 
 var router = express.Router();
 
+/* POST TENDERS ARRAY */
+router.post('/tendersArray', function(req, res){
+	var tenders = req.body.tenders || [];
+
+	Tender.find({ 'code': { $in: tenders } }, function(err, tenders){
+		res.header('Access-Control-Allow-Origin', '*');
+		if(err)
+			res.send(err)
+
+		res.json(tenders);
+	})
+});
+
+/* POST ORDERS ARRAY */
+router.post('/ordersArray', function(req, res){
+	var orders = req.body.orders || [];
+
+	Order.find({ 'code': { $in: orders } }, function(err, orders){
+		res.header('Access-Control-Allow-Origin', '*');
+		if(err)
+			res.send(err)
+
+		res.json(orders);
+	})
+});
+
 /* POST REGISTER */
 /* {"email": "cplopez4@uc.cl", "pass": "abrecl2014", "preferences": ["Alimentos", "Insumos Médicos"]} */
 router.post('/register', function(req, res) {
