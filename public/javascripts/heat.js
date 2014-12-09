@@ -199,9 +199,6 @@
                         cache: false,
                         crossDomain: true,
                         dataType: 'json',
-                        xhrFields: {
-                            withCredentials: true
-                        },
                         success: function (data) {
                             alert(JSON.stringify(data));
                             var json = JSON.stringify(data);
