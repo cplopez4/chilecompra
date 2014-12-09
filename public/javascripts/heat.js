@@ -191,12 +191,15 @@
 
                     var code = "1509-5-L114"
                     var ticket = "0942223B-FAE2-4060-950E-36D16916F7E2"
-                    var myurl = "http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo="+code+"&ticket="+ticket+"";
+                    var url = "http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo="+code+"&ticket="+ticket+"";
                     
                     $.ajax({
                         type: "GET",    
-                        url: myurl,
+                        url: url,
                         cache: false,
+                        headers: {
+                          "Access-Control-Allow-Origin": "*"
+                        }
                         // NO setCookies option available, set cookie to document
                         //setCookies: "lkfh89asdhjahska7al446dfg5kgfbfgdhfdbfgcvbcbc dfskljvdfhpl",
                         crossDomain: true,
