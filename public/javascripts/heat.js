@@ -18,6 +18,8 @@
         return out;
     };
 
+    var order =[];
+    var tender = [];
     var margin = {
             top: 150,
             right: 10,
@@ -46,9 +48,11 @@
             return {
                 row: +d.x,
                 col: +d.y,
-                value: +d.value,
+                value: +d.val,
                 xlabel: +d.x,
-                ylabel: +d.y
+                ylabel: +d.y,
+                tenders: d.tenders,
+                orders: d.orders
             };
         },
         function(error, data) {
@@ -56,13 +60,14 @@
             for (var i = 0; i < data.length; i++) {
                 rowLabel.push(data[i].xlabel)
                 colLabel.push(data[i].ylabel)
+                console.log(data[i].tenders)
             }
             //rowLabel = rowLabel.unique();
             //colLabel = colLabel.unique();
             rowLabel = eliminateDuplicates(rowLabel);
             colLabel = eliminateDuplicates(colLabel);
-            console.log(rowLabel);
-            console.log(colLabel);
+            //console.log(rowLabel);
+            //console.log(colLabel);
 
             var colorScale = d3.scale.quantile()
                 .domain([-10, 0, 10])
@@ -160,26 +165,29 @@
                     console.log(d, " click");
                     mySwiper.swipeNext();
 
-                    var code = "1509-5-L114"
-                    var ticket = "0942223B-FAE2-4060-950E-36D16916F7E2"
-                    var myurl = "http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo="+code+"&ticket="+ticket+"";
+                    tender = d.tenders.split(" ");
+                    order = d.orders.split(" ");
+
+                    //console.log(tender);
+                    //console.log(order);
                     
                     $.ajax({
-                        type: "GET",
-                        beforeSend: function(request){
-                            request.setRequestHeader("Access-Control-Allow-Origin", "*");
-                            request.setRequestHeader("Access-Control-Allow-Methods", "GET");
-                            request.setRequestHeader("Content-Type", "application/json");
-                            request.setRequestHeader("Access-Control-Allow-Headers", "authorization");
-                        },
+                        type: "POST",
+                        data: { tenders: tender },
                         dataType: "application/json",
-                        url: myurl,
-                    
+                        url: "http://chilecompra.cloudapp.net/api/tendersArray",
                         success: function (data) {
-                            alert(JSON.stringify(data));
-                            var json = JSON.stringify(data);
+                            console.log(data);
+                        }
+                    });
 
-                            console.log(json);
+                    $.ajax({
+                        type: "POST",
+                        data: { orders: order },
+                        dataType: "application/json",
+                        url: "http://chilecompra.cloudapp.net/api/ordersArray",
+                        success: function (data) {
+                            console.log(data);
                         }
                     });
                 })
