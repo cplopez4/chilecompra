@@ -168,8 +168,11 @@
                         type: "GET",
                         beforeSend: function(request){
                             request.setRequestHeader("Access-Control-Allow-Origin", "*");
+                            request.setRequestHeader("Access-Control-Allow-Methods", "GET");
+                            request.setRequestHeader("Content-Type", "application/json");
+                            request.setRequestHeader("Access-Control-Allow-Headers", "authorization");
                         },
-                        dataType: "json",
+                        dataType: "application/json",
                         url: myurl,
                     
                         success: function (data) {
