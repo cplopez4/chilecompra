@@ -55,7 +55,7 @@
             for (var i = 0; i < data.length; i++) {
                 rowLabel.push(data[i].xlabel)
                 colLabel.push(data[i].ylabel)
-                console.log(data[i].tenders)
+                //console.log(data[i].tenders)
             }
             //rowLabel = rowLabel.unique();
             //colLabel = colLabel.unique();
@@ -182,7 +182,7 @@
                     $.ajax({
                         type: "POST",
                         data: { tenders: tender },
-                        dataType: "application/json",
+                        dataType: "json",
                         url: "http://chilecompra.cloudapp.net/api/tendersArray",
                         success: function (data) {
                             console.log(data);
@@ -193,7 +193,7 @@
                     $.ajax({
                         type: "POST",
                         data: { orders: order },
-                        dataType: "application/json",
+                        dataType: "json",
                         url: "http://chilecompra.cloudapp.net/api/ordersArray",
                         success: function (data) {
                             console.log(data);
