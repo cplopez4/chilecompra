@@ -191,7 +191,7 @@
 
                     var code = "1509-5-L114"
                     var ticket = "0942223B-FAE2-4060-950E-36D16916F7E2"
-                    var url = "http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo="+code+"&ticket="+ticket+"";
+                    var url = "http://www.google.cl";
                     
                     $.ajax({
                         type: "GET",    
