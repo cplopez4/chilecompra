@@ -188,18 +188,29 @@
                             console.log(data);
                             $('.tenders').empty()
                             for (var i = 0; i< data.length; i++){
-                                var $title = $('<h2>').text(data[i].name);
+                                var $title = $('<h2 id="title">').text(data[i].name);
                                 var $code = $('<p>').text(data[i].code);
                                 var $desc = $('<p>').text(data[i].desc);
-                                var $published_at = $('<p>').text(data[i].published_at);
-                                var $closed_at = $('<p>').text(data[i].closed_at);
+                                if(data[i].state == "5")
+                                    data[i].state = "Publicada"
+                                if(data[i].state == "6")
+                                    data[i].state = "Cerrada"
+                                if(data[i].state == "7")
+                                    data[i].state = "Desierta"
+                                if(data[i].state == "8")
+                                    data[i].state = "Adjudicada"
+                                if(data[i].state == "15")
+                                    data[i].state = "Revocada"
+                                if(data[i].state == "16")
+                                    data[i].state = "Suspendida"
+                                var $state = $('<p>').text(data[i].state);
+                                
 
                                 $('.tenders')
                                     .append($title)
                                     .append($code)
                                     .append($desc)
-                                    .append($published_at)
-                                    .append($closed_at)
+                                    .append($state)
                                 }
                         }
                     });
@@ -214,22 +225,35 @@
                             console.log(data);
                             $('.orders').empty()
                             for (var i = 0; i< data.length; i++){
-                                var $title = $('<h2>').text(data[i].name);
+                                var $title = $('<h2 id=title>').text(data[i].name);
                                 var $code = $('<p>').text(data[i].code);
-                                var $desc = $('<p>').text(data[i].desc);
-                                var $published_at = $('<p>').text(data[i].published_at);
-                                var $closed_at = $('<p>').text(data[i].closed_at);
+                                if(data[i].state == "4")
+                                    data[i].state = "Enviada a Proveedor"
+                                if(data[i].state == "6")
+                                    data[i].state = "Aceptada"
+                                if(data[i].state == "9")
+                                    data[i].state = "Cancelada"
+                                if(data[i].state == "12")
+                                    data[i].state = "Recepción Conforme"
+                                if(data[i].state == "13")
+                                    data[i].state = "Pendiente de Recepcionar"
+                                if(data[i].state == "14")
+                                    data[i].state = "Recepcionada Parcialmente"
+                                if(data[i].state == "15")
+                                    data[i].state = "Recepción Conforme Incompleta"
+                                var $state = $('<p>').text(data[i].state);
 
                                 $('.orders')
                                     .append($title)
                                     .append($code)
-                                    .append($desc)
-                                    .append($published_at)
-                                    .append($closed_at)
+                                    .append($state)
                                 }
                         
                         }
                     });
+
+
+
 
                 })
                 .on("mouseover", function(d) {

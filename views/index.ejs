@@ -11,10 +11,6 @@
     <script type="text/javascript" src="javascripts/d3.v3.min.js"></script>
     <script type="text/javascript" src="bubbletree/lib/jquery-1.5.2.min.js"></script>
 
-    <script type="text/javascript">
-        var order=[];
-    </script>
-
     <script src="javascripts/bjqs.min.js"></script>
     <script src="javascripts/popup.js"></script>
     <script src="javascripts/slides.js"></script>
@@ -98,12 +94,25 @@
 
 
   <script>
+
+//$(document).ready( function  () {
+  $('#title').click(function () {
+      console.log("hola")
+      alert("hola")
+
+    });
+//});
+
+
   var mySwiper = new Swiper('.swiper-container',{
     loop:false,
     grabCursor: false,
     paginationClickable: false,
     noSwiping: true
   });
+
+
+
   </script>
 
 </html>
