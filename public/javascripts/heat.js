@@ -186,6 +186,21 @@
                         url: "http://chilecompra.cloudapp.net/api/tendersArray",
                         success: function (data) {
                             console.log(data);
+                            $('.tenders').empty()
+                            for (var i = 0; i< data.length; i++){
+                                var $title = $('<h2>').text(data[i].name);
+                                var $code = $('<p>').text(data[i].code);
+                                var $desc = $('<p>').text(data[i].desc);
+                                var $published_at = $('<p>').text(data[i].published_at);
+                                var $closed_at = $('<p>').text(data[i].closed_at);
+
+                                $('.tenders')
+                                    .append($title)
+                                    .append($code)
+                                    .append($desc)
+                                    .append($published_at)
+                                    .append($closed_at)
+                                }
                         }
                     });
                     
@@ -197,6 +212,22 @@
                         url: "http://chilecompra.cloudapp.net/api/ordersArray",
                         success: function (data) {
                             console.log(data);
+                            $('.orders').empty()
+                            for (var i = 0; i< data.length; i++){
+                                var $title = $('<h2>').text(data[i].name);
+                                var $code = $('<p>').text(data[i].code);
+                                var $desc = $('<p>').text(data[i].desc);
+                                var $published_at = $('<p>').text(data[i].published_at);
+                                var $closed_at = $('<p>').text(data[i].closed_at);
+
+                                $('.orders')
+                                    .append($title)
+                                    .append($code)
+                                    .append($desc)
+                                    .append($published_at)
+                                    .append($closed_at)
+                                }
+                        
                         }
                     });
 
