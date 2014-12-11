@@ -1,3 +1,4 @@
+    var ticket = "0942223B-FAE2-4060-950E-36D16916F7E2";
     var order =[];
     var tender = [];
     var margin = {
@@ -160,20 +161,6 @@
                     //console.log(d, " click");
                     mySwiper.swipeNext();
 
-                    var code = "1509-5-L114";
-                    var ticket = "0942223B-FAE2-4060-950E-36D16916F7E2";
-                    var url = "http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.jsonp?codigo="+code+"&ticket="+ticket+"";
-                    
-                    $.ajax({    
-                        url: url,
-                        jsonp: "callback",
-                        crossDomain: true,
-                        dataType: 'jsonp',
-                        success: function (data) {
-                            console.log(data);
-                        }
-                    });
-
                     tender = d.tenders.split(" ");
                     order = d.orders.split(" ");
                     //console.log(tender);
@@ -186,9 +173,9 @@
                         url: "http://chilecompra.cloudapp.net/api/tendersArray",
                         success: function (data) {
                             console.log(data);
-                            $('.tenders').empty()
+                            $('.tenders').empty();
                             for (var i = 0; i< data.length; i++){
-                                var $title = $('<h2 id="title">').text(data[i].name);
+                                var $title = $('<h2 class="title" data-id="'+ data[i].code +'">').text(data[i].name);
                                 var $code = $('<p>').text(data[i].code);
                                 var $desc = $('<p>').text(data[i].desc);
                                 if(data[i].state == "5")
@@ -210,8 +197,27 @@
                                     .append($title)
                                     .append($code)
                                     .append($desc)
-                                    .append($state)
-                                }
+                                    .append($state);
+                            }
+
+                            $(".tenders .title").click(function(){
+                                $(".doc-info").empty();
+
+                                mySwiper.swipeNext();
+
+                                var code = $(this).attr("data-id");
+                                var url = "http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.jsonp?codigo="+code+"&ticket="+ticket+"";
+                                
+                                $.ajax({    
+                                    url: url,
+                                    jsonp: "callback",
+                                    crossDomain: true,
+                                    dataType: 'jsonp',
+                                    success: function (data) {
+                                        $(".doc-info").append("<p>"+ JSON.stringify(data) +"</p>");
+                                    }
+                                });
+                            })
                         }
                     });
                     
@@ -223,10 +229,9 @@
                         url: "http://chilecompra.cloudapp.net/api/ordersArray",
                         success: function (data) {
                             console.log(data);
-                            $('.orders').empty()
+                            $('.orders .main-content').empty();
                             for (var i = 0; i< data.length; i++){
-                                var $title = $('<h2 id=title>').text(data[i].name);
-                                var $code = $('<p>').text(data[i].code);
+
                                 if(data[i].state == "4")
                                     data[i].state = "Enviada a Proveedor"
                                 if(data[i].state == "6")
@@ -241,15 +246,30 @@
                                     data[i].state = "Recepcionada Parcialmente"
                                 if(data[i].state == "15")
                                     data[i].state = "Recepción Conforme Incompleta"
-                                var $state = $('<p>').text(data[i].state);
 
-                                $('.orders')
-                                    .append($title)
-                                    .append($code)
-                                    .append($state)
-                                }
-                        
+                                $(".orders .main-content").append('<div class="row" data-id="'+ data[i].code +'"> <div class="col-sm-12"> <div class="xe-widget xe-counter-block" data-count=".num" data-from="0" data-to="'+ data[i].total +'" data-duration="2"> <div class="xe-upper"> <div class="xe-icon"> <i class="linecons-money"></i> </div> <div class="xe-label"> <strong class="num">0</strong> <span>'+ data[i].name +'</span> </div> </div> <div class="xe-lower"> <div class="border"></div> <span>Código</span> <strong>'+ data[i].code +'</strong> </div> <div class="xe-lower top-p"> <div class="border"></div> <span>Estado</span> <strong>'+ data[i].state +'</strong> </div> </div> </div> </div>');
+                            }
+
+                            $(".orders .row").click(function(){
+                                $(".doc-info").empty();
+
+                                mySwiper.swipeNext();
+
+                                var code = $(this).attr("data-id");
+                                var url = "http://api.mercadopublico.cl/servicios/v1/publico/ordenesdecompra.jsonp?codigo="+code+"&ticket="+ticket+"";
+                                
+                                $.ajax({    
+                                    url: url,
+                                    jsonp: "callback",
+                                    crossDomain: true,
+                                    dataType: 'jsonp',
+                                    success: function (data) {
+                                        $(".doc-info").append("<p>"+ JSON.stringify(data) +"</p>");
+                                    }
+                                });
+                            })
                         }
+
                     });
 
 

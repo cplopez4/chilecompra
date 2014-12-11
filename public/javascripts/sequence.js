@@ -1,5 +1,5 @@
 
-$.getJSON( "flare.json", function( data2 ) {
+$.getJSON( "jsonfinal2.json", function( data2 ) {
        
   $(function() {
     

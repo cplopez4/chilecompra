@@ -1002,7 +1002,7 @@ BubbleTree.MouseEventGroup = function(target, members) {
 		//console.log(target.node.children);
 		if(target.node.children.length<2){
 			mySwiper.swipeNext();
-			var tsv = "heatmap2.tsv";
+			var tsv = "heatmáp 2.tsv";
 			//var tsv = target.node.label+".tsv";  ////////////////////////Descomentar
 			update(tsv);
 
@@ -1020,6 +1020,8 @@ BubbleTree.MouseEventGroup = function(target, members) {
 			mem = members[i];
 			$(mem).hover(me.handleMemberHover.bind(me), me.handleMemberUnHover.bind(me));
 		}
+
+		
 	};
 	
 	/*
@@ -1044,6 +1046,16 @@ BubbleTree.MouseEventGroup = function(target, members) {
 		// since we don't know which event will receive first, the unhover of the member
 		// the mouse is leaving or the hover of the member the mouse is entering, we will
 		// delay the final check a bit
+		console.log(target.node.label)
+		
+		d3.select("#tooltip")
+		    .style("left", (d3.event.pageX + 10 + $(document).width()) + "px")
+		    .style("top", (d3.event.pageY - 10) + "px")
+		    .select("#value")
+		    .text(target.node.label+ "hola");
+		//Show the tooltip
+		d3.select("#tooltip").classed("hidden", false);
+
 		new vis4.DelayedTask(25, me, me.handleMemberHoverDelayed, evt);	
 		
 	};

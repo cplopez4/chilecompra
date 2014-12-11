@@ -1,0 +1,2391 @@
+{"label": "chilecompra","amount": "1310","children":[{"label":"Consumibles","amount":355,"children":[{"label":"Alimentos, bebidas y tabaco","amount":"39","children":[{"label":"Aceites y grasas comestibles","amount":"2","children":[{"label":"Aceites vegetales y grasas comestibles","amount":"1"},{"label":"Grasas y aceites animales comestibles","amount":"1"}]},{"label":"Alimentos preparados y conservados","amount":"10","children":[{"label":"Acompañamientos preparados","amount":"1"},{"label":"Bebidas y comidas infantiles","amount":"1"},{"label":"Empanadas, tartas y pies","amount":"1"},{"label":"Jaleas, gelatinas, mermeladas, pastas de untar, dulces y conservas de frutas","amount":"1"},{"label":"Materiales y mezclas instantáneas","amount":"1"},{"label":"Pasta o tallarines naturales","amount":"1"},{"label":"Postres y decoraciones","amount":"1"},{"label":"Sandwiches y panecillos con relleno","amount":"1"},{"label":"Sopas y estofados","amount":"1"},{"label":"Tentempiés","amount":"1"}]},{"label":"Bebidas","amount":"3","children":[{"label":"Bebidas alcohólicas","amount":"1"},{"label":"Bebidas no alcohólicas","amount":"1"},{"label":"Café y té","amount":"1"}]},{"label":"Cereales y Legumbres","amount":"3","children":[{"label":"Cereales","amount":"1"},{"label":"Cereales procesados","amount":"1"},{"label":"Legumbres","amount":"1"}]},{"label":"Chocolates, azúcares, edulcorantes y productos de confitería","amount":"2","children":[{"label":"Productos de chocolates, azúcares y edulcorantes","amount":"1"},{"label":"Productos de confitería","amount":"1"}]},{"label":"Condimentos y preservantes","amount":"4","children":[{"label":"Hierbas, especias y extractos","amount":"1"},{"label":"Salmuera, salsas y aceitunas","amount":"1"},{"label":"Salsas, condimentos y productos para untar","amount":"1"},{"label":"Vinagres y vinos de cocinar","amount":"1"}]},{"label":"Frutas, verduras y frutos secos","amount":"3","children":[{"label":"Frutas","amount":"1"},{"label":"Frutos secos","amount":"1"},{"label":"Verduras","amount":"1"}]},{"label":"Pescados y mariscos","amount":"3","children":[{"label":"Mariscos frescos","amount":"1"},{"label":"Pescados","amount":"1"},{"label":"Plantas acuáticas","amount":"1"}]},{"label":"Productos de carne y aves de corral","amount":"2","children":[{"label":"Carnes procesadas y preparadas","amount":"1"},{"label":"Carnes y aves de corral","amount":"1"}]},{"label":"Productos de panadería","amount":"3","children":[{"label":"Pan, galletas y pastelitos dulces","amount":"1"},{"label":"Suministros y mezclas para hacer al horno","amount":"1"},{"label":"Tartas, empanadas y pastas","amount":"1"}]},{"label":"Productos lácteos y huevos","amount":"3","children":[{"label":"Huevos y sustitutos","amount":"1"},{"label":"Productos de leche y mantequilla","amount":"1"},{"label":"Quesos","amount":"1"}]},{"label":"Tabaco, productos para fumar y substitutos","amount":"1","children":[{"label":"Productos, suministros y accesorios para tabaco","amount":"1"}]}]},{"label":"Artículos de electrónica","amount":"9","children":[{"label":"Circuitos electrónicos","amount":"2","children":[{"label":"Circuitos integrados, memorias y microprocesadores","amount":"1"},{"label":"Conjuntos de circuitos y componentes de radiofrecuencia (RF)","amount":"1"}]},{"label":"Condensadores, resistores y componentes eléctricos","amount":"3","children":[{"label":"Componentes discretos","amount":"1"},{"label":"Condensadores","amount":"1"},{"label":"Resistores","amount":"1"}]},{"label":"Diodos, transistores y semiconductores","amount":"2","children":[{"label":"Diodos","amount":"1"},{"label":"Transistores","amount":"1"}]},{"label":"Válvulas electrónicas","amount":"2","children":[{"label":"Piezas y accesorios para tubos electrónicos","amount":"1"},{"label":"Válvulas electrónicas","amount":"1"}]}]},{"label":"Artículos de fabricación y producción","amount":"48","children":[{"label":"Artículos de ferretería","amount":"16","children":[{"label":"Abrazaderas","amount":"1"},{"label":"Accesorios de Ferretería","amount":"1"},{"label":"Accesorios de retención","amount":"1"},{"label":"Accesorios para rodados","amount":"1"},{"label":"Accesorios varios","amount":"1"},{"label":"Cerrojos","amount":"1"},{"label":"Clavos","amount":"1"},{"label":"Conectores","amount":"1"},{"label":"Espaciadores","amount":"1"},{"label":"Ganchos","amount":"1"},{"label":"Golillas","amount":"1"},{"label":"Pernos","amount":"1"},{"label":"Remaches","amount":"1"},{"label":"Soportes y puntales","amount":"1"},{"label":"Tornillos","amount":"1"},{"label":"Tuercas","amount":"1"}]},{"label":"Cintas adhesivas y selladores","amount":"2","children":[{"label":"Adhesivos y selladores","amount":"1"},{"label":"Cinta adhesiva","amount":"1"}]},{"label":"Cubiertas, cajas y envoltorios","amount":"1","children":[{"label":"Cubiertas y cajas","amount":"1"}]},{"label":"Cuerdas, cadenas, cables, alambres y correas","amount":"4","children":[{"label":"Cable de seguridad","amount":"1"},{"label":"Cadenas","amount":"1"},{"label":"Correas","amount":"1"},{"label":"Cuerdas y cables","amount":"1"}]},{"label":"Juntas, empaquetaduras y sellos industriales","amount":"2","children":[{"label":"Materiales para juntas y empaquetaduras","amount":"1"},{"label":"Sellos mecánicos","amount":"1"}]},{"label":"Materia prima en planchas, barras o tubos","amount":"2","children":[{"label":"Barras labradas","amount":"1"},{"label":"Tubos y cañerías","amount":"1"}]},{"label":"Materiales para prensar y abrasivos","amount":"1","children":[{"label":"Productos abrasivos","amount":"1"}]},{"label":"Óptica industrial","amount":"4","children":[{"label":"Componentes ópticos varios","amount":"1"},{"label":"Cristales ópticos industriales","amount":"1"},{"label":"Espejos industriales","amount":"1"},{"label":"Lentes y prismas industriales","amount":"1"}]},{"label":"Piezas de fundición","amount":"2","children":[{"label":"Piezas fundidas a presión","amount":"1"},{"label":"Piezas fundidas moldeadas en cáscara","amount":"1"}]},{"label":"Piezas formadas, estampadas, soldadas o perforadas","amount":"1","children":[{"label":"Piezas perforadas","amount":"1"}]},{"label":"Piezas fundidas mecanizadas","amount":"1","children":[{"label":"Fundiciones en arena mecanizadas","amount":"1"}]},{"label":"Piezas maquinadas","amount":"1","children":[{"label":"Piezas torneadas","amount":"1"}]},{"label":"Pinturas, diluyentes y accesorios para pintado","amount":"5","children":[{"label":"Acabados en general","amount":"1"},{"label":"Accesorios para pintar","amount":"1"},{"label":"Aditivos para pinturas","amount":"1"},{"label":"Disolventes para pinturas","amount":"1"},{"label":"Pinturas","amount":"1"}]},{"label":"Planchas fabricadas","amount":"1","children":[{"label":"Conjuntos de placas soldadas por solvente","amount":"1"}]},{"label":"Productos refractarios","amount":"3","children":[{"label":"Compuestos para moldear","amount":"1"},{"label":"Ladrillos refractarios","amount":"1"},{"label":"Productos de fibra de cerámica","amount":"1"}]},{"label":"Rodamientos, cojinetes y ruedas dentadas industriales","amount":"2","children":[{"label":"Rodamientos","amount":"1"},{"label":"Ruedas industriales","amount":"1"}]}]},{"label":"Artículos eléctricos y de iluminación","amount":"14","children":[{"label":"Artefactos y accesorios de iluminación","amount":"4","children":[{"label":"Accesorios para iluminación","amount":"1"},{"label":"Iluminación de emergencia","amount":"1"},{"label":"Iluminación de interiores","amount":"1"},{"label":"Iluminación móvil","amount":"1"}]},{"label":"Artículos de iluminación","amount":"2","children":[{"label":"Ampolletas, focos y lámparas","amount":"1"},{"label":"Tubos fluorescentes","amount":"1"}]},{"label":"Equipamiento y artículos eléctricos","amount":"8","children":[{"label":"Cajas y accesorios eléctricos","amount":"1"},{"label":"Conectores, enchufes y terminales","amount":"1"},{"label":"Dispositivos y accesorios para protección de circuitos","amount":"1"},{"label":"Distribución de cableado y barras colectoras","amount":"1"},{"label":"Equipamiento para distribución y transformación eléctrica","amount":"1"},{"label":"Interruptores, controles y releés","amount":"1"},{"label":"Suministros y accesorios eléctricos","amount":"1"},{"label":"Tableros y accesorios de control y distribución","amount":"1"}]}]},{"label":"Artículos para estructuras, obras y construcciones","amount":"54","children":[{"label":"Aislantes","amount":"1","children":[{"label":"Aislamiento térmico","amount":"1"}]},{"label":"Artefactos sanitarios","amount":"1","children":[{"label":"Loza sanitaria","amount":"1"}]},{"label":"Construcciones permanentes","amount":"10","children":[{"label":"Construcciones comerciales y de recreación","amount":"1"},{"label":"Construcciones deportivas y sanitarias","amount":"1"},{"label":"Construcciones hospitalarias","amount":"1"},{"label":"Construcciones industriales","amount":"1"},{"label":"Construcciones para agricultura, pesca y ganadería","amount":"1"},{"label":"Construcciones para alojamiento","amount":"1"},{"label":"Construcciones para educación e investigación","amount":"1"},{"label":"Construcciones para servicios","amount":"1"},{"label":"Construcciones para trasporte permanentes","amount":"1"},{"label":"Construcciones públicas permanentes","amount":"1"}]},{"label":"Equipo para construcción y mantenimiento","amount":"2","children":[{"label":"Accesorios para escaleras y andamios","amount":"1"},{"label":"Escaleras y andamios","amount":"1"}]},{"label":"Estructuras prefabricadas","amount":"5","children":[{"label":"Construcciones agrícolas prefabricadas","amount":"1"},{"label":"Construcciones comerciales e industriales prefabricadas","amount":"1"},{"label":"Construcciones médicas prefabricadas","amount":"1"},{"label":"Construcciones prefabricadas para emergencias","amount":"1"},{"label":"Construcciones residenciales prefabricadas","amount":"1"}]},{"label":"Hormigón, cemento y yeso","amount":"3","children":[{"label":"Cemento y cal","amount":"1"},{"label":"Hormigón y morteros","amount":"1"},{"label":"Yesos","amount":"1"}]},{"label":"Materiales estructurales básicos","amount":"14","children":[{"label":"Ángulos","amount":"1"},{"label":"Barras","amount":"1"},{"label":"Chapa","amount":"1"},{"label":"Conductos","amount":"1"},{"label":"Lámina","amount":"1"},{"label":"Molduras","amount":"1"},{"label":"Perfiles","amount":"1"},{"label":"Pilares","amount":"1"},{"label":"Pilotes","amount":"1"},{"label":"Plancha","amount":"1"},{"label":"Platina","amount":"1"},{"label":"Productos estructurales","amount":"1"},{"label":"Rejas","amount":"1"},{"label":"Vigas","amount":"1"}]},{"label":"Materiales para terminaciones de interiores","amount":"5","children":[{"label":"Carpintería de terminaciones","amount":"1"},{"label":"Chapistería","amount":"1"},{"label":"Materiales para acabados de paredes","amount":"1"},{"label":"Materiales para cielo falso","amount":"1"},{"label":"Pisos","amount":"1"}]},{"label":"Materiales para terminaciones exteriores","amount":"6","children":[{"label":"Accesorios para techumbres","amount":"1"},{"label":"Canales para techumbre y accesorios","amount":"1"},{"label":"Cercos","amount":"1"},{"label":"Materiales para acabado","amount":"1"},{"label":"Materiales para revestimiento interior y exterior","amount":"1"},{"label":"Materiales para techumbres","amount":"1"}]},{"label":"Pavimento para carreteras y caminos","amount":"1","children":[{"label":"Asfaltos","amount":"1"}]},{"label":"Productos de construcción estructurales","amount":"3","children":[{"label":"Azulejos y baldosas","amount":"1"},{"label":"Bloques","amount":"1"},{"label":"Ladrillos","amount":"1"}]},{"label":"Puertas, ventanas y vidrios","amount":"3","children":[{"label":"Productos de vidrio y cristal","amount":"1"},{"label":"Puertas","amount":"1"},{"label":"Ventanas","amount":"1"}]}]},{"label":"Artículos para plantas y animales","amount":"26","children":[{"label":"Abonos y herbicidas","amount":"3","children":[{"label":"Abonos orgánicos","amount":"1"},{"label":"Abonos químicos","amount":"1"},{"label":"Herbicidas","amount":"1"}]},{"label":"Alimento para animales","amount":"5","children":[{"label":"Alimento para ganado","amount":"1"},{"label":"Alimento para peces","amount":"1"},{"label":"Alimento para perros y gatos","amount":"1"},{"label":"Alimento para roedores","amount":"1"},{"label":"Comida para animales varios","amount":"1"}]},{"label":"Animales vivos","amount":"4","children":[{"label":"Animales domésticos","amount":"1"},{"label":"Aves de corral","amount":"1"},{"label":"Insectos","amount":"1"},{"label":"Peces","amount":"1"}]},{"label":"Artículos de talabartería y arreos","amount":"2","children":[{"label":"Arneses","amount":"1"},{"label":"Artículos de talabartería","amount":"1"}]},{"label":"Artículos para mascotas","amount":"1","children":[{"label":"Accesorios y tratamientos para mascotas","amount":"1"}]},{"label":"Casas y jaulas para animales","amount":"1","children":[{"label":"Refugio para animales","amount":"1"}]},{"label":"Productos de floricultura y silvicultura","amount":"3","children":[{"label":"Árboles y arbustos","amount":"1"},{"label":"Flores cortadas","amount":"1"},{"label":"Productos vegetales secos","amount":"1"}]},{"label":"Productos para el control de plagas","amount":"1","children":[{"label":"Pesticidas o repelentes de plagas","amount":"1"}]},{"label":"Semillas, bulbos y almácigos","amount":"6","children":[{"label":"Semillas de cereales","amount":"1"},{"label":"Semillas de cultivos fibrosos y semilleros","amount":"1"},{"label":"Semillas y almácigos","amount":"1"},{"label":"Semillas y almácigos de especias","amount":"1"},{"label":"Semillas y almácigos de hierbas y forraje","amount":"1"},{"label":"Semillas y tallos de árboles y arbustos","amount":"1"}]}]},{"label":"Combustibles, lubricantes y anticorrosivos","amount":"6","children":[{"label":"Combustibles gaseosos y aditivos","amount":"1","children":[{"label":"Combustibles gaseosos","amount":"1"}]},{"label":"Combustibles líquidos","amount":"1","children":[{"label":"Petróleo y derivados","amount":"1"}]},{"label":"Combustibles sólidos","amount":"1","children":[{"label":"Combustibles sólidos","amount":"1"}]},{"label":"Lubricantes y anticorrosivos","amount":"3","children":[{"label":"Anticorrosivos","amount":"1"},{"label":"Grasas","amount":"1"},{"label":"Lubricantes","amount":"1"}]}]},{"label":"Medicamentos y productos farmacéuticos","amount":"88","children":[{"label":"Agentes antitumorales","amount":"5","children":[{"label":"Agentes alquilizantes","amount":"1"},{"label":"Antibióticos antineoplásticos","amount":"1"},{"label":"Antimetabolitos","amount":"1"},{"label":"Hormonas y antihormonas","amount":"1"},{"label":"Productos antitumorales naturales","amount":"1"}]},{"label":"Agentes que afectan el agua y los electrolitos","amount":"5","children":[{"label":"Agentes alcalinizadores","amount":"1"},{"label":"Diuréticos","amount":"1"},{"label":"Electrolitos","amount":"1"},{"label":"Sales de potasio","amount":"1"},{"label":"Suplementos dietéticos y productos de terapia alimenticia","amount":"1"}]},{"label":"Hormonas y antagonistas hormonales","amount":"10","children":[{"label":"Agentes antidiabéticos y agentes hiperglicémicos","amount":"1"},{"label":"Andrógenos e inhibidores androgénicos","amount":"1"},{"label":"Corticosteroides","amount":"1"},{"label":"Estrógenos, progesteronas y anticonceptivos internos","amount":"1"},{"label":"Hormonas de la pituitaria posterior","amount":"1"},{"label":"Hormonas del crecimiento y sus inhibidores","amount":"1"},{"label":"Hormonas gonadotrópicas y estimulantes e inhibidores ováricos","amount":"1"},{"label":"Medicamentos para la inducción del parto","amount":"1"},{"label":"Medicamentos tiroideas y antitiroideas","amount":"1"},{"label":"Sales de calcio y reguladores del calcio","amount":"1"}]},{"label":"Medicamentos anti infecciosos","amount":"9","children":[{"label":"Amebicidas, tricomonacidas y antiprotozoarios","amount":"1"},{"label":"Antibióticos","amount":"1"},{"label":"Antihelmínticos y otros antiparasitarios","amount":"1"},{"label":"Antiinfecciosos y analgésicos urinarios","amount":"1"},{"label":"Antisépticos","amount":"1"},{"label":"Fungicidas","amount":"1"},{"label":"Leprostáticos","amount":"1"},{"label":"Medicamentos antivirales","amount":"1"},{"label":"Medicamentos contra la malaria","amount":"1"}]},{"label":"Medicamentos cardiovasculares","amount":"6","children":[{"label":"Agentes antiarrítmicos","amount":"1"},{"label":"Agentes antihiperlipidémicos / hipocolesterolémicos","amount":"1"},{"label":"Medicamentos antiangina","amount":"1"},{"label":"Medicamentos antihipertensivos","amount":"1"},{"label":"Medicamentos usados para la insuficiencia cardíaca congestiva","amount":"1"},{"label":"Vasodilatadores","amount":"1"}]},{"label":"Medicamentos hematólicos","amount":"5","children":[{"label":"Agentes hemostáticos sistémicos y coagulantes","amount":"1"},{"label":"Anticoagulantes","amount":"1"},{"label":"Medicamentos antianémicos","amount":"1"},{"label":"Sustitutos de plasma sanguíneo, extensores y expansores","amount":"1"},{"label":"Trombolíticos / inhibidores de agregación de plaquetas","amount":"1"}]},{"label":"Medicamentos inmunomoduladores","amount":"4","children":[{"label":"Agentes de la esclerosis múltiple (EM)","amount":"1"},{"label":"Agentes inmunoestimulantes","amount":"1"},{"label":"Inmunodepresores","amount":"1"},{"label":"Vacunas, antígenos y toxoides","amount":"1"}]},{"label":"Medicamentos para el sistema gastrointestinal","amount":"7","children":[{"label":"Agentes antivértigo, antinauseantes y antieméticos","amount":"1"},{"label":"Antiácidos y antiflatulentos","amount":"1"},{"label":"Antidiarreicos","amount":"1"},{"label":"Antiespasmódicos","amount":"1"},{"label":"Fármacos antiúlcera y otros fármacos gastrointestinales relacionados","amount":"1"},{"label":"Laxantes","amount":"1"},{"label":"Medicamentos para enfermedades de la vesícula biliar","amount":"1"}]},{"label":"Medicamentos para el sistema nervioso autónomo","amount":"6","children":[{"label":"Agentes bloqueadores adrenérgicos","amount":"1"},{"label":"Agentes bloqueadores colinérgicos","amount":"1"},{"label":"Agentes bloqueadores neuromusculares","amount":"1"},{"label":"Clorinérgicos e inhibidores de la colinesterasa","amount":"1"},{"label":"Relajantes músculo-esqueléticos de acción centrada","amount":"1"},{"label":"Simpatomiméticos o adrenérgicos","amount":"1"}]},{"label":"Medicamentos para el sistema nervioso central","amount":"13","children":[{"label":"Agentes antipsicóticos","amount":"1"},{"label":"Analgésicos narcóticos","amount":"1"},{"label":"Analgésicos no narcóticos / antipiréticos","amount":"1"},{"label":"Anticonvulsivos","amount":"1"},{"label":"Antidepresivos","amount":"1"},{"label":"Estimulantes / anoréxicos","amount":"1"},{"label":"Fármacos anestésicos, complementos relacionados y analépticos","amount":"1"},{"label":"Fármacos antiinflamatorios no esteroideos (NSAID)","amount":"1"},{"label":"Fármacos antiinflamatorios no esteroideos veterinarios (VNSAID)","amount":"1"},{"label":"Hipnóticos","amount":"1"},{"label":"Medicamentos contra el Parkinson","amount":"1"},{"label":"Medicamentos para dolores de cabeza vasculares y migraña","amount":"1"},{"label":"Tranquilizantes y fármacos ansiolíticos y antimaníacos","amount":"1"}]},{"label":"Medicamentos para el tracto respiratorio","amount":"10","children":[{"label":"Antiasmáticos","amount":"1"},{"label":"Antihistamínicos o bloqueadores H15","amount":"1"},{"label":"Antihistamínicos o bloqueadores H16","amount":"1"},{"label":"Antihistamínicos o bloqueadores H30","amount":"1"},{"label":"Antihistamínicos o bloqueadores H33","amount":"1"},{"label":"Antihistamínicos o bloqueadores H6","amount":"1"},{"label":"Antihistamínicos o bloqueadores H8","amount":"1"},{"label":"Descongestionantes nasales","amount":"1"},{"label":"Medicamentos para alteraciones del tracto respiratorio","amount":"1"},{"label":"Productos para tos, resfriados y antialérgicos","amount":"1"}]},{"label":"Medicamentos para los oídos, ojos, nariz y piel","amount":"3","children":[{"label":"Agentes dermatológicos","amount":"1"},{"label":"Agentes oftálmicos","amount":"1"},{"label":"Astringentes","amount":"1"}]},{"label":"Medicamentos varios","amount":"5","children":[{"label":"Antídotos y eméticos","amount":"1"},{"label":"Fármacos herbales","amount":"1"},{"label":"Fármacos para tratar la disfunción sexual","amount":"1"},{"label":"Medicamentos antigota","amount":"1"},{"label":"Radiofármacos y agentes de diagnóstico","amount":"1"}]}]},{"label":"Productos de papel","amount":"7","children":[{"label":"Papel y cartón para uso industrial","amount":"3","children":[{"label":"Cartón y papel para embalaje","amount":"1"},{"label":"Papel seda","amount":"1"},{"label":"Papeles bañados","amount":"1"}]},{"label":"Productos de papel","amount":"4","children":[{"label":"Papel de imprenta y escritura","amount":"1"},{"label":"Papel fantasía","amount":"1"},{"label":"Papeles comerciales","amount":"1"},{"label":"Productos de papel de uso personal","amount":"1"}]}]},{"label":"Productos derivados de minerales, plantas y animales","amount":"19","children":[{"label":"Chatarra y desechos metálicos","amount":"1","children":[{"label":"Virutas","amount":"1"}]},{"label":"Chatarra y desechos no metálicos","amount":"1","children":[{"label":"Desechos no metálicos","amount":"1"}]},{"label":"Fibra, hilos e hilados","amount":"2","children":[{"label":"Fibras","amount":"1"},{"label":"Hilos","amount":"1"}]},{"label":"Minerales y metales","amount":"3","children":[{"label":"Metales","amount":"1"},{"label":"Metales base","amount":"1"},{"label":"Minerales","amount":"1"}]},{"label":"Productos no comestibles de origen animal","amount":"1","children":[{"label":"Cuero, pieles y subproductos animales","amount":"1"}]},{"label":"Productos no comestibles de origen vegetal","amount":"4","children":[{"label":"Fibras vegetales","amount":"1"},{"label":"Madera","amount":"1"},{"label":"Savia","amount":"1"},{"label":"Subproductos de silvicultura","amount":"1"}]},{"label":"Tejidos y materiales de cuero","amount":"3","children":[{"label":"Tejidos de algodón","amount":"1"},{"label":"Tejidos especiales","amount":"1"},{"label":"Tejidos sintéticos","amount":"1"}]},{"label":"Tierra y piedra","amount":"4","children":[{"label":"Arcillas","amount":"1"},{"label":"Arena","amount":"1"},{"label":"Piedras","amount":"1"},{"label":"Tierra y suelo","amount":"1"}]}]},{"label":"Productos impresos y publicaciones","amount":"5","children":[{"label":"Etiquetado y accesorios","amount":"3","children":[{"label":"Documentos de identificación","amount":"1"},{"label":"Etiquetado","amount":"1"},{"label":"Etiquetas","amount":"1"}]},{"label":"Material electrónico de referencia","amount":"1","children":[{"label":"Publicaciones electrónicas y música","amount":"1"}]},{"label":"Medios impresos","amount":"1","children":[{"label":"Publicaciones impresas","amount":"1"}]}]},{"label":"Productos para relojería, joyería y gemas","amount":"4","children":[{"label":"Joyería","amount":"2","children":[{"label":"Bisutería","amount":"1"},{"label":"Joyería fina","amount":"1"}]},{"label":"Relojes","amount":"2","children":[{"label":"Piezas y accesorios de relojes de pulsera, pared o pie","amount":"1"},{"label":"Relojes de pulsera o bolsillo","amount":"1"}]}]},{"label":"Productos químicos industriales","amount":"29","children":[{"label":"Aditivos","amount":"11","children":[{"label":"Aditivos para alimentos y fármacos","amount":"1"},{"label":"Agentes de escape anti gas","amount":"1"},{"label":"Anti-oxidantes","amount":"1"},{"label":"Catalizadores","amount":"1"},{"label":"Estabilizadores de arcilla","amount":"1"},{"label":"In situ","amount":"1"},{"label":"Limpiadores químicos","amount":"1"},{"label":"Plastificantes","amount":"1"},{"label":"Rompedores de emulsión","amount":"1"},{"label":"Surfactantes","amount":"1"},{"label":"Suspensión coloidal","amount":"1"}]},{"label":"Ceras y aceites","amount":"2","children":[{"label":"Aceites","amount":"1"},{"label":"Ceras","amount":"1"}]},{"label":"Colorantes","amount":"2","children":[{"label":"Compuestos de colores y dispersiones","amount":"1"},{"label":"Tinturas","amount":"1"}]},{"label":"Compuestos y mezclas","amount":"4","children":[{"label":"Compuestos inorgánicos","amount":"1"},{"label":"Derivados y compuestos orgánicos","amount":"1"},{"label":"Fijadores","amount":"1"},{"label":"Productos bioquímicos","amount":"1"}]},{"label":"Materiales explosivos","amount":"2","children":[{"label":"Iniciadores","amount":"1"},{"label":"Pirotécnicos","amount":"1"}]},{"label":"Metales y gases","amount":"6","children":[{"label":"Elementos no metálicos y gases puros","amount":"1"},{"label":"Gases naturales y mixtos","amount":"1"},{"label":"Gases nobles","amount":"1"},{"label":"Isótopos","amount":"1"},{"label":"Metales alcalinos","amount":"1"},{"label":"Metales de transición","amount":"1"}]},{"label":"Solventes","amount":"2","children":[{"label":"Solventes hidrocarbonatos","amount":"1"},{"label":"Solventes oxigenados","amount":"1"}]}]},{"label":"Resinas, cauchos, espumas y elastómeros","amount":"7","children":[{"label":"Caucho y elastómeros","amount":"4","children":[{"label":"Caucho natural","amount":"1"},{"label":"Elastómeros","amount":"1"},{"label":"Plásticos termo estables","amount":"1"},{"label":"Plásticos termoplásticos","amount":"1"}]},{"label":"Resinas naturales y sintéticas","amount":"3","children":[{"label":"Espumas","amount":"1"},{"label":"Películas","amount":"1"},{"label":"Resinas","amount":"1"}]}]}]},
+{"label":"Maquinaria","amount":"129","children":[{"label":"Maquinaria para agricultura, pesca y silvicultura","amount":"9","children":[{"label":"Equipo de pesca y acuicultura","amount":"1","children":[{"label":"Equipamiento para pesca comercial","amount":"1"}]},{"label":"Maquinaria para agricultura, silvicultura y paisaje","amount":"8","children":[{"label":"Aspersores para agricultura, parques y/o jardines","amount":"1"},{"label":"Equipo para crianza y producción de insectos","amount":"1"},{"label":"Equipo para invernadero","amount":"1"},{"label":"Maquinaria agrícola para limpieza, selección o clasificación","amount":"1"},{"label":"Maquinaria agrícola para preparación del suelo","amount":"1"},{"label":"Maquinaria agrícola para siembra","amount":"1"},{"label":"Maquinaria para silvicultura","amount":"1"},{"label":"Maquinaria para transformación agrícola","amount":"1"}]}]},{"label":"Maquinaria para construcción y edificación","amount":"6","children":[{"label":"Maquinaria pesada de construcción","amount":"6","children":[{"label":"Componentes para maquinaria pesada","amount":"1"},{"label":"Elevadores","amount":"1"},{"label":"Equipos de pavimentación","amount":"1"},{"label":"Maquinaria de demolición de edificios","amount":"1"},{"label":"Maquinaria para construcción de edificios","amount":"1"},{"label":"Maquinaria pesada","amount":"1"}]}]},{"label":"Maquinaria para fabricación y transformación industrial","amount":"36","children":[{"label":"Equipamiento para el procesamiento de madera y aserrado","amount":"6","children":[{"label":"Apiladoras de maderos y accesorios","amount":"1"},{"label":"Descortezadoras y accesorios","amount":"1"},{"label":"Secaderos de madera y equipo y accesorios","amount":"1"},{"label":"Sierras de recorte y accesorios","amount":"1"},{"label":"Sierras retestadoras y accesorios","amount":"1"},{"label":"Terminadoras de madera y accesorios","amount":"1"}]},{"label":"Equipamiento para el procesamiento de pollos","amount":"1","children":[{"label":"Maquinaria de recepción","amount":"1"}]},{"label":"Equipos para alimentos y bebidas","amount":"4","children":[{"label":"Maquinaria industrial para elaboración de bebidas","amount":"1"},{"label":"Maquinaria para cocinar o ahumar alimentos","amount":"1"},{"label":"Maquinaria para corte de alimentos","amount":"1"},{"label":"Maquinaria para la elaboración de alimentos","amount":"1"}]},{"label":"Equipos para transferencia de masa","amount":"2","children":[{"label":"Equipo de secado industrial","amount":"1"},{"label":"Sistemas de gas líquido","amount":"1"}]},{"label":"Maquinaria para textiles y tejidos","amount":"1","children":[{"label":"Maquinaria para trabajo textil","amount":"1"}]},{"label":"Maquinaria para transformación de materias primas","amount":"1","children":[{"label":"Maquinaria para trabajar madera, piedra, cerámica y similares","amount":"1"}]},{"label":"Maquinaria para transformación de petróleo","amount":"1","children":[{"label":"Maquinaria para procesamiento del petróleo","amount":"1"}]},{"label":"Maquinaria y equipos de pulido","amount":"2","children":[{"label":"Equipo de corte y pulido de piedras","amount":"1"},{"label":"Equipo de trituración, lijado y pulido","amount":"1"}]},{"label":"Maquinaria y suministros de procesos industriales","amount":"11","children":[{"label":"Componentes y accesorios para maquinaria industrial","amount":"1"},{"label":"Dispositivos de guía, posicionamiento y sujeción","amount":"1"},{"label":"Ensambladoras","amount":"1"},{"label":"Equipo de filtrado","amount":"1"},{"label":"Equipos de pintura","amount":"1"},{"label":"Fabricación de mesas y estantes","amount":"1"},{"label":"Herramientas de corte","amount":"1"},{"label":"Maquinaria para elaboración de caucho y plástico","amount":"1"},{"label":"Maquinaria para elaboración de cemento, cerámica y vidrio","amount":"1"},{"label":"Maquinaria para la elaboración de papel","amount":"1"},{"label":"Maquinaria para la industria farmacéutica","amount":"1"}]},{"label":"Maquinaria y suministros para talleres","amount":"4","children":[{"label":"Accesorios de maquinaria para labrar metal","amount":"1"},{"label":"Accesorios especiales","amount":"1"},{"label":"Maquinaria para soldadura directa o indirecta","amount":"1"},{"label":"Máquinas-herramientas","amount":"1"}]},{"label":"Máquinas y suministros para fundición","amount":"2","children":[{"label":"Maquinaria para fundición","amount":"1"},{"label":"Suministros para fundición","amount":"1"}]},{"label":"Mezcladores y accesorios","amount":"1","children":[{"label":"Mezcladores por etapa","amount":"1"}]}]},{"label":"Maquinaria para generación y distribución de energía","amount":"17","children":[{"label":"Alambres y cables eléctricos y electrónicos","amount":"3","children":[{"label":"Arneses eléctricos","amount":"1"},{"label":"Cables eléctricos y accesorios","amount":"1"},{"label":"Conductores eléctricos","amount":"1"}]},{"label":"Equipamiento para energía nuclear","amount":"2","children":[{"label":"Equipo de irradiación","amount":"1"},{"label":"Equipos protectores contra la radiación","amount":"1"}]},{"label":"Generación de energía","amount":"6","children":[{"label":"Accesorios y componentes para motores","amount":"1"},{"label":"Centrales eléctricas","amount":"1"},{"label":"Componentes para generadores","amount":"1"},{"label":"Equipo para control de producción de energía","amount":"1"},{"label":"Equipos de protección y estructuras de alivio","amount":"1"},{"label":"Motores","amount":"1"}]},{"label":"Transmisión de energía eléctrica, mecánica y cinética","amount":"6","children":[{"label":"Baterías, pilas y accesorios","amount":"1"},{"label":"Componentes para transmisión de energía","amount":"1"},{"label":"Grupos electrógenos","amount":"1"},{"label":"Piezas y accesorios para motores","amount":"1"},{"label":"Sistemas de frenado industriales","amount":"1"},{"label":"Transmisión de energía cinética","amount":"1"}]}]},{"label":"Maquinaria para minería y perforación","amount":"15","children":[{"label":"Equipo de perforación y explotación de pozos","amount":"2","children":[{"label":"Equipo de prospección y perforación","amount":"1"},{"label":"Maquinaria de perforación y explotación","amount":"1"}]},{"label":"Equipo de producción y operación de gas y petróleo","amount":"2","children":[{"label":"Calefactores de línea","amount":"1"},{"label":"Equipo para fondo oceánico","amount":"1"}]},{"label":"Equipo para perforación y exploración para petróleo","amount":"6","children":[{"label":"Equipamiento de terminación","amount":"1"},{"label":"Equipo de perforación","amount":"1"},{"label":"Equipo de prueba de pozo","amount":"1"},{"label":"Equipo para control de arena","amount":"1"},{"label":"Equipo para tubería enrollada","amount":"1"},{"label":"Equipos de registro y medición de pozo","amount":"1"}]},{"label":"Maquinaria para minería","amount":"5","children":[{"label":"Sistemas de prospección y desarrollo","amount":"1"},{"label":"Sistemas para soporte en tierra","amount":"1"},{"label":"Sistemas secundarios de arranque","amount":"1"},{"label":"Trituradoras, quebrantadoras y amoladores","amount":"1"},{"label":"Vehículos subterráneos para minería","amount":"1"}]}]},{"label":"Maquinarias, equipos y suministros para la industria de servicios","amount":"8","children":[{"label":"Equipos para servicios de alimentación institucional","amount":"6","children":[{"label":"Distribuidores automáticos de comida y bebida","amount":"1"},{"label":"Equipos para cocinar o calentar","amount":"1"},{"label":"Equipos para preparado de alimentos","amount":"1"},{"label":"Menaje y utensilios de cocina","amount":"1"},{"label":"Suministros y equipos de manipulación y almacenamiento","amount":"1"},{"label":"Vajilla y servicio de mesa","amount":"1"}]},{"label":"Máquinas expendedoras","amount":"2","children":[{"label":"Máquinas expendedoras de comida rápida","amount":"1"},{"label":"Máquinas expendedoras de productos","amount":"1"}]}]},{"label":"Vehículos y equipamiento en general","amount":"38","children":[{"label":"Aeronaves","amount":"1","children":[{"label":"Aeronave para recreación","amount":"1"}]},{"label":"Bicicletas","amount":"1","children":[{"label":"Vehículos a pedal","amount":"1"}]},{"label":"Carrocerías y remolques","amount":"1","children":[{"label":"Remolques para carga","amount":"1"}]},{"label":"Componentes para sistemas aeroespaciales","amount":"4","children":[{"label":"Sistemas de control principal del avión","amount":"1"},{"label":"Sistemas de emergencia para aviones","amount":"1"},{"label":"Sistemas de energía para aviones","amount":"1"},{"label":"Sistemas de posicionamiento y navegación aeroespacial","amount":"1"}]},{"label":"Componentes para vehículos en general","amount":"17","children":[{"label":"Acabados exteriores para vehículos","amount":"1"},{"label":"Aire acondicionado","amount":"1"},{"label":"Asientos para vehículos","amount":"1"},{"label":"Componentes eléctricos","amount":"1"},{"label":"Componentes interiores para vehículos","amount":"1"},{"label":"Componentes para bicicletas","amount":"1"},{"label":"Iluminación exterior para vehículos","amount":"1"},{"label":"Iluminación interior para vehículos","amount":"1"},{"label":"Limpiaparabrisas","amount":"1"},{"label":"Llantas y accesorios","amount":"1"},{"label":"Neumáticos y cámaras de neumáticos","amount":"1"},{"label":"Sistema de dirección","amount":"1"},{"label":"Sistema de refrigeración del motor","amount":"1"},{"label":"Sistema de suspensión","amount":"1"},{"label":"Sistemas de frenado","amount":"1"},{"label":"Sistemas de localización y navegación","amount":"1"},{"label":"Sistemas de tren de transmisión","amount":"1"}]},{"label":"Embarcaciones","amount":"4","children":[{"label":"Componentes y accesorios para embarcaciones","amount":"1"},{"label":"Embarcaciones comerciales","amount":"1"},{"label":"Embarcaciones de rescate y salvataje","amount":"1"},{"label":"Embarcaciones para recreación","amount":"1"}]},{"label":"Equipo de apoyo al transporte","amount":"2","children":[{"label":"Equipamiento de apoyo para transporte aéreo","amount":"1"},{"label":"Equipo para mantenimiento de vehículos","amount":"1"}]},{"label":"Maquinaria para ferrocarril","amount":"1","children":[{"label":"Equipo de apoyo ferroviario","amount":"1"}]},{"label":"Vehículos motorizados","amount":"7","children":[{"label":"Bicicletas con motor","amount":"1"},{"label":"Vehículos de emergencia","amount":"1"},{"label":"Vehículos especiales y de recreación","amount":"1"},{"label":"Vehículos militares","amount":"1"},{"label":"Vehículos para pasajeros","amount":"1"},{"label":"Vehículos para transporte de carga","amount":"1"},{"label":"Vehículos para turismo","amount":"1"}]}]}]},
+{"label":"Mobiliario","amount":"40","children":[{"label":"Muebles y mobiliario","amount":"19","children":[{"label":"Mobiliario y accesorios institucional, escolar y educativo","amount":"8","children":[{"label":"Accesorios de instalaciones educativas generales","amount":"1"},{"label":"Mobiliario de biblioteca","amount":"1"},{"label":"Mobiliario de cafetería y comedor","amount":"1"},{"label":"Mobiliario de sala de primeros auxilios","amount":"1"},{"label":"Mobiliario general de aula","amount":"1"},{"label":"Mobiliario para el almacenamiento de libros y artículos en general de las sala de clases y colegios","amount":"1"},{"label":"Mobiliario para jardines infantiles, salas cunas y guarderías","amount":"1"},{"label":"Muebles de laboratorio","amount":"1"}]},{"label":"Muebles comerciales e industriales","amount":"6","children":[{"label":"Asientos","amount":"1"},{"label":"Estaciones de trabajo y muebles para oficina","amount":"1"},{"label":"Muebles de computación","amount":"1"},{"label":"Muebles industriales","amount":"1"},{"label":"Muebles, escritorios y sistemas no modulares","amount":"1"},{"label":"Sistemas de paneles","amount":"1"}]},{"label":"Muebles de alojamiento","amount":"5","children":[{"label":"Accesorios y muebles de bebé y niño","amount":"1"},{"label":"Muebles","amount":"1"},{"label":"Muebles de oficina","amount":"1"},{"label":"Muebles para el exterior","amount":"1"},{"label":"Piezas de mobiliario y accesorios","amount":"1"}]}]},{"label":"Muebles, accesorios, electrodomésticos y productos electrónicos","amount":"21","children":[{"label":"Aparatos electrodomésticos","amount":"4","children":[{"label":"Aparatos de baño domésticos","amount":"1"},{"label":"Electrodomésticos para cocina","amount":"1"},{"label":"Lavadoras, secadoras, planchas y suministros de uso doméstico","amount":"1"},{"label":"Otros electrodomésticos","amount":"1"}]},{"label":"Equipos y accesorios audiovisuales","amount":"2","children":[{"label":"Accesorios de equipos audiovisuales","amount":"1"},{"label":"Equipos audiovisuales y de electrónica menor","amount":"1"}]},{"label":"Revestimiento de suelos","amount":"1","children":[{"label":"Alfombras y felpudos","amount":"1"}]},{"label":"Ropa de cama, mantelerías, paños de cocina y toallas","amount":"3","children":[{"label":"Mantelerías de cocina, de mesa y accesorios","amount":"1"},{"label":"Ropa de cama","amount":"1"},{"label":"Toallas","amount":"1"}]},{"label":"Tratamientos de ventanas","amount":"3","children":[{"label":"Accesorios y ferretería para tratamiento de ventanas","amount":"1"},{"label":"Cortinas y ropaje","amount":"1"},{"label":"Persianas","amount":"1"}]},{"label":"Utensilios y baterías de cocina, vajillas y otros productos de uso doméstico","amount":"8","children":[{"label":"Batería de cocina doméstica","amount":"1"},{"label":"Cristalería de uso doméstico","amount":"1"},{"label":"Cubertería y cuchillería de uso doméstico","amount":"1"},{"label":"Lavado de vajilla y accesorios para almacenamiento de platos","amount":"1"},{"label":"Platos, utensilios para servir y recipientes para almacenar","amount":"1"},{"label":"Utensilios de cocina domésticos","amount":"1"},{"label":"Utensilios de cocina domésticos desechables","amount":"1"},{"label":"Utensilios domésticos para hornear","amount":"1"}]}]}]},
+{"label":"Otros","amount":"84","children":[{"label":"Organizaciones sociales, laborales y clubes","amount":"3","children":[{"label":"Clubes","amount":"1","children":[{"label":"Clubes sociales","amount":"1"}]},{"label":"Organizaciones laborales","amount":"1","children":[{"label":"Asociaciones y colegios profesionales","amount":"1"}]},{"label":"Organizaciones religiosas","amount":"1","children":[{"label":"Organizaciones y servicios de peregrinaje","amount":"1"}]}]},{"label":"Organizaciones y consultorías políticas, demográficas, económicas, sociales y de administración pública","amount":"13","children":[{"label":"Administración y finanzas públicas","amount":"2","children":[{"label":"Administración pública","amount":"1"},{"label":"Finanzas públicas","amount":"1"}]},{"label":"Ayuda y asistencia humanitaria","amount":"2","children":[{"label":"Política, planificación y programas de alimentación y nutrición","amount":"1"},{"label":"Preparación y asistencia para desastres naturales y emergencias","amount":"1"}]},{"label":"Desarrollo social, demográfico y comunitario","amount":"6","children":[{"label":"Cultura","amount":"1"},{"label":"Desarrollo regional","amount":"1"},{"label":"Desarrollo rural","amount":"1"},{"label":"Desarrollo social","amount":"1"},{"label":"Desarrollo urbano","amount":"1"},{"label":"Población y demografía","amount":"1"}]},{"label":"Política y regulación comercial","amount":"2","children":[{"label":"Análisis comercial","amount":"1"},{"label":"Política comercial","amount":"1"}]},{"label":"Relaciones internacionales","amount":"1","children":[{"label":"Organizaciones internacionales","amount":"1"}]}]},{"label":"Ropa, maletas y productos de aseo personal","amount":"30","children":[{"label":"Artículos de baño o tocador","amount":"2","children":[{"label":"Artículos de baño y cuerpo","amount":"1"},{"label":"Artículos dentales","amount":"1"}]},{"label":"Calzado","amount":"6","children":[{"label":"Accesorios para el calzado","amount":"1"},{"label":"Botas","amount":"1"},{"label":"Cubre calzados o botas de goma","amount":"1"},{"label":"Zapatillas","amount":"1"},{"label":"Zapatillas de descanso","amount":"1"},{"label":"Zapatos","amount":"1"}]},{"label":"Maletas, bolsos de mano, mochilas y estuches","amount":"4","children":[{"label":"Carteras","amount":"1"},{"label":"Juegos y accesorios de viaje","amount":"1"},{"label":"Maletas","amount":"1"},{"label":"Monederos, bolsos de mano y bolsas","amount":"1"}]},{"label":"Ropa","amount":"16","children":[{"label":"Abrigos y chaquetas","amount":"1"},{"label":"Accesorios de vestir","amount":"1"},{"label":"Batas y overoles","amount":"1"},{"label":"Camisas y blusas","amount":"1"},{"label":"Camisetas","amount":"1"},{"label":"Medias, calcetines, pantys y mallas","amount":"1"},{"label":"Pantalones sport, de vestir y shorts","amount":"1"},{"label":"Prendas de deporte","amount":"1"},{"label":"Ropa de dormir","amount":"1"},{"label":"Ropa folclórica","amount":"1"},{"label":"Ropa interior","amount":"1"},{"label":"Suéteres","amount":"1"},{"label":"Trajes","amount":"1"},{"label":"Trajes de baño","amount":"1"},{"label":"Uniformes","amount":"1"},{"label":"Vestidos y faldas","amount":"1"}]},{"label":"Suministros y accesorios de costura","amount":"2","children":[{"label":"Afianzadores de costura","amount":"1"},{"label":"Suministros de costura variados","amount":"1"}]}]},{"label":"Tecnologías de la información, telecomunicaciones y radiodifusión","amount":"38","children":[{"label":"Componentes para tecnología de la información, difusión o telecomunicaciones","amount":"7","children":[{"label":"Accesorios de soportes de almacenamiento extraíbles","amount":"1"},{"label":"Componentes de gabinete, rack o chasis","amount":"1"},{"label":"Dispositivos de soporte de almacenamiento","amount":"1"},{"label":"Módulos, interfaces, procesadores y placas de sistema","amount":"1"},{"label":"Soportes de almacenamiento extraíbles","amount":"1"},{"label":"Subconjuntos para dispositivos electrónicos","amount":"1"},{"label":"Tarjetas de sistema","amount":"1"}]},{"label":"Dispositivos de comunicaciones y accesorios","amount":"2","children":[{"label":"Dispositivos de comunicación personal","amount":"1"},{"label":"Piezas o accesorios de dispositivos de comunicación personal","amount":"1"}]},{"label":"Equipos informáticos y accesorios","amount":"7","children":[{"label":"Accesorios de computador","amount":"1"},{"label":"Accesorios de pantallas o monitores de computador","amount":"1"},{"label":"Accesorios o Dispositivos para ingreso de datos al computador","amount":"1"},{"label":"Computadores","amount":"1"},{"label":"Dispositivos informáticos de entrada de datos","amount":"1"},{"label":"Impresoras","amount":"1"},{"label":"Pantallas o monitores de computador","amount":"1"}]},{"label":"Equipos, plataformas y accesorios de redes multimedia, voz y datos","amount":"7","children":[{"label":"Componentes y equipos de infraestructura de redes móviles y digitales","amount":"1"},{"label":"Dispositivos de red óptica","amount":"1"},{"label":"Equipo fijo de red y componentes","amount":"1"},{"label":"Equipos de servicio de red","amount":"1"},{"label":"Equipos de telefonía","amount":"1"},{"label":"Plataformas de mensajería por móvil","amount":"1"},{"label":"Sistemas o accesorios de gestión de llamadas","amount":"1"}]},{"label":"Software","amount":"15","children":[{"label":"Programas de desarrollo","amount":"1"},{"label":"Software de administración de redes","amount":"1"},{"label":"Software de aplicaciones de red","amount":"1"},{"label":"Software de consultas y gestión de datos","amount":"1"},{"label":"Software de controladores de dispositivos y utilidades","amount":"1"},{"label":"Software de edición y creación de contenidos","amount":"1"},{"label":"Software de entorno operativo","amount":"1"},{"label":"Software de gestión","amount":"1"},{"label":"Software de gestión de contenidos","amount":"1"},{"label":"Software de intercambio de información","amount":"1"},{"label":"Software de ocio o juegos de computador","amount":"1"},{"label":"Software de planificación de recursos empresariales (ERP) y contabilidad financiera","amount":"1"},{"label":"Software educativo o de referencia","amount":"1"},{"label":"Software específico para la industria","amount":"1"},{"label":"Software para trabajo en redes","amount":"1"}]}]}]},
+{"label":"Servicios","amount":"224","children":[{"label":"Educación, formación, entrenamiento y capacitación","amount":"13","children":[{"label":"Formación profesional","amount":"2","children":[{"label":"Desarrollo de recursos humanos","amount":"1"},{"label":"Servicios de formación profesional no científica","amount":"1"}]},{"label":"Instituciones educativas","amount":"2","children":[{"label":"Escuelas de educación primaria y secundaria","amount":"1"},{"label":"Universidades","amount":"1"}]},{"label":"Servicios de orientación y tecnología educativa","amount":"3","children":[{"label":"Organizaciones de estudiantes","amount":"1"},{"label":"Servicios de orientación educacional","amount":"1"},{"label":"Tecnología educativa","amount":"1"}]},{"label":"Servicios educativos especializados","amount":"3","children":[{"label":"Bellas artes","amount":"1"},{"label":"Escuelas para personas discapacitadas","amount":"1"},{"label":"Música y teatro","amount":"1"}]},{"label":"Sistemas educativos complementarios","amount":"3","children":[{"label":"Aprendizaje a distancia","amount":"1"},{"label":"Educación de adultos","amount":"1"},{"label":"Escuelas de idiomas","amount":"1"}]}]},{"label":"Salud, servicios sanitarios y alimentación","amount":"14","children":[{"label":"Alimentación y nutrición","amount":"2","children":[{"label":"Nutrición","amount":"1"},{"label":"Tecnología de los alimentos","amount":"1"}]},{"label":"Medicina alternativa y holística","amount":"1","children":[{"label":"Tratamientos con hierbas","amount":"1"}]},{"label":"Medicina y servicios de salud","amount":"7","children":[{"label":"Especialidades médicas","amount":"1"},{"label":"Evaluaciones de salud individuales","amount":"1"},{"label":"Farmacéuticos","amount":"1"},{"label":"Laboratorios clínicos","amount":"1"},{"label":"Rehabilitación","amount":"1"},{"label":"Servicios de atención primaria","amount":"1"},{"label":"Servicios dentales","amount":"1"}]},{"label":"Prevención y control de enfermedades","amount":"2","children":[{"label":"Prevención y control de enfermedades contagiosas","amount":"1"},{"label":"Prevención y control de enfermedades no contagiosas","amount":"1"}]},{"label":"Servicios para el cuidado de la salud de las personas","amount":"2","children":[{"label":"Ambulatorios","amount":"1"},{"label":"Enfermería y paramédicos","amount":"1"}]}]},{"label":"Servicios agrícolas, pesqueros, forestales y relacionados con la fauna","amount":"18","children":[{"label":"Cultivos forestales","amount":"4","children":[{"label":"Administración de cultivos forestales","amount":"1"},{"label":"Cosecha forestal","amount":"1"},{"label":"Industria forestal","amount":"1"},{"label":"Recursos forestales","amount":"1"}]},{"label":"Desarrollo y vigilancia de recursos hidráulicos","amount":"1","children":[{"label":"Riego","amount":"1"}]},{"label":"Horticultura","amount":"3","children":[{"label":"Parques, jardines y huertos","amount":"1"},{"label":"Plantas de flores","amount":"1"},{"label":"Plantas y árboles orlabelntales","amount":"1"}]},{"label":"Industria pesquera y acuicultura","amount":"3","children":[{"label":"Industria y tecnología pesquera","amount":"1"},{"label":"Recursos pesqueros","amount":"1"},{"label":"Vigilancia pesquera","amount":"1"}]},{"label":"Preparación, administración y protección del terreno y el suelo","amount":"2","children":[{"label":"Administración del terreno y del suelo","amount":"1"},{"label":"Preparación del terreno y del suelo","amount":"1"}]},{"label":"Producción, administración y protección de cultivos","amount":"4","children":[{"label":"Administración de cultivos","amount":"1"},{"label":"Elaboración de cultivos posterior a la cosecha","amount":"1"},{"label":"Producción de cultivos","amount":"1"},{"label":"Protección de cultivos","amount":"1"}]},{"label":"Servicios de ganadería","amount":"1","children":[{"label":"Salud animal","amount":"1"}]}]},{"label":"Servicios basados en ingeniería, ciencias sociales y tecnología de la información","amount":"18","children":[{"label":"Consultorías en Economía","amount":"2","children":[{"label":"Análisis económico","amount":"1"},{"label":"Asuntos relativos a sistemas monetarios","amount":"1"}]},{"label":"Estadística","amount":"1","children":[{"label":"Metodología y análisis estadístico","amount":"1"}]},{"label":"Metodologías y tecnologías para mejorar la producción y la fabricación","amount":"3","children":[{"label":"Administración de edificios e instalaciones","amount":"1"},{"label":"Control de calidad","amount":"1"},{"label":"Gestión de cadena de suministro o abastecimiento","amount":"1"}]},{"label":"Servicios informáticos","amount":"5","children":[{"label":"Administración de sistemas","amount":"1"},{"label":"Ingeniería en computación e informática","amount":"1"},{"label":"Servicios de datos","amount":"1"},{"label":"Servicios para internet","amount":"1"},{"label":"Sistemas de información","amount":"1"}]},{"label":"Servicios profesionales de ingeniería","amount":"5","children":[{"label":"Ingeniería civil","amount":"1"},{"label":"Ingeniería de petróleo y gas","amount":"1"},{"label":"Ingeniería de transportes","amount":"1"},{"label":"Ingeniería eléctrica y electrónica","amount":"1"},{"label":"Ingeniería mecánica","amount":"1"}]},{"label":"Servicios relativos a la meteorología y ciencias de la tierra","amount":"2","children":[{"label":"Cartografía","amount":"1"},{"label":"Geofísica","amount":"1"}]}]},{"label":"Servicios básicos y de información pública","amount":"11","children":[{"label":"Bibliotecas y otros centros de información pública","amount":"2","children":[{"label":"Centros y servicios de información","amount":"1"},{"label":"Comunicación social y de masas","amount":"1"}]},{"label":"Servicios básicos","amount":"4","children":[{"label":"Ahorro de energía","amount":"1"},{"label":"Servicios públicos de suministro de energía eléctrica","amount":"1"},{"label":"Servicios públicos de suministro de petróleo y gas","amount":"1"},{"label":"Servicios relacionados con el agua","amount":"1"}]},{"label":"Telecomunicaciones","amount":"5","children":[{"label":"Comunicaciones móviles","amount":"1"},{"label":"Servicios de telecomunicaciones por circuitos de líneas selectivas y líneas dedicadas arrendadas","amount":"1"},{"label":"Servicios de telecomunicaciones por fibra óptica","amount":"1"},{"label":"Servicios de televisión","amount":"1"},{"label":"Telefonía local y de larga distancia","amount":"1"}]}]},{"label":"Servicios de construcción y mantenimiento","amount":"17","children":[{"label":"Construcción de edificios en general","amount":"3","children":[{"label":"Construcción comercial o industrial","amount":"1"},{"label":"Construcción de obras civiles y infraestructuras","amount":"1"},{"label":"Construcción residencial","amount":"1"}]},{"label":"Servicios de atención, mantenimiento y reparaciones de edificios","amount":"14","children":[{"label":"Acabados de interiores","amount":"1"},{"label":"Albañilería, mampostería y colocación de azulejos","amount":"1"},{"label":"Carpintería","amount":"1"},{"label":"Control de plagas","amount":"1"},{"label":"Gasfitería, calefacción y aire acondicionado","amount":"1"},{"label":"Pintura y colocación de papel pintado (empapelado)","amount":"1"},{"label":"Revestimientos de techos, paredes o metalistería","amount":"1"},{"label":"Servicios de apoyo para la construcción","amount":"1"},{"label":"Servicios de mantenimiento de terrenos","amount":"1"},{"label":"Servicios de preparación de sitios","amount":"1"},{"label":"Servicios de restauración de edificios y estructuras","amount":"1"},{"label":"Servicios de revestimiento o pavimentación de suelos","amount":"1"},{"label":"Servicios eléctricos","amount":"1"},{"label":"Trabajo en hormigón","amount":"1"}]}]},{"label":"Servicios de cuidado personal y domésticos","amount":"6","children":[{"label":"Cuidado y aspecto personal","amount":"2","children":[{"label":"Balnearios, instalaciones de entrenamiento y clubes de salud","amount":"1"},{"label":"Cuidado del cabello","amount":"1"}]},{"label":"Servicio doméstico y de cuidados","amount":"4","children":[{"label":"Asistencia y cuidado doméstico","amount":"1"},{"label":"Cuidado de niños, personas enfermas y ancianos","amount":"1"},{"label":"Servicios de compras o trueques para consumo","amount":"1"},{"label":"Servicios de lavado","amount":"1"}]}]},{"label":"Servicios de defensa nacional, orden público y seguridad","amount":"5","children":[{"label":"Orden público y seguridad","amount":"3","children":[{"label":"Bomberos","amount":"1"},{"label":"Servicios de salvamento","amount":"1"},{"label":"Servicios de seguridad y policiales","amount":"1"}]},{"label":"Seguridad y protección personal","amount":"7","children":[{"label":"Guardaespaldas y seguridad personal","amount":"1"},{"label":"Sistemas de seguridad","amount":"1"}]}]},{"label":"Servicios de limpieza industrial","amount":"11","children":[{"label":"Eliminación y tratamiento de desechos","amount":"4","children":[{"label":"Eliminación de residuos no peligrosos","amount":"1"},{"label":"Eliminación de residuos peligrosos","amount":"1"},{"label":"Recolección y eliminación de desechos","amount":"1"},{"label":"Tratamiento de residuos líquidos","amount":"1"}]},{"label":"Limpieza de residuos o desechos tóxicos y peligrosos","amount":"2","children":[{"label":"Limpieza de vertidos o derramamientos de petróleo","amount":"1"},{"label":"Limpieza de vertidos o derramamientos tóxicos","amount":"1"}]},{"label":"Servicios de descontaminación","amount":"1","children":[{"label":"Desinfección","amount":"1"}]},{"label":"Servicios de limpieza","amount":"4","children":[{"label":"Limpieza de terrenos para edificar","amount":"1"},{"label":"Limpieza de vehículos de transporte","amount":"1"},{"label":"Servicios de limpieza de componentes de edificios","amount":"1"},{"label":"Servicios de limpieza de edificios y oficinas en general","amount":"1"}]}]},{"label":"Servicios de perforación de minería, petróleo y gas","amount":"10","children":[{"label":"Servicios de administración de proyectos de pozos de gas y petróleo","amount":"3","children":[{"label":"Administración de la ingeniería de producción del campo petrolífero","amount":"1"},{"label":"Servicios de administración de construcción del pozo","amount":"1"},{"label":"Servicios de operación del lugar de la perforación","amount":"1"}]},{"label":"Servicios de mantenimiento, construcción y perforación de pozos","amount":"4","children":[{"label":"Servicios de bombeo de cemento","amount":"1"},{"label":"Servicios de control de gas o agua","amount":"1"},{"label":"Servicios de fluido de barreno","amount":"1"},{"label":"Servicios de perforación del pozo petrolero","amount":"1"}]},{"label":"Servicios de minería","amount":"2","children":[{"label":"Extracción minera","amount":"1"},{"label":"Servicios mineros de perforación y voladura","amount":"1"}]},{"label":"Servicios de recuperación de pozos de gas y petróleo","amount":"1","children":[{"label":"Otros servicios de bombeo del campo petrolífero","amount":"1"}]}]},{"label":"Servicios de producción y fabricación industrial","amount":"25","children":[{"label":"Fabricación de maquinarias y equipos de transporte","amount":"2","children":[{"label":"Fabricación de equipos de transporte","amount":"1"},{"label":"Fabricación de maquinarias","amount":"1"}]},{"label":"Fabricación de productos eléctricos e instrumentos de precisión","amount":"2","children":[{"label":"Fabricación de instrumentos de precisión","amount":"1"},{"label":"Fabricación de productos eléctricos","amount":"1"}]},{"label":"Industrias de alimentos y bebidas","amount":"4","children":[{"label":"Elaboración de carne, aves y pescado","amount":"1"},{"label":"Elaboración de frutas y verduras","amount":"1"},{"label":"Elaboración de granos, azúcar, aceites y grasas","amount":"1"},{"label":"Elaboración de lácteos y huevos","amount":"1"}]},{"label":"Industrias de fibras, textiles y tejidos","amount":"2","children":[{"label":"Producción de fibra","amount":"1"},{"label":"Producción de telas y cueros","amount":"1"}]},{"label":"Industrias de la madera y el papel","amount":"2","children":[{"label":"Elaboración de pulpa y papel","amount":"1"},{"label":"Transformado y procesado de madera","amount":"1"}]},{"label":"Industrias de plásticos y productos químicos","amount":"3","children":[{"label":"Producción de caucho","amount":"1"},{"label":"Producción de productos químicos o fertilizantes","amount":"1"},{"label":"Producción farmacéutica","amount":"1"}]},{"label":"Industrias del metal y de minerales","amount":"3","children":[{"label":"Acabado de metales","amount":"1"},{"label":"Procesos de fundición, refinado y moldeado del metal","amount":"1"},{"label":"Servicios industriales de productos minerales no metálicos","amount":"1"}]},{"label":"Servicios de apoyo o soporte a la fabricación","amount":"3","children":[{"label":"Servicios de impresión industrial","amount":"1"},{"label":"Servicios de mantenimiento y reparación de equipo de fabricación","amount":"1"},{"label":"Tratamiento de materiales","amount":"1"}]},{"label":"Servicios mecanizados y de procesamiento","amount":"4","children":[{"label":"Servicios de revestimiento","amount":"1"},{"label":"Servicios de soldadura","amount":"1"},{"label":"Servicios de tratamiento térmico","amount":"1"},{"label":"Servicios mecanizados de ajustaje","amount":"1"}]}]},{"label":"Servicios de transporte, almacenaje y correo","amount":"15","children":[{"label":"Almacenaje","amount":"1","children":[{"label":"Depósito y almacenaje especializado","amount":"1"}]},{"label":"Manejo, manipulación y embalaje de material","amount":"1","children":[{"label":"Servicios de manipulación de materiales","amount":"1"}]},{"label":"Operaciones de transporte","amount":"1","children":[{"label":"Servicios de terminales o estaciones de carga","amount":"1"}]},{"label":"Servicios de mantención o reparaciones de transportes","amount":"2","children":[{"label":"Combustible para vehículos de transporte, estacionamiento y otros servicios de apoyo","amount":"1"},{"label":"Mantención o reparación de vehículos","amount":"1"}]},{"label":"Transporte de correo y carga","amount":"6","children":[{"label":"Servicios postales de pequeños paquetes y mensajería","amount":"1"},{"label":"Transporte aéreo de carga","amount":"1"},{"label":"Transporte de carga intermodal","amount":"1"},{"label":"Transporte de carga por carretera","amount":"1"},{"label":"Transporte de carga por ferrocarril","amount":"1"},{"label":"Transporte marítimo de carga","amount":"1"}]},{"label":"Transporte de pasajeros","amount":"4","children":[{"label":"Transporte aéreo de pasajeros","amount":"1"},{"label":"Transporte de pasajeros por carretera","amount":"1"},{"label":"Transporte de pasajeros por ferrocarril","amount":"1"},{"label":"Transporte marítimo de pasajeros","amount":"1"}]}]},{"label":"Servicios de Viajes, alimentación, alojamiento y entretenimiento","amount":"16","children":[{"label":"Artes interpretativas","amount":"1","children":[{"label":"Actuaciones en directo","amount":"1"}]},{"label":"Asistencia para viajes","amount":"2","children":[{"label":"Agentes de viajes","amount":"1"},{"label":"Guías e intérpretes","amount":"1"}]},{"label":"Deportes comerciales","amount":"2","children":[{"label":"Deportes para la recreación","amount":"1"},{"label":"Eventos deportivos profesionales","amount":"1"}]},{"label":"Entretenimiento","amount":"3","children":[{"label":"Carnavales y ferias","amount":"1"},{"label":"Espectáculos ambulantes","amount":"1"},{"label":"Parques de entretenciones","amount":"1"}]},{"label":"Instalaciones hoteleras, alojamientos y centros de eventos","amount":"4","children":[{"label":"Centros de eventos y reuniones","amount":"1"},{"label":"Habitaciones de hotel","amount":"1"},{"label":"Hoteles, moteles y hostales","amount":"1"},{"label":"Sitios de camping","amount":"1"}]},{"label":"Restaurantes y catering","amount":"4","children":[{"label":"Establecimientos de comidas y bebidas","amount":"1"},{"label":"Servicios de cafetería","amount":"1"},{"label":"Servicios de comedor y banquetes","amount":"1"},{"label":"Servicios para llevar","amount":"1"}]}]},{"label":"Servicios editoriales, de diseño, publicidad, gráficos y artistas","amount":"17","children":[{"label":"Artistas e intérpretes profesionales","amount":"3","children":[{"label":"Actores","amount":"1"},{"label":"Artesanos","amount":"1"},{"label":"Circenses","amount":"1"}]},{"label":"Diseño gráfico","amount":"1","children":[{"label":"Diseño","amount":"1"}]},{"label":"Escritura y traducciones","amount":"2","children":[{"label":"Servicios de noticias","amount":"1"},{"label":"Servicios editoriales y de apoyo","amount":"1"}]},{"label":"Fotografía","amount":"2","children":[{"label":"Fotógrafos y camarógrafos","amount":"1"},{"label":"Servicios de procesamiento de películas","amount":"1"}]},{"label":"Publicidad","amount":"5","children":[{"label":"Agencias de publicidad","amount":"1"},{"label":"Inserciones publicitarias en medios","amount":"1"},{"label":"Publicidad aérea","amount":"1"},{"label":"Publicidad en medios no impresos","amount":"1"},{"label":"Publicidad impresa","amount":"1"}]},{"label":"Servicios de impresión y reproducción","amount":"4","children":[{"label":"Encuadernación","amount":"1"},{"label":"Fotocopiado","amount":"1"},{"label":"Grabado","amount":"1"},{"label":"Impresión","amount":"1"}]}]},{"label":"Servicios financieros, pensiones y seguros","amount":"9","children":[{"label":"Banca e inversiones","amount":"2","children":[{"label":"Instituciones bancarias","amount":"1"},{"label":"Servicios de transferencia de fondos, compensación y cambio","amount":"1"}]},{"label":"Contabilidad y auditorías","amount":"3","children":[{"label":"Finanzas de empresas","amount":"1"},{"label":"Servicios contables","amount":"1"},{"label":"Servicios de auditoría","amount":"1"}]},{"label":"Crédito","amount":"2","children":[{"label":"Agencias de crédito comercial","amount":"1"},{"label":"Crédito para personas naturales","amount":"1"}]},{"label":"Seguros y jubilación","amount":"2","children":[{"label":"Seguros de vida, salud y accidentes","amount":"1"},{"label":"Seguros para estructuras, propiedades y bienes","amount":"1"}]}]},{"label":"Servicios medioambientales","amount":"4","children":[{"label":"Gestión medioambiental","amount":"2","children":[{"label":"Evaluación de impacto ambiental","amount":"1"},{"label":"Servicios de asesoría medioambiental","amount":"1"}]},{"label":"Seguimiento, control y rehabilitación de la contaminación","amount":"2","children":[{"label":"Control de la contaminación del agua","amount":"1"},{"label":"Control de la contaminación del aire","amount":"1"}]}]},{"label":"Servicios profesionales, administrativos y consultorías de gestión empresarial","amount":"15","children":[{"label":"Consultorías o asesorías en gestión empresarial","amount":"4","children":[{"label":"Evaluación de Programas","amount":"1"},{"label":"Gestión de proyectos","amount":"1"},{"label":"Gestión industrial","amount":"1"},{"label":"Servicios de consultoría en gestión de empresas","amount":"1"}]},{"label":"Servicios de apoyo a la administración de empresas","amount":"2","children":[{"label":"Servicios de apoyo a la gestión","amount":"1"},{"label":"Vigilancia y seguridad de instalaciones empresariales","amount":"1"}]},{"label":"Servicios de recursos humanos","amount":"3","children":[{"label":"Consultorías para el desarrollo de recursos humanos","amount":"1"},{"label":"Contratación de personal","amount":"1"},{"label":"Servicios de personal temporal","amount":"1"}]},{"label":"Servicios inmobiliarios","amount":"2","children":[{"label":"Arriendo de propiedades o edificios","amount":"1"},{"label":"Venta de propiedades o edificios","amount":"1"}]},{"label":"Servicios para la comercialización y distribución","amount":"4","children":[{"label":"Distribución","amount":"1"},{"label":"Ferias comerciales y exposiciones","amount":"1"},{"label":"Investigación de mercado","amount":"1"},{"label":"Ventas y marketing","amount":"1"}]}]}]},
+{"label":"Equipamiento","amount":"478","children":[
+    {
+        "label": "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos",
+        "amount": "22",
+        "children": [
+            {
+                "label": "Bombas y compresores industriales",
+                "amount": "3",
+                "children": [
+                    {
+                        "label": "Bombas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Compresores",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Piezas y accesorios para bomba",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Control de temperatura y ventilación",
+                "amount": "6",
+                "children": [
+                    {
+                        "label": "Calderas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Control de humedad",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Enfriamiento",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Piezas y accesorios para circulación de aire",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Piezas y accesorios para equipos de calefacción",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Ventilación",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Control y distribución de líquidos y gases",
+                "amount": "9",
+                "children": [
+                    {
+                        "label": "Accesorios para tuberías",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Cañerías y flexibles",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Conexiones para tuberías",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Interceptores y coladores",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Mangueras",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales y accesorios de gasfitería",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Reguladores de gas y fluido",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Tuberías",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Válvulas",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Filtros y purificación industrial",
+                "amount": "4",
+                "children": [
+                    {
+                        "label": "Filtros",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Medios de filtrado",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Purificación",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Separadores",
+                        "amount": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Equipamiento para laboratorios",
+        "amount": "73",
+        "children": [
+            {
+                "label": "Equipos e insumos para laboratorio",
+                "amount": "28",
+                "children": [
+                    {
+                        "label": "Bibliotecas técnicas y material relacionado",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Bombas y conductos de laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Centrifugadoras de laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Contenedores para especímenes de laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Entornos, kits y equipo de propagación y transformación de microorganismos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de calefacción y secadores para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de cristalografía",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de enfriamiento para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de fermentación",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de física de electrones y de estado sólido para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de histología",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de incubación para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de lavado para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de mecánica de fluidos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de teñido de portaobjetos para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de toma de muestras",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y accesorios para animales de laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y accesorios para laboratorios entomológicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros de filtrado para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros de purificación de agua para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros para mezcla, dispersión y homogeneización en laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros para mezcladores de laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros para vertido, destilación, evaporación y extracción",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Hornos de laboratorio y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recintos cerrados para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Secadoras para congelación y liofilización de laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sistemas y suministros de electroforesis y transferencia para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Tinas y bateas de laboratorio",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Instrumentos de medida y experimentación",
+                "amount": "31",
+                "children": [
+                    {
+                        "label": "Analizadores de gases",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Analizadores de líquidos, sólidos y otros elementos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Analizadores, accesorios y suministros clínicos y de diagnósticos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de examen no invasivo",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de generación y medición de luz y ondas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de generación y medición de sonido",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo espectroscópico",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo para medición de suelos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de agrimensura",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de medición de humedad",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de medición de la aceleración y la vibración",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de medición de peso",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de medición eléctrica",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de medición para componentes de comunicación electrónica",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de medición para metales, metalurgia y materiales estructurales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de medición y observación de caudal y fluidos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de medida y control de presión",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos hidrológicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos mecánicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos para medición de longitud",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos para medir temperatura y calor",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos y accesorios de medición cromatográfica",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos y accesorios de observación",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos y accesorios para mediciones electroquímicas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos y equipos de grabación y registro",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos y suministros de evaluación química",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Kits para ensayos manuales, controles de calidad, calibradores y normativas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Medidores de punto de ignición para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Reactivos de analizadores clínicos y diagnósticos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros y equipos para tratamiento de enfermos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Transductores",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Suministros para laboratorios",
+                "amount": "14",
+                "children": [
+                    {
+                        "label": "Artículos y suministros de vidrio y plástico para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Contenedores y armarios de almacenamiento general para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Corchos, tapones y tapas para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Dispositivos de dosificación",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros para pipetas y manipulación de líquidos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Estantes, soportes y bandejas de laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Etiquetas de laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Jeringas de muestreo para laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Portaobjetos y suministros de laboratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Puntas de pipeta",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recipientes",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros de cultivo de tejido y cribado de alta definición",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Tubos de ensayo",
+                        "amount": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Equipamiento para manejo y estiba de materiales",
+        "amount": "20",
+        "children": [
+            {
+                "label": "Maquinaria para manejo de materiales",
+                "amount": "5",
+                "children": [
+                    {
+                        "label": "Camiones, carros y carretillas industriales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de elevación",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Estantes y almacenamiento",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas para envasado",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Transportadores y accesorios",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Materiales para envasado",
+                "amount": "3",
+                "children": [
+                    {
+                        "label": "Botellas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Cajas, bolsas y sacos para envasado",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Latas para envasado",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Recipientes para almacenamiento",
+                "amount": "7",
+                "children": [
+                    {
+                        "label": "Bolsas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Cartón corrugado y otros materiales para embalaje",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Cofres, armarios y baúles para almacenaje",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Contenedores para líquidos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Latas y cubos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Tanques y cilindros",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Toneles, cubas y bidones",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Refrigeración industrial",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Congeladores industriales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Refrigeradores industriales",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Suministros para embalaje",
+                "amount": "3",
+                "children": [
+                    {
+                        "label": "Acolchados para embalaje",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Seguridad y protección para embalaje",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Tubos y núcleos para embalaje",
+                        "amount": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Equipamiento y suministros médicos",
+        "amount": "186",
+        "children": [
+            {
+                "label": "Artículos médicos para urgencias y atención en terreno",
+                "amount": "7",
+                "children": [
+                    {
+                        "label": "Contenedores de almacenaje para servicios médicos de urgencia",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Kits para urgencias en terreno",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Mantas médicas para urgencia",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de resucitación de emergencia",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos médicos de urgencia para catástrofes",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos médicos de urgencia para respiración artificial",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros médicos de emergencia",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Ayuda para personas con discapacidad",
+                "amount": "8",
+                "children": [
+                    {
+                        "label": "Artículos de ayuda para desplazamiento de discapacitados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Artículos de ayuda para el aseado y vestido de discapacitados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Artículos de ayuda para el baño de discapacitados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Artículos de ayuda para la comunicación de discapacitados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Asistencia en el manejo de medicamentos para discapacitados físicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Ayuda para preparación de comidas, bebidas y alimentos para discapacitados físicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Cuidado o ayuda para el cuidado de la casa para discapacitados físicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos y accesorios para tiempo libre y recreo para discapacitados físicos",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipamiento para instalaciones médicas",
+                "amount": "12",
+                "children": [
+                    {
+                        "label": "Armarios o muebles clínicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Artículos para transporte de paciente",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Asientos y taburetes clínicos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Camas para pacientes y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Dosificadores y medidores de medicamentos y suministros",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Elevadores para pacientes",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Gas de uso hospitalario",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Manejo de materiales y equipo de distribución clínica",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Mesas de examen o procedimiento clínico",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Protectores para equipo médico",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sistemas de construcción de instalaciones médicas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Transporte de equipo médico y traslado de productos",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipo y suministros para diálisis",
+                "amount": "4",
+                "children": [
+                    {
+                        "label": "Equipo de diálisis peritoneal",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de hemodiálisis extracorpórea y suministros",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de hemofiltración y suministros",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros de terapia renal sustitutoria continua (CRRT)",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipo y suministros post mortem y funerarios",
+                "amount": "3",
+                "children": [
+                    {
+                        "label": "Equipos y suministros para el transporte y almacenaje de cadáveres",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros e instrumentos para disección patológica",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros y equipos de autopsia",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos y suministros odontológicos",
+                "amount": "13",
+                "children": [
+                    {
+                        "label": "Equipo y suministros dentales de laboratorio y de esterilización",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros dentales para impresión",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros ortodónticos y prostodónticos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros para higiene dental y cuidado preventivo",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros para imágenes dentales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros periodontales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos y dispositivos dentales y de sub-especialidad",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Láseres, equipo de iluminación y fibra óptica para odontología",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales dentales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Muebles para la clínica dental",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Rellenos y acabados dentales y suministros para pulir",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros dentales generales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros y equipos de odontología cosmética",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos y suministros para veterinaria",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Equipo veterinario",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos veterinarios",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Nutrición clínica",
+                "amount": "6",
+                "children": [
+                    {
+                        "label": "Accesorios o dispositivos de acceso de jejunostomía y gastrostomía",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros de lactancia materna",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Fórmulas y productos para apoyo nutritivo",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros y equipo de alimentación enteral",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Trituradores de pastillas, cortapastillas y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Tubos nasoentéricos",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Productos administrados por vía intravenosa y arterial",
+                "amount": "8",
+                "children": [
+                    {
+                        "label": "Accesorios, catéteres y cánulas intravenosas y arteriales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Aparatos para posicionar agujas y catéteres intravenosos o arteriales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Bolsas de infusión, recipientes y productos relacionados intravenosos y arteriales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Bombas, analizadores, sensores y accesorios de infusión intravenosa",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de regulación y medida del flujo intravenoso o arterial",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de transfusión y administración de sangre",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sistemas de transporte y suspensión de equipo arterial e intravenoso",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Tuberías, juegos de administración y productos relacionados intravenosos y arteriales",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Productos de rehabilitación, terapia ocupacional y física",
+                "amount": "4",
+                "children": [
+                    {
+                        "label": "Equipo para trabajo de endurecimiento o fortalecimiento para rehabilitación o terapia",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y dispositivos para ejercicios de rehabilitación",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de entrenamiento para caminar",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de terapia y evaluación sensorial, perceptual, cognitiva y de desteridad",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Productos de resucitación, anestesia y respiratorios",
+                "amount": "11",
+                "children": [
+                    {
+                        "label": "Aparatos, accesorios y suministros de anestesia",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de comprobación y tratamiento de las funciones pulmonares",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de toracentesis",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos para el control respiratorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos para el manejo de la vía aérea",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos para terapia respiratoria en aerosol y humidificación",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sistemas y dispositivos de terapia de entrega de oxígeno",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros de intubación",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros de resucitadores",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Ventiladores de presión mecánica negativa",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Ventiladores y accesorios de presión mecánica positiva",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Productos medicinales para deportes, prostéticos y ortopédicos",
+                "amount": "7",
+                "children": [
+                    {
+                        "label": "Dispositivos, accesorios y suministros protésicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros ortopédicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos, piezas y accesorios para enyesado",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos ortopédicos blandos para el torso y extremidad superior",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos ortopédicos blandos para la extremidad inferior",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros para enyesado y entablillado",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros y accesorios de tracción ortopédica",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Productos para el cuidado de heridas",
+                "amount": "10",
+                "children": [
+                    {
+                        "label": "Agentes hemostáticos tópicos exógenos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Cierres médicos de tejidos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Cintas adhesivas médicas y quirúrgicas y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Drenajes médicos de incisión, bolsas de drenaje, depósitos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos para la limpieza de heridas y desbridamiento",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos para relleno de heridas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos para sujeción de heridas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros de ostomía y productos no quirúrgicos de drenaje de heridas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sutura y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Vendas, vendajes y productos relacionados",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Productos para exámenes y control de pacientes",
+                "amount": "16",
+                "children": [
+                    {
+                        "label": "Artículos para examen oftalmológico",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Básculas o balanzas médicas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Dispositivos de medición de talla",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos y accesorios médicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Espéculos y accesorios para auscultación médica",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Estetoscopio y artículos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Evaluación de diagnóstico y productos para examen de uso general",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos para medir la audición",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Lámparas para examen médico",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Mesas de exámenes específicos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Oxímetros de pulso",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos para examen neurológico",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Unidades de control de cuidado intenso y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Unidades de electrocardiografía (ECG) y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Unidades de examen de otorrinolaringología y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Unidades de presión sanguínea y productos relacionados",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Productos para imágenes y de medicina nuclear",
+                "amount": "13",
+                "children": [
+                    {
+                        "label": "Artículos del acelerador lineal de terapia de radiación de intensidad modulada (IMRT) l",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Artículos para archivar información e imágenes radiológicas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Artículos para imágenes de ultrasonido, doppler y eco",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Artículos para imágenes vasculares, cardiología intervencional y laboratorio de cateterización cardiaca",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Artículos radiográficos de diagnóstico médico",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de tomografía computarizada por emisión de fotones simples (SPECT) y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo radiográfico médico de bajo consumo eléctrico",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Marcapasos cardiacos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Negatoscopios y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de resonancia magnética (MRI) médica",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sistemas de tomografía computarizada (TAC o CT) médica",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sistemas médicos estereotacticos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros y equipo de procesamiento de imágenes",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Productos para la esterilización médica",
+                "amount": "5",
+                "children": [
+                    {
+                        "label": "Controles e indicadores de esterilización",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos y accesorios de esterilizadores y autoclaves",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Soluciones de desinfectantes y esterilización en frío",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Soluciones y equipo de limpieza pre-esterilización",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros de envasado y envoltura de esterilización",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Productos quirúrgicos",
+                "amount": "32",
+                "children": [
+                    {
+                        "label": "Abrazaderas quirúrgicas, fórceps, ligadores quirúrgicos e instrumentos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Bougies quirúrgicos, sondas, obturadores y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Cánulas, puntas y estiletes de irrigación, succión quirúrgica y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Dilatadores, sondas, ranuras quirúrgicas y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Disectores, elevadores, puntas y ganchos quirúrgicos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Dispositivos quirúrgicos de medir y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Distractores, extendedores, separadores quirúrgicos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Endoscopios, accesorios y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de perfusión de corazón abierto, monitores, accesorios y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo endoscópico, accesorios y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo quirúrgico de energía, accesorios y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo quirúrgico, accesorios y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Espátulas, cucharas y cucharones quirúrgicos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Hierros de flexión, herramientas de plegar, tenazas, tensionadores, torcedores quirúrgicos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Implantes quirúrgicos, ensanchadores, extensores, alambres quirúrgicos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Insertadores, extractores quirúrgicos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de especialidad oftálmica y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos endoscópicos, suministros, accesorios y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos quirúrgicos de corte, trampas y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos quirúrgicos para el cierre de tejidos, suturas y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos quirúrgicos para empaque de heridas y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos, suministros y equipos de biopsia de mama mínimamente invasiva",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Juegos de instrumentos, sistemas y bandejas quirúrgicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Machos de roscar, impulsores quirúrgicos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Manipuladores y posicionadores quirúrgicos de implante y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Posicionadores y portadores de tubos e instrumentos quirúrgicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de autotransfusión",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Retractores quirúrgicos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sistemas cardiacos y vasculares",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros quirúrgicos auxiliares",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros y accesorios para cirugía de corazón abierto y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Taladros quirúrgicos de mano, escariadores, instrumentos de punzonar, accesorios y productos relacionados",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Suministros para formación y estudios de medicina",
+                "amount": "1",
+                "children": [
+                    {
+                        "label": "Ayudas para la formación médica",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Suministros y productos clínicos",
+                "amount": "19",
+                "children": [
+                    {
+                        "label": "Agujas clínicas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Corrección de la visión, gafas, anteojos y productos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de electroterapia",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros de obstetricia y ginecología",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y suministros de quimioterapia",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de grado bajo floorgrade",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Jeringas y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Palanganas y bacinillas de cama y orinales y equipos de ingreso",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de documentación médica",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de hidroterapia",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de terapia para frío y calor",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos médicos para vacío y succión",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos para la prevención de decúbito",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos y accesorios de otorrinolaringología",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sujetadores clínicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros para la administración de enema",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros urológicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros y equipos para terapia vascular y de compresión",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Torundas de algodón y aplicadoras de algodón",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Vestuario clínico",
+                "amount": "5",
+                "children": [
+                    {
+                        "label": "Guantes médicos y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Prendas textiles quirúrgicas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Ropa de hospital",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Vestuario para el personal médico y artículos relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Vestuario para pacientes",
+                        "amount": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Equipos y suministros de defensa, orden público, protección y seguridad",
+        "amount": "20",
+        "children": [
+            {
+                "label": "Armas ligeras y munición",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Accesorios de armas y municiones",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Armas de fuego",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Cohetes y sistemas de armamento",
+                "amount": "1",
+                "children": [
+                    {
+                        "label": "Vehículos para lanzamiento de cohetes",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos para orden público",
+                "amount": "3",
+                "children": [
+                    {
+                        "label": "Equipo de seguridad y control",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo forense, accesorios y suministros",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo para control de disturbios",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Misiles",
+                "amount": "1",
+                "children": [
+                    {
+                        "label": "Subsistemas de misiles",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Protección contra incendios",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Equipos de prevención de incendios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos para combatir incendios",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Seguridad y control público",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Control de tráfico",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos y suministros para seguridad en el mar, lagos, ríos y piscinas",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Seguridad y protección personal",
+                "amount": "7",
+                "children": [
+                    {
+                        "label": "Guardaespaldas y seguridad personal",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sistemas de seguridad",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Seguridad, vigilancia y detección",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Cerraduras, elementos de seguridad y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de vigilancia y detección",
+                        "amount": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Equipos y suministros de imprenta, fotográficos y audiovisuales",
+        "amount": "13",
+        "children": [
+            {
+                "label": "Equipos de composición y presentación audiovisual",
+                "amount": "3",
+                "children": [
+                    {
+                        "label": "Atriles, sistemas de sonido y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de composición y presentación de sonido, hardware y controladores",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Proyectores y suministros",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos de imprenta y publicación",
+                "amount": "5",
+                "children": [
+                    {
+                        "label": "Accesorios de imprenta",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Accesorios para máquinas de imprenta",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos de cosido y encuadernación de libros y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos y accesorios de laboratorio de imprenta",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Maquinarias y equipos de imprenta",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos de video, filmación o fotografía",
+                "amount": "3",
+                "children": [
+                    {
+                        "label": "Accesorios para cámaras",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Cámaras",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos y suministros de producción de microfilmes",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Medios fotográficos y de grabación",
+                "amount": "1",
+                "children": [
+                    {
+                        "label": "Película o rollo para cámara fotográfica",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Suministros fotográficos para cine",
+                "amount": "1",
+                "children": [
+                    {
+                        "label": "Productos químicos para elaboración fotográfica",
+                        "amount": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Equipos y suministros de limpieza",
+        "amount": "14",
+        "children": [
+            {
+                "label": "Equipo de limpieza",
+                "amount": "4",
+                "children": [
+                    {
+                        "label": "Carros y accesorios para limpieza",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Envases y accesorios para residuos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos de limpieza",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Máquinas y accesorios para suelos",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipo industrial de lavandería y limpieza en seco",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Equipo de planchado",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos de lavado y secado",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Suministros de limpieza",
+                "amount": "6",
+                "children": [
+                    {
+                        "label": "Absorbentes",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Escobas, traperos, cepillos y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Kits de limpieza",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Soluciones de limpieza y desinfección",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros para aseo",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Trapos y paños de limpieza",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Tratamiento, suministros y eliminación de agua y aguas residuales",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Consumibles para el tratamiento de agua",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos para el tratamiento y suministro de agua",
+                        "amount": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Equipos, accesorios y suministros de oficina",
+        "amount": "27",
+        "children": [
+            {
+                "label": "Accesorios de oficina y escritorio",
+                "amount": "5",
+                "children": [
+                    {
+                        "label": "Agendas y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sistemas de planificación",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros de dibujo",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros para el manejo de efectivo",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Tableros o pizarras",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Maquinarias, suministros y accesorios de oficina",
+                "amount": "15",
+                "children": [
+                    {
+                        "label": "Accesorios de máquinas de oficina",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Accesorios para escáneres",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Accesorios para impresoras, fotocopiadoras y aparatos de fax",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Empaquetadoras",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Etiquetadoras",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Fuibles o fusores y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Máquinas calculadoras y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Máquinas encuadernadoras y plastificadoras",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Máquinas para endosar y extender cheques",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Máquinas para procesamiento de papel y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Máquinas y accesorios para registro de hora y asistencia en la oficina",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Multicopistas, fotocopiadoras, fax y multifuncionales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros de máquinas de encuadernar",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros para impresora, fax y fotocopiadora",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros para plastificado",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Suministros de oficina",
+                "amount": "7",
+                "children": [
+                    {
+                        "label": "Carpetas de archivo y separadores",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de escritura",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Medios de corrección",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recambios de tinta y minas de lápices",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros de correo",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros de escritorio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros de sujeción",
+                        "amount": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Equipos, suministros y accesorios deportivos y recreativos",
+        "amount": "20",
+        "children": [
+            {
+                "label": "Coleccionismo y condecoraciones o premios",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Coleccionismo",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Premios",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos de gimnasia y boxeo",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Equipos de boxeo",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos de gimnasia",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos de pesca y caza",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Aparejos de pesca",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de caza",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos deportivos para canchas",
+                "amount": "3",
+                "children": [
+                    {
+                        "label": "Equipos para deportes de pista",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos para deportes de raqueta y pista",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos para deportes en cancha",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos para deportes acuáticos",
+                "amount": "1",
+                "children": [
+                    {
+                        "label": "Escafandras autónomas y tubos de respiración",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos para entrenamiento físico",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Equipo de entrenamiento de pesas y resistencia",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo de entrenamiento para aeróbic",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos y accesorios de deportes",
+                "amount": "1",
+                "children": [
+                    {
+                        "label": "Accesorios para deportes",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos y accesorios para camping y exterior",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Equipos para acampar",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Muebles de camping",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos y suministros de recreación, parques infantiles, natación y de spa",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Equipo de parques infantiles",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos y suministros para piscinas y spa",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Juegos y equipos de tiro y mesa",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Equipos y juegos de mesa",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos y juegos de tiro al blanco",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Otros deportes",
+                "amount": "1",
+                "children": [
+                    {
+                        "label": "Equipos para educación física",
+                        "amount": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Herramientas y maquinaria en general",
+        "amount": "19",
+        "children": [
+            {
+                "label": "Herramientas manuales",
+                "amount": "15",
+                "children": [
+                    {
+                        "label": "Accesorios para herramientas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas de albañilería",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas de corte, estaje y punzones",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas de desbaste y acabado",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas de inserción y ajuste",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas de jardinería",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas de medición y trazado",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas dosificadoras",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas mecánicas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas para marcar",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas para palanca y curvar",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas para perfilar",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Juegos de herramientas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Llaves, destornilladores y guías",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Prensas y herramientas especiales",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Maquinaria hidráulica",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Accesorios para circuitos hidráulicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Prensas hidráulicas",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Maquinaria neumática",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Accesorios para circuitos neumáticos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas neumáticas",
+                        "amount": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Instrumentos musicales, juegos, juguetes, artesanías y materiales educativos",
+        "amount": "64",
+        "children": [
+            {
+                "label": "Decoraciones y suministros para salas de clases",
+                "amount": "2",
+                "children": [
+                    {
+                        "label": "Decoraciones especiales para la sala de clases y accesorios decorativos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Letras y números decorativos",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Equipos de arte y manualidades, accesorios y suministros",
+                "amount": "21",
+                "children": [
+                    {
+                        "label": "Arte",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Artesanía de espuma",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Compuestos de modelado y arcilla, equipos de cerámica y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Ebanistería",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Enmarcado de cuadro",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipo y accesorios de tejido, pespunteado y cosido",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Herramientas para dar forma al papel",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Lentejuelas y ribetes",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Lienzos, películas, tableros y papeles para el artista",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales de artesanía de cintas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales de estudio",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales de proyecto multicultural y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales y suministros para decoración de telas y arte textil",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Medios, aplicadores y accesorios para artes plásticas y pinturas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Metales para artesanía",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Mosaicos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Productos de corte para manualidades y arte",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Purpurina",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros de artesanías de corcho y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Suministros y accesorios de escultura",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Utensilios de dibujo, suministros y accesorios",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Instrumentos musicales, piezas y accesorios",
+                "amount": "9",
+                "children": [
+                    {
+                        "label": "Accesorios de música y danza",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de cuerda",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de metal",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de percusión",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de teclado",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos de viento de madera",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Instrumentos musicales de sonidos alternativos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Piezas y accesorios de instrumentos musicales",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sets de instrumentos musicales",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Juguetes y juegos",
+                "amount": "5",
+                "children": [
+                    {
+                        "label": "Equipos de juegos activos y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Equipos para representación teatral y accesorios",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Juegos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Juguetes",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Sistemas de construcción y bloques infantiles",
+                        "amount": "1"
+                    }
+                ]
+            },
+            {
+                "label": "Materiales, artículos y suministros didácticos profesionales y para el desarrollo personal",
+                "amount": "27",
+                "children": [
+                    {
+                        "label": "Álbumes o libros de recuerdos y suministros",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Cohetes, materiales de vuelo y suministros",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Diplomas o certificados educativos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Guías de planes de estudio, proyectos, actividades y lecciones",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Libros de lectura y recursos",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales de enseñanza de tecnología",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales de enseñanza vocacional",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales de física de electricidad",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales educativos de diseño de vestuario y textil",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales educativos de preparación de alimentos, nutrición y educación sobre la salud",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales educativos de vida independiente, administración del dinero y economía doméstica",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales educativos sobre las relaciones de pareja y sexuales, embarazo precoz, maternidad y desarrollo del niño",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales o recursos educativos de álgebra",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Materiales o recursos educativos de geometría",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Organismos vivos, especímenes conservados y materiales relacionados",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Premios escolares",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Química, electroquímica y microquímica",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recursos de enseñanza de historia",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recursos educativos para clases religiosas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recursos materiales de destreza alfabética",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recursos materiales de numeración y operaciones matemáticas básicas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recursos materiales educativos de aptitudes",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recursos materiales para el profesor",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recursos materiales para el profesor de pensamiento lógico, percepción espacial, identificación de coincidencias y patrones",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recursos materiales para el profesor de resolución de problemas, datos, posibilidades y probabilidades",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recursos y accesorios para el aprendizaje inicial de números, cuentas y matemáticas",
+                        "amount": "1"
+                    },
+                    {
+                        "label": "Recursos, mapas y accesorios para geografía",
+                        "amount": "1"
+                    }
+                ]
+            }
+        ]
+    }
+]}]}

@@ -1,0 +1,18 @@
+/**
+ *
+ * Apply your custom CSS here
+ *
+*/
+
+body {	
+}
+
+a {
+}
+
+.page-container.orders.list-fix{
+	width: 50%;
+}
+.xe-lower.top-p{
+	padding-top: 0px !important;
+}
