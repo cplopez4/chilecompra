@@ -1002,7 +1002,7 @@ BubbleTree.MouseEventGroup = function(target, members) {
 		//console.log(target.node.children);
 		if(target.node.children.length<2){
 			mySwiper.swipeNext();
-			var tsv = "heatmáp 2.tsv";
+			var tsv = "letsv.tsv";
 			//var tsv = target.node.label+".tsv";  ////////////////////////Descomentar///////////////////////////////////////////////////////////////////////////////////
 			update(tsv);
 

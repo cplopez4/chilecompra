@@ -8,9 +8,9 @@
             bottom: 50,
             left: 100
         },
-        cellSize = 25;
-    col_number = 60;
-    row_number = 60;
+        cellSize = 20;
+    col_number = 1000;
+    row_number = 1000;
     width = cellSize * col_number, // - margin.left - margin.right,
         height = cellSize * row_number, // - margin.top - margin.bottom,
         gridSize = Math.floor(width / 24),
@@ -46,19 +46,26 @@
                 row: +d.x,
                 col: +d.y,
                 value: +d.val,
-                xlabel: +d.x,
-                ylabel: +d.y,
+                xlabel: d.xlabel,
+                ylabel: d.ylabel,
                 tenders: d.tenders,
                 orders: d.orders
             };
         },
         function(error, data) {
 
+            var maxval=0
             for (var i = 0; i < data.length; i++) {
                 rowLabel.push(data[i].xlabel)
                 colLabel.push(data[i].ylabel)
                 //console.log(data[i].tenders)
+                if (parseInt(data[i].value)>maxval){
+                    maxval= parseInt(data[i].value);
+                    console.log(maxval, "entro")
+                }
             }
+            
+           
             //rowLabel = rowLabel.unique();
             //colLabel = colLabel.unique();
             rowLabel = eliminateDuplicates(rowLabel);
@@ -156,14 +163,16 @@
                 .attr("width", cellSize)
                 .attr("height", cellSize)
                 .style("fill", function(d) {
-                    return colorScale(d.value);
+                    console.log(maxval);
+
+                    return colorScale(Math.ceil(d.value*10/maxval)+1);
                 })
                 .on("click", function(d) {
                     //console.log(d, " click");
                     mySwiper.swipeNext();
 
-                    tender = d.tenders.split(" ");
-                    order = d.orders.split(" ");
+                    tender = d.tenders.split(";");
+                    order = d.orders.split(";");
                     //console.log(tender);
                     //console.log(order);
                     
@@ -350,7 +359,7 @@
                         .style("left", (d3.event.pageX + 10 + $(document).width()) + "px")
                         .style("top", (d3.event.pageY - 10) + "px")
                         .select("#value")
-                        .text("lables:" + rowLabel[d.row - 1] + "," + colLabel[d.col - 1] + "\ndata:" + d.value + "\nrow-col-idx:" + d.col + "," + d.row + "\ncell-xy " + this.x.baseVal.value + ", " + this.y.baseVal.value);
+                        .text("Monto Promedio: "+ d.value+"\n Comprador: "+d.xlabel+"\n Vendedor: "+d.ylabel);
                     //Show the tooltip
                     d3.select("#tooltip").classed("hidden", false);
                 })
@@ -360,6 +369,7 @@
                     d3.selectAll(".colLabel").classed("text-highlight", false);
                     d3.select("#tooltip").classed("hidden", true);
                 });
+
 
             /* var legend = svg.selectAll(".legend")
         .data([-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10])
@@ -493,6 +503,9 @@
                         });
                 }
             }
+
+        order('probecontrast')
+
      
     });
 
