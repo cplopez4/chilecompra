@@ -1,0 +1,760 @@
+x	y	xlabel	ylabel	val
+1	1	Armada De Chile	Acoplas	0
+2	1	Capredena	Acoplas	0
+3	1	Comisión Chilena De Energía Nuclear	Acoplas	470
+4	1	Comprador	Acoplas	0
+5	1	Corporación Nacional Forestal - Conaf	Acoplas	0
+6	1	Ejército De Chile	Acoplas	0
+7	1	Hospital Base Osorno	Acoplas	0
+8	1	Hospital Clínico San Borja Arriarán	Acoplas	0
+9	1	Hospital Curanilahue	Acoplas	0
+10	1	Hospital De Copiapó	Acoplas	0
+11	1	Hospital De Puerto Montt	Acoplas	0
+12	1	Hospital De Talagante	Acoplas	0
+13	1	Hospital Doctor Hernán Henríquez Aravena	Acoplas	0
+14	1	Hospital Dr. Lautaro Navarro Avaria	Acoplas	0
+15	1	Hospital San José	Acoplas	0
+16	1	Hospital San José De Coronel	Acoplas	0
+17	1	Hospital San Juan De Dios De Los Andes	Acoplas	0
+18	1	Hospital San Martín De Quillota	Acoplas	0
+19	1	Hospital Teno	Acoplas	0
+20	1	Hospital Tocopilla	Acoplas	0
+21	1	Hospital Valdivia	Acoplas	0
+22	1	Hospital Victoria	Acoplas	0
+23	1	I.Municipalidad De Concepcion	Acoplas	0
+24	1	I.Municipalidad De La Cruz	Acoplas	0
+25	1	Ilustre Municipalidad De Cerrillos	Acoplas	0
+26	1	Ilustre Municipalidad De Chillan Viejo	Acoplas	0
+27	1	Ilustre Municipalidad De Linares	Acoplas	0
+28	1	Ilustre Municipalidad De Navidad	Acoplas	0
+29	1	Ilustre Municipalidad De Pelarco	Acoplas	0
+30	1	Instituto Nacional Del Torax	Acoplas	0
+31	1	Servicio De Salud Del Reloncaví	Acoplas	0
+32	1	Servicio De Salud Iquique	Acoplas	0
+33	1	Servicio Salud Aconcagua	Acoplas	0
+1	2	Armada De Chile	B.Braun Medical Spa2	0
+2	2	Capredena	B.Braun Medical Spa2	0
+3	2	Comisión Chilena De Energía Nuclear	B.Braun Medical Spa2	0
+4	2	Comprador	B.Braun Medical Spa2	0
+5	2	Corporación Nacional Forestal - Conaf	B.Braun Medical Spa2	0
+6	2	Ejército De Chile	B.Braun Medical Spa2	0
+7	2	Hospital Base Osorno	B.Braun Medical Spa2	0
+8	2	Hospital Clínico San Borja Arriarán	B.Braun Medical Spa2	0
+9	2	Hospital Curanilahue	B.Braun Medical Spa2	0
+10	2	Hospital De Copiapó	B.Braun Medical Spa2	0
+11	2	Hospital De Puerto Montt	B.Braun Medical Spa2	0
+12	2	Hospital De Talagante	B.Braun Medical Spa2	0
+13	2	Hospital Doctor Hernán Henríquez Aravena	B.Braun Medical Spa2	0
+14	2	Hospital Dr. Lautaro Navarro Avaria	B.Braun Medical Spa2	0
+15	2	Hospital San José	B.Braun Medical Spa2	0
+16	2	Hospital San José De Coronel	B.Braun Medical Spa2	0
+17	2	Hospital San Juan De Dios De Los Andes	B.Braun Medical Spa2	0
+18	2	Hospital San Martín De Quillota	B.Braun Medical Spa2	0
+19	2	Hospital Teno	B.Braun Medical Spa2	0
+20	2	Hospital Tocopilla	B.Braun Medical Spa2	0
+21	2	Hospital Valdivia	B.Braun Medical Spa2	0
+22	2	Hospital Victoria	B.Braun Medical Spa2	0
+23	2	I.Municipalidad De Concepcion	B.Braun Medical Spa2	0
+24	2	I.Municipalidad De La Cruz	B.Braun Medical Spa2	0
+25	2	Ilustre Municipalidad De Cerrillos	B.Braun Medical Spa2	0
+26	2	Ilustre Municipalidad De Chillan Viejo	B.Braun Medical Spa2	0
+27	2	Ilustre Municipalidad De Linares	B.Braun Medical Spa2	0
+28	2	Ilustre Municipalidad De Navidad	B.Braun Medical Spa2	0
+29	2	Ilustre Municipalidad De Pelarco	B.Braun Medical Spa2	0
+30	2	Instituto Nacional Del Torax	B.Braun Medical Spa2	0
+31	2	Servicio De Salud Del Reloncaví	B.Braun Medical Spa2	0
+32	2	Servicio De Salud Iquique	B.Braun Medical Spa2	0
+33	2	Servicio Salud Aconcagua	B.Braun Medical Spa2	360
+1	3	Armada De Chile	Caribean Pharma Ltda	0
+2	3	Capredena	Caribean Pharma Ltda	0
+3	3	Comisión Chilena De Energía Nuclear	Caribean Pharma Ltda	0
+4	3	Comprador	Caribean Pharma Ltda	0
+5	3	Corporación Nacional Forestal - Conaf	Caribean Pharma Ltda	0
+6	3	Ejército De Chile	Caribean Pharma Ltda	0
+7	3	Hospital Base Osorno	Caribean Pharma Ltda	0
+8	3	Hospital Clínico San Borja Arriarán	Caribean Pharma Ltda	0
+9	3	Hospital Curanilahue	Caribean Pharma Ltda	0
+10	3	Hospital De Copiapó	Caribean Pharma Ltda	0
+11	3	Hospital De Puerto Montt	Caribean Pharma Ltda	0
+12	3	Hospital De Talagante	Caribean Pharma Ltda	0
+13	3	Hospital Doctor Hernán Henríquez Aravena	Caribean Pharma Ltda	0
+14	3	Hospital Dr. Lautaro Navarro Avaria	Caribean Pharma Ltda	0
+15	3	Hospital San José	Caribean Pharma Ltda	0
+16	3	Hospital San José De Coronel	Caribean Pharma Ltda	0
+17	3	Hospital San Juan De Dios De Los Andes	Caribean Pharma Ltda	0
+18	3	Hospital San Martín De Quillota	Caribean Pharma Ltda	0
+19	3	Hospital Teno	Caribean Pharma Ltda	0
+20	3	Hospital Tocopilla	Caribean Pharma Ltda	3355
+21	3	Hospital Valdivia	Caribean Pharma Ltda	0
+22	3	Hospital Victoria	Caribean Pharma Ltda	0
+23	3	I.Municipalidad De Concepcion	Caribean Pharma Ltda	0
+24	3	I.Municipalidad De La Cruz	Caribean Pharma Ltda	1130
+25	3	Ilustre Municipalidad De Cerrillos	Caribean Pharma Ltda	0
+26	3	Ilustre Municipalidad De Chillan Viejo	Caribean Pharma Ltda	0
+27	3	Ilustre Municipalidad De Linares	Caribean Pharma Ltda	0
+28	3	Ilustre Municipalidad De Navidad	Caribean Pharma Ltda	0
+29	3	Ilustre Municipalidad De Pelarco	Caribean Pharma Ltda	0
+30	3	Instituto Nacional Del Torax	Caribean Pharma Ltda	0
+31	3	Servicio De Salud Del Reloncaví	Caribean Pharma Ltda	0
+32	3	Servicio De Salud Iquique	Caribean Pharma Ltda	0
+33	3	Servicio Salud Aconcagua	Caribean Pharma Ltda	0
+1	4	Armada De Chile	Chilemat Spa	0
+2	4	Capredena	Chilemat Spa	0
+3	4	Comisión Chilena De Energía Nuclear	Chilemat Spa	0
+4	4	Comprador	Chilemat Spa	0
+5	4	Corporación Nacional Forestal - Conaf	Chilemat Spa	2021
+6	4	Ejército De Chile	Chilemat Spa	0
+7	4	Hospital Base Osorno	Chilemat Spa	0
+8	4	Hospital Clínico San Borja Arriarán	Chilemat Spa	0
+9	4	Hospital Curanilahue	Chilemat Spa	0
+10	4	Hospital De Copiapó	Chilemat Spa	0
+11	4	Hospital De Puerto Montt	Chilemat Spa	0
+12	4	Hospital De Talagante	Chilemat Spa	0
+13	4	Hospital Doctor Hernán Henríquez Aravena	Chilemat Spa	0
+14	4	Hospital Dr. Lautaro Navarro Avaria	Chilemat Spa	0
+15	4	Hospital San José	Chilemat Spa	0
+16	4	Hospital San José De Coronel	Chilemat Spa	0
+17	4	Hospital San Juan De Dios De Los Andes	Chilemat Spa	0
+18	4	Hospital San Martín De Quillota	Chilemat Spa	0
+19	4	Hospital Teno	Chilemat Spa	0
+20	4	Hospital Tocopilla	Chilemat Spa	0
+21	4	Hospital Valdivia	Chilemat Spa	0
+22	4	Hospital Victoria	Chilemat Spa	0
+23	4	I.Municipalidad De Concepcion	Chilemat Spa	0
+24	4	I.Municipalidad De La Cruz	Chilemat Spa	0
+25	4	Ilustre Municipalidad De Cerrillos	Chilemat Spa	0
+26	4	Ilustre Municipalidad De Chillan Viejo	Chilemat Spa	0
+27	4	Ilustre Municipalidad De Linares	Chilemat Spa	0
+28	4	Ilustre Municipalidad De Navidad	Chilemat Spa	0
+29	4	Ilustre Municipalidad De Pelarco	Chilemat Spa	0
+30	4	Instituto Nacional Del Torax	Chilemat Spa	0
+31	4	Servicio De Salud Del Reloncaví	Chilemat Spa	0
+32	4	Servicio De Salud Iquique	Chilemat Spa	0
+33	4	Servicio Salud Aconcagua	Chilemat Spa	0
+1	5	Armada De Chile	Clan Dent	0
+2	5	Capredena	Clan Dent	0
+3	5	Comisión Chilena De Energía Nuclear	Clan Dent	0
+4	5	Comprador	Clan Dent	0
+5	5	Corporación Nacional Forestal - Conaf	Clan Dent	0
+6	5	Ejército De Chile	Clan Dent	0
+7	5	Hospital Base Osorno	Clan Dent	0
+8	5	Hospital Clínico San Borja Arriarán	Clan Dent	0
+9	5	Hospital Curanilahue	Clan Dent	0
+10	5	Hospital De Copiapó	Clan Dent	0
+11	5	Hospital De Puerto Montt	Clan Dent	0
+12	5	Hospital De Talagante	Clan Dent	0
+13	5	Hospital Doctor Hernán Henríquez Aravena	Clan Dent	0
+14	5	Hospital Dr. Lautaro Navarro Avaria	Clan Dent	0
+15	5	Hospital San José	Clan Dent	0
+16	5	Hospital San José De Coronel	Clan Dent	0
+17	5	Hospital San Juan De Dios De Los Andes	Clan Dent	0
+18	5	Hospital San Martín De Quillota	Clan Dent	0
+19	5	Hospital Teno	Clan Dent	0
+20	5	Hospital Tocopilla	Clan Dent	0
+21	5	Hospital Valdivia	Clan Dent	0
+22	5	Hospital Victoria	Clan Dent	0
+23	5	I.Municipalidad De Concepcion	Clan Dent	0
+24	5	I.Municipalidad De La Cruz	Clan Dent	0
+25	5	Ilustre Municipalidad De Cerrillos	Clan Dent	0
+26	5	Ilustre Municipalidad De Chillan Viejo	Clan Dent	0
+27	5	Ilustre Municipalidad De Linares	Clan Dent	0
+28	5	Ilustre Municipalidad De Navidad	Clan Dent	2689
+29	5	Ilustre Municipalidad De Pelarco	Clan Dent	0
+30	5	Instituto Nacional Del Torax	Clan Dent	0
+31	5	Servicio De Salud Del Reloncaví	Clan Dent	0
+32	5	Servicio De Salud Iquique	Clan Dent	0
+33	5	Servicio Salud Aconcagua	Clan Dent	0
+1	6	Armada De Chile	Coldiab Y Cía Ltda.	0
+2	6	Capredena	Coldiab Y Cía Ltda.	0
+3	6	Comisión Chilena De Energía Nuclear	Coldiab Y Cía Ltda.	0
+4	6	Comprador	Coldiab Y Cía Ltda.	0
+5	6	Corporación Nacional Forestal - Conaf	Coldiab Y Cía Ltda.	0
+6	6	Ejército De Chile	Coldiab Y Cía Ltda.	0
+7	6	Hospital Base Osorno	Coldiab Y Cía Ltda.	0
+8	6	Hospital Clínico San Borja Arriarán	Coldiab Y Cía Ltda.	0
+9	6	Hospital Curanilahue	Coldiab Y Cía Ltda.	0
+10	6	Hospital De Copiapó	Coldiab Y Cía Ltda.	0
+11	6	Hospital De Puerto Montt	Coldiab Y Cía Ltda.	0
+12	6	Hospital De Talagante	Coldiab Y Cía Ltda.	0
+13	6	Hospital Doctor Hernán Henríquez Aravena	Coldiab Y Cía Ltda.	0
+14	6	Hospital Dr. Lautaro Navarro Avaria	Coldiab Y Cía Ltda.	0
+15	6	Hospital San José	Coldiab Y Cía Ltda.	0
+16	6	Hospital San José De Coronel	Coldiab Y Cía Ltda.	0
+17	6	Hospital San Juan De Dios De Los Andes	Coldiab Y Cía Ltda.	0
+18	6	Hospital San Martín De Quillota	Coldiab Y Cía Ltda.	0
+19	6	Hospital Teno	Coldiab Y Cía Ltda.	0
+20	6	Hospital Tocopilla	Coldiab Y Cía Ltda.	0
+21	6	Hospital Valdivia	Coldiab Y Cía Ltda.	0
+22	6	Hospital Victoria	Coldiab Y Cía Ltda.	0
+23	6	I.Municipalidad De Concepcion	Coldiab Y Cía Ltda.	0
+24	6	I.Municipalidad De La Cruz	Coldiab Y Cía Ltda.	0
+25	6	Ilustre Municipalidad De Cerrillos	Coldiab Y Cía Ltda.	0
+26	6	Ilustre Municipalidad De Chillan Viejo	Coldiab Y Cía Ltda.	0
+27	6	Ilustre Municipalidad De Linares	Coldiab Y Cía Ltda.	0
+28	6	Ilustre Municipalidad De Navidad	Coldiab Y Cía Ltda.	0
+29	6	Ilustre Municipalidad De Pelarco	Coldiab Y Cía Ltda.	2100
+30	6	Instituto Nacional Del Torax	Coldiab Y Cía Ltda.	0
+31	6	Servicio De Salud Del Reloncaví	Coldiab Y Cía Ltda.	0
+32	6	Servicio De Salud Iquique	Coldiab Y Cía Ltda.	0
+33	6	Servicio Salud Aconcagua	Coldiab Y Cía Ltda.	0
+1	7	Armada De Chile	Comercial Abraham Pichara Y Cia. Ltda.	0
+2	7	Capredena	Comercial Abraham Pichara Y Cia. Ltda.	0
+3	7	Comisión Chilena De Energía Nuclear	Comercial Abraham Pichara Y Cia. Ltda.	0
+4	7	Comprador	Comercial Abraham Pichara Y Cia. Ltda.	0
+5	7	Corporación Nacional Forestal - Conaf	Comercial Abraham Pichara Y Cia. Ltda.	0
+6	7	Ejército De Chile	Comercial Abraham Pichara Y Cia. Ltda.	0
+7	7	Hospital Base Osorno	Comercial Abraham Pichara Y Cia. Ltda.	0
+8	7	Hospital Clínico San Borja Arriarán	Comercial Abraham Pichara Y Cia. Ltda.	0
+9	7	Hospital Curanilahue	Comercial Abraham Pichara Y Cia. Ltda.	0
+10	7	Hospital De Copiapó	Comercial Abraham Pichara Y Cia. Ltda.	0
+11	7	Hospital De Puerto Montt	Comercial Abraham Pichara Y Cia. Ltda.	0
+12	7	Hospital De Talagante	Comercial Abraham Pichara Y Cia. Ltda.	0
+13	7	Hospital Doctor Hernán Henríquez Aravena	Comercial Abraham Pichara Y Cia. Ltda.	0
+14	7	Hospital Dr. Lautaro Navarro Avaria	Comercial Abraham Pichara Y Cia. Ltda.	0
+15	7	Hospital San José	Comercial Abraham Pichara Y Cia. Ltda.	0
+16	7	Hospital San José De Coronel	Comercial Abraham Pichara Y Cia. Ltda.	0
+17	7	Hospital San Juan De Dios De Los Andes	Comercial Abraham Pichara Y Cia. Ltda.	0
+18	7	Hospital San Martín De Quillota	Comercial Abraham Pichara Y Cia. Ltda.	0
+19	7	Hospital Teno	Comercial Abraham Pichara Y Cia. Ltda.	0
+20	7	Hospital Tocopilla	Comercial Abraham Pichara Y Cia. Ltda.	0
+21	7	Hospital Valdivia	Comercial Abraham Pichara Y Cia. Ltda.	0
+22	7	Hospital Victoria	Comercial Abraham Pichara Y Cia. Ltda.	0
+23	7	I.Municipalidad De Concepcion	Comercial Abraham Pichara Y Cia. Ltda.	0
+24	7	I.Municipalidad De La Cruz	Comercial Abraham Pichara Y Cia. Ltda.	0
+25	7	Ilustre Municipalidad De Cerrillos	Comercial Abraham Pichara Y Cia. Ltda.	1849
+26	7	Ilustre Municipalidad De Chillan Viejo	Comercial Abraham Pichara Y Cia. Ltda.	0
+27	7	Ilustre Municipalidad De Linares	Comercial Abraham Pichara Y Cia. Ltda.	0
+28	7	Ilustre Municipalidad De Navidad	Comercial Abraham Pichara Y Cia. Ltda.	0
+29	7	Ilustre Municipalidad De Pelarco	Comercial Abraham Pichara Y Cia. Ltda.	0
+30	7	Instituto Nacional Del Torax	Comercial Abraham Pichara Y Cia. Ltda.	0
+31	7	Servicio De Salud Del Reloncaví	Comercial Abraham Pichara Y Cia. Ltda.	0
+32	7	Servicio De Salud Iquique	Comercial Abraham Pichara Y Cia. Ltda.	0
+33	7	Servicio Salud Aconcagua	Comercial Abraham Pichara Y Cia. Ltda.	0
+1	8	Armada De Chile	Comercial Masol Ltda.	0
+2	8	Capredena	Comercial Masol Ltda.	0
+3	8	Comisión Chilena De Energía Nuclear	Comercial Masol Ltda.	0
+4	8	Comprador	Comercial Masol Ltda.	0
+5	8	Corporación Nacional Forestal - Conaf	Comercial Masol Ltda.	0
+6	8	Ejército De Chile	Comercial Masol Ltda.	5570
+7	8	Hospital Base Osorno	Comercial Masol Ltda.	0
+8	8	Hospital Clínico San Borja Arriarán	Comercial Masol Ltda.	0
+9	8	Hospital Curanilahue	Comercial Masol Ltda.	0
+10	8	Hospital De Copiapó	Comercial Masol Ltda.	0
+11	8	Hospital De Puerto Montt	Comercial Masol Ltda.	0
+12	8	Hospital De Talagante	Comercial Masol Ltda.	0
+13	8	Hospital Doctor Hernán Henríquez Aravena	Comercial Masol Ltda.	0
+14	8	Hospital Dr. Lautaro Navarro Avaria	Comercial Masol Ltda.	0
+15	8	Hospital San José	Comercial Masol Ltda.	0
+16	8	Hospital San José De Coronel	Comercial Masol Ltda.	0
+17	8	Hospital San Juan De Dios De Los Andes	Comercial Masol Ltda.	0
+18	8	Hospital San Martín De Quillota	Comercial Masol Ltda.	0
+19	8	Hospital Teno	Comercial Masol Ltda.	0
+20	8	Hospital Tocopilla	Comercial Masol Ltda.	0
+21	8	Hospital Valdivia	Comercial Masol Ltda.	0
+22	8	Hospital Victoria	Comercial Masol Ltda.	0
+23	8	I.Municipalidad De Concepcion	Comercial Masol Ltda.	0
+24	8	I.Municipalidad De La Cruz	Comercial Masol Ltda.	0
+25	8	Ilustre Municipalidad De Cerrillos	Comercial Masol Ltda.	0
+26	8	Ilustre Municipalidad De Chillan Viejo	Comercial Masol Ltda.	0
+27	8	Ilustre Municipalidad De Linares	Comercial Masol Ltda.	0
+28	8	Ilustre Municipalidad De Navidad	Comercial Masol Ltda.	0
+29	8	Ilustre Municipalidad De Pelarco	Comercial Masol Ltda.	0
+30	8	Instituto Nacional Del Torax	Comercial Masol Ltda.	0
+31	8	Servicio De Salud Del Reloncaví	Comercial Masol Ltda.	0
+32	8	Servicio De Salud Iquique	Comercial Masol Ltda.	0
+33	8	Servicio Salud Aconcagua	Comercial Masol Ltda.	0
+1	9	Armada De Chile	Diprolab Ltda.	0
+2	9	Capredena	Diprolab Ltda.	0
+3	9	Comisión Chilena De Energía Nuclear	Diprolab Ltda.	0
+4	9	Comprador	Diprolab Ltda.	0
+5	9	Corporación Nacional Forestal - Conaf	Diprolab Ltda.	0
+6	9	Ejército De Chile	Diprolab Ltda.	0
+7	9	Hospital Base Osorno	Diprolab Ltda.	0
+8	9	Hospital Clínico San Borja Arriarán	Diprolab Ltda.	0
+9	9	Hospital Curanilahue	Diprolab Ltda.	0
+10	9	Hospital De Copiapó	Diprolab Ltda.	0
+11	9	Hospital De Puerto Montt	Diprolab Ltda.	0
+12	9	Hospital De Talagante	Diprolab Ltda.	0
+13	9	Hospital Doctor Hernán Henríquez Aravena	Diprolab Ltda.	0
+14	9	Hospital Dr. Lautaro Navarro Avaria	Diprolab Ltda.	0
+15	9	Hospital San José	Diprolab Ltda.	0
+16	9	Hospital San José De Coronel	Diprolab Ltda.	0
+17	9	Hospital San Juan De Dios De Los Andes	Diprolab Ltda.	0
+18	9	Hospital San Martín De Quillota	Diprolab Ltda.	0
+19	9	Hospital Teno	Diprolab Ltda.	0
+20	9	Hospital Tocopilla	Diprolab Ltda.	0
+21	9	Hospital Valdivia	Diprolab Ltda.	0
+22	9	Hospital Victoria	Diprolab Ltda.	0
+23	9	I.Municipalidad De Concepcion	Diprolab Ltda.	0
+24	9	I.Municipalidad De La Cruz	Diprolab Ltda.	0
+25	9	Ilustre Municipalidad De Cerrillos	Diprolab Ltda.	0
+26	9	Ilustre Municipalidad De Chillan Viejo	Diprolab Ltda.	0
+27	9	Ilustre Municipalidad De Linares	Diprolab Ltda.	0
+28	9	Ilustre Municipalidad De Navidad	Diprolab Ltda.	0
+29	9	Ilustre Municipalidad De Pelarco	Diprolab Ltda.	0
+30	9	Instituto Nacional Del Torax	Diprolab Ltda.	0
+31	9	Servicio De Salud Del Reloncaví	Diprolab Ltda.	1500
+32	9	Servicio De Salud Iquique	Diprolab Ltda.	0
+33	9	Servicio Salud Aconcagua	Diprolab Ltda.	0
+1	10	Armada De Chile	Drogueria Global Pharma Spa	0
+2	10	Capredena	Drogueria Global Pharma Spa	0
+3	10	Comisión Chilena De Energía Nuclear	Drogueria Global Pharma Spa	0
+4	10	Comprador	Drogueria Global Pharma Spa	0
+5	10	Corporación Nacional Forestal - Conaf	Drogueria Global Pharma Spa	0
+6	10	Ejército De Chile	Drogueria Global Pharma Spa	0
+7	10	Hospital Base Osorno	Drogueria Global Pharma Spa	0
+8	10	Hospital Clínico San Borja Arriarán	Drogueria Global Pharma Spa	0
+9	10	Hospital Curanilahue	Drogueria Global Pharma Spa	0
+10	10	Hospital De Copiapó	Drogueria Global Pharma Spa	0
+11	10	Hospital De Puerto Montt	Drogueria Global Pharma Spa	0
+12	10	Hospital De Talagante	Drogueria Global Pharma Spa	0
+13	10	Hospital Doctor Hernán Henríquez Aravena	Drogueria Global Pharma Spa	0
+14	10	Hospital Dr. Lautaro Navarro Avaria	Drogueria Global Pharma Spa	0
+15	10	Hospital San José	Drogueria Global Pharma Spa	0
+16	10	Hospital San José De Coronel	Drogueria Global Pharma Spa	0
+17	10	Hospital San Juan De Dios De Los Andes	Drogueria Global Pharma Spa	0
+18	10	Hospital San Martín De Quillota	Drogueria Global Pharma Spa	0
+19	10	Hospital Teno	Drogueria Global Pharma Spa	10
+20	10	Hospital Tocopilla	Drogueria Global Pharma Spa	0
+21	10	Hospital Valdivia	Drogueria Global Pharma Spa	0
+22	10	Hospital Victoria	Drogueria Global Pharma Spa	0
+23	10	I.Municipalidad De Concepcion	Drogueria Global Pharma Spa	0
+24	10	I.Municipalidad De La Cruz	Drogueria Global Pharma Spa	0
+25	10	Ilustre Municipalidad De Cerrillos	Drogueria Global Pharma Spa	0
+26	10	Ilustre Municipalidad De Chillan Viejo	Drogueria Global Pharma Spa	18
+27	10	Ilustre Municipalidad De Linares	Drogueria Global Pharma Spa	0
+28	10	Ilustre Municipalidad De Navidad	Drogueria Global Pharma Spa	0
+29	10	Ilustre Municipalidad De Pelarco	Drogueria Global Pharma Spa	0
+30	10	Instituto Nacional Del Torax	Drogueria Global Pharma Spa	0
+31	10	Servicio De Salud Del Reloncaví	Drogueria Global Pharma Spa	0
+32	10	Servicio De Salud Iquique	Drogueria Global Pharma Spa	0
+33	10	Servicio Salud Aconcagua	Drogueria Global Pharma Spa	0
+1	11	Armada De Chile	Drogueria Hofmann	0
+2	11	Capredena	Drogueria Hofmann	0
+3	11	Comisión Chilena De Energía Nuclear	Drogueria Hofmann	0
+4	11	Comprador	Drogueria Hofmann	0
+5	11	Corporación Nacional Forestal - Conaf	Drogueria Hofmann	0
+6	11	Ejército De Chile	Drogueria Hofmann	0
+7	11	Hospital Base Osorno	Drogueria Hofmann	0
+8	11	Hospital Clínico San Borja Arriarán	Drogueria Hofmann	0
+9	11	Hospital Curanilahue	Drogueria Hofmann	0
+10	11	Hospital De Copiapó	Drogueria Hofmann	0
+11	11	Hospital De Puerto Montt	Drogueria Hofmann	0
+12	11	Hospital De Talagante	Drogueria Hofmann	0
+13	11	Hospital Doctor Hernán Henríquez Aravena	Drogueria Hofmann	0
+14	11	Hospital Dr. Lautaro Navarro Avaria	Drogueria Hofmann	0
+15	11	Hospital San José	Drogueria Hofmann	0
+16	11	Hospital San José De Coronel	Drogueria Hofmann	0
+17	11	Hospital San Juan De Dios De Los Andes	Drogueria Hofmann	0
+18	11	Hospital San Martín De Quillota	Drogueria Hofmann	0
+19	11	Hospital Teno	Drogueria Hofmann	0
+20	11	Hospital Tocopilla	Drogueria Hofmann	0
+21	11	Hospital Valdivia	Drogueria Hofmann	0
+22	11	Hospital Victoria	Drogueria Hofmann	0
+23	11	I.Municipalidad De Concepcion	Drogueria Hofmann	0
+24	11	I.Municipalidad De La Cruz	Drogueria Hofmann	0
+25	11	Ilustre Municipalidad De Cerrillos	Drogueria Hofmann	0
+26	11	Ilustre Municipalidad De Chillan Viejo	Drogueria Hofmann	0
+27	11	Ilustre Municipalidad De Linares	Drogueria Hofmann	2400
+28	11	Ilustre Municipalidad De Navidad	Drogueria Hofmann	0
+29	11	Ilustre Municipalidad De Pelarco	Drogueria Hofmann	0
+30	11	Instituto Nacional Del Torax	Drogueria Hofmann	0
+31	11	Servicio De Salud Del Reloncaví	Drogueria Hofmann	5500
+32	11	Servicio De Salud Iquique	Drogueria Hofmann	0
+33	11	Servicio Salud Aconcagua	Drogueria Hofmann	0
+1	12	Armada De Chile	Expro Dental (Sur)	0
+2	12	Capredena	Expro Dental (Sur)	0
+3	12	Comisión Chilena De Energía Nuclear	Expro Dental (Sur)	0
+4	12	Comprador	Expro Dental (Sur)	0
+5	12	Corporación Nacional Forestal - Conaf	Expro Dental (Sur)	0
+6	12	Ejército De Chile	Expro Dental (Sur)	0
+7	12	Hospital Base Osorno	Expro Dental (Sur)	0
+8	12	Hospital Clínico San Borja Arriarán	Expro Dental (Sur)	0
+9	12	Hospital Curanilahue	Expro Dental (Sur)	0
+10	12	Hospital De Copiapó	Expro Dental (Sur)	0
+11	12	Hospital De Puerto Montt	Expro Dental (Sur)	0
+12	12	Hospital De Talagante	Expro Dental (Sur)	0
+13	12	Hospital Doctor Hernán Henríquez Aravena	Expro Dental (Sur)	0
+14	12	Hospital Dr. Lautaro Navarro Avaria	Expro Dental (Sur)	0
+15	12	Hospital San José	Expro Dental (Sur)	0
+16	12	Hospital San José De Coronel	Expro Dental (Sur)	0
+17	12	Hospital San Juan De Dios De Los Andes	Expro Dental (Sur)	0
+18	12	Hospital San Martín De Quillota	Expro Dental (Sur)	0
+19	12	Hospital Teno	Expro Dental (Sur)	0
+20	12	Hospital Tocopilla	Expro Dental (Sur)	0
+21	12	Hospital Valdivia	Expro Dental (Sur)	0
+22	12	Hospital Victoria	Expro Dental (Sur)	0
+23	12	I.Municipalidad De Concepcion	Expro Dental (Sur)	32
+24	12	I.Municipalidad De La Cruz	Expro Dental (Sur)	0
+25	12	Ilustre Municipalidad De Cerrillos	Expro Dental (Sur)	0
+26	12	Ilustre Municipalidad De Chillan Viejo	Expro Dental (Sur)	0
+27	12	Ilustre Municipalidad De Linares	Expro Dental (Sur)	0
+28	12	Ilustre Municipalidad De Navidad	Expro Dental (Sur)	0
+29	12	Ilustre Municipalidad De Pelarco	Expro Dental (Sur)	0
+30	12	Instituto Nacional Del Torax	Expro Dental (Sur)	0
+31	12	Servicio De Salud Del Reloncaví	Expro Dental (Sur)	0
+32	12	Servicio De Salud Iquique	Expro Dental (Sur)	0
+33	12	Servicio Salud Aconcagua	Expro Dental (Sur)	0
+1	13	Armada De Chile	Instituto Sanitas S.A.	1600
+2	13	Capredena	Instituto Sanitas S.A.	0
+3	13	Comisión Chilena De Energía Nuclear	Instituto Sanitas S.A.	0
+4	13	Comprador	Instituto Sanitas S.A.	0
+5	13	Corporación Nacional Forestal - Conaf	Instituto Sanitas S.A.	0
+6	13	Ejército De Chile	Instituto Sanitas S.A.	0
+7	13	Hospital Base Osorno	Instituto Sanitas S.A.	0
+8	13	Hospital Clínico San Borja Arriarán	Instituto Sanitas S.A.	0
+9	13	Hospital Curanilahue	Instituto Sanitas S.A.	0
+10	13	Hospital De Copiapó	Instituto Sanitas S.A.	0
+11	13	Hospital De Puerto Montt	Instituto Sanitas S.A.	0
+12	13	Hospital De Talagante	Instituto Sanitas S.A.	0
+13	13	Hospital Doctor Hernán Henríquez Aravena	Instituto Sanitas S.A.	0
+14	13	Hospital Dr. Lautaro Navarro Avaria	Instituto Sanitas S.A.	0
+15	13	Hospital San José	Instituto Sanitas S.A.	0
+16	13	Hospital San José De Coronel	Instituto Sanitas S.A.	0
+17	13	Hospital San Juan De Dios De Los Andes	Instituto Sanitas S.A.	0
+18	13	Hospital San Martín De Quillota	Instituto Sanitas S.A.	0
+19	13	Hospital Teno	Instituto Sanitas S.A.	0
+20	13	Hospital Tocopilla	Instituto Sanitas S.A.	0
+21	13	Hospital Valdivia	Instituto Sanitas S.A.	0
+22	13	Hospital Victoria	Instituto Sanitas S.A.	0
+23	13	I.Municipalidad De Concepcion	Instituto Sanitas S.A.	0
+24	13	I.Municipalidad De La Cruz	Instituto Sanitas S.A.	0
+25	13	Ilustre Municipalidad De Cerrillos	Instituto Sanitas S.A.	0
+26	13	Ilustre Municipalidad De Chillan Viejo	Instituto Sanitas S.A.	0
+27	13	Ilustre Municipalidad De Linares	Instituto Sanitas S.A.	0
+28	13	Ilustre Municipalidad De Navidad	Instituto Sanitas S.A.	0
+29	13	Ilustre Municipalidad De Pelarco	Instituto Sanitas S.A.	0
+30	13	Instituto Nacional Del Torax	Instituto Sanitas S.A.	0
+31	13	Servicio De Salud Del Reloncaví	Instituto Sanitas S.A.	0
+32	13	Servicio De Salud Iquique	Instituto Sanitas S.A.	0
+33	13	Servicio Salud Aconcagua	Instituto Sanitas S.A.	0
+1	14	Armada De Chile	Ivan Saiter Muñoz	0
+2	14	Capredena	Ivan Saiter Muñoz	0
+3	14	Comisión Chilena De Energía Nuclear	Ivan Saiter Muñoz	0
+4	14	Comprador	Ivan Saiter Muñoz	0
+5	14	Corporación Nacional Forestal - Conaf	Ivan Saiter Muñoz	0
+6	14	Ejército De Chile	Ivan Saiter Muñoz	0
+7	14	Hospital Base Osorno	Ivan Saiter Muñoz	0
+8	14	Hospital Clínico San Borja Arriarán	Ivan Saiter Muñoz	0
+9	14	Hospital Curanilahue	Ivan Saiter Muñoz	0
+10	14	Hospital De Copiapó	Ivan Saiter Muñoz	0
+11	14	Hospital De Puerto Montt	Ivan Saiter Muñoz	0
+12	14	Hospital De Talagante	Ivan Saiter Muñoz	0
+13	14	Hospital Doctor Hernán Henríquez Aravena	Ivan Saiter Muñoz	0
+14	14	Hospital Dr. Lautaro Navarro Avaria	Ivan Saiter Muñoz	41400
+15	14	Hospital San José	Ivan Saiter Muñoz	0
+16	14	Hospital San José De Coronel	Ivan Saiter Muñoz	0
+17	14	Hospital San Juan De Dios De Los Andes	Ivan Saiter Muñoz	0
+18	14	Hospital San Martín De Quillota	Ivan Saiter Muñoz	0
+19	14	Hospital Teno	Ivan Saiter Muñoz	0
+20	14	Hospital Tocopilla	Ivan Saiter Muñoz	0
+21	14	Hospital Valdivia	Ivan Saiter Muñoz	0
+22	14	Hospital Victoria	Ivan Saiter Muñoz	0
+23	14	I.Municipalidad De Concepcion	Ivan Saiter Muñoz	0
+24	14	I.Municipalidad De La Cruz	Ivan Saiter Muñoz	0
+25	14	Ilustre Municipalidad De Cerrillos	Ivan Saiter Muñoz	0
+26	14	Ilustre Municipalidad De Chillan Viejo	Ivan Saiter Muñoz	0
+27	14	Ilustre Municipalidad De Linares	Ivan Saiter Muñoz	0
+28	14	Ilustre Municipalidad De Navidad	Ivan Saiter Muñoz	0
+29	14	Ilustre Municipalidad De Pelarco	Ivan Saiter Muñoz	0
+30	14	Instituto Nacional Del Torax	Ivan Saiter Muñoz	0
+31	14	Servicio De Salud Del Reloncaví	Ivan Saiter Muñoz	0
+32	14	Servicio De Salud Iquique	Ivan Saiter Muñoz	0
+33	14	Servicio Salud Aconcagua	Ivan Saiter Muñoz	0
+1	15	Armada De Chile	Laboratorio Sanderson S.A.	0
+2	15	Capredena	Laboratorio Sanderson S.A.	0
+3	15	Comisión Chilena De Energía Nuclear	Laboratorio Sanderson S.A.	0
+4	15	Comprador	Laboratorio Sanderson S.A.	0
+5	15	Corporación Nacional Forestal - Conaf	Laboratorio Sanderson S.A.	0
+6	15	Ejército De Chile	Laboratorio Sanderson S.A.	0
+7	15	Hospital Base Osorno	Laboratorio Sanderson S.A.	5339
+8	15	Hospital Clínico San Borja Arriarán	Laboratorio Sanderson S.A.	15054
+9	15	Hospital Curanilahue	Laboratorio Sanderson S.A.	4693
+10	15	Hospital De Copiapó	Laboratorio Sanderson S.A.	6863
+11	15	Hospital De Puerto Montt	Laboratorio Sanderson S.A.	7268
+12	15	Hospital De Talagante	Laboratorio Sanderson S.A.	5887
+13	15	Hospital Doctor Hernán Henríquez Aravena	Laboratorio Sanderson S.A.	10293
+14	15	Hospital Dr. Lautaro Navarro Avaria	Laboratorio Sanderson S.A.	4130
+15	15	Hospital San José	Laboratorio Sanderson S.A.	6100
+16	15	Hospital San José De Coronel	Laboratorio Sanderson S.A.	0
+17	15	Hospital San Juan De Dios De Los Andes	Laboratorio Sanderson S.A.	4424
+18	15	Hospital San Martín De Quillota	Laboratorio Sanderson S.A.	0
+19	15	Hospital Teno	Laboratorio Sanderson S.A.	0
+20	15	Hospital Tocopilla	Laboratorio Sanderson S.A.	0
+21	15	Hospital Valdivia	Laboratorio Sanderson S.A.	4081
+22	15	Hospital Victoria	Laboratorio Sanderson S.A.	0
+23	15	I.Municipalidad De Concepcion	Laboratorio Sanderson S.A.	0
+24	15	I.Municipalidad De La Cruz	Laboratorio Sanderson S.A.	0
+25	15	Ilustre Municipalidad De Cerrillos	Laboratorio Sanderson S.A.	0
+26	15	Ilustre Municipalidad De Chillan Viejo	Laboratorio Sanderson S.A.	0
+27	15	Ilustre Municipalidad De Linares	Laboratorio Sanderson S.A.	0
+28	15	Ilustre Municipalidad De Navidad	Laboratorio Sanderson S.A.	0
+29	15	Ilustre Municipalidad De Pelarco	Laboratorio Sanderson S.A.	0
+30	15	Instituto Nacional Del Torax	Laboratorio Sanderson S.A.	7800
+31	15	Servicio De Salud Del Reloncaví	Laboratorio Sanderson S.A.	0
+32	15	Servicio De Salud Iquique	Laboratorio Sanderson S.A.	13374
+33	15	Servicio Salud Aconcagua	Laboratorio Sanderson S.A.	4677
+1	16	Armada De Chile	Laboratorios Saval S.A	3500
+2	16	Capredena	Laboratorios Saval S.A	0
+3	16	Comisión Chilena De Energía Nuclear	Laboratorios Saval S.A	0
+4	16	Comprador	Laboratorios Saval S.A	0
+5	16	Corporación Nacional Forestal - Conaf	Laboratorios Saval S.A	0
+6	16	Ejército De Chile	Laboratorios Saval S.A	0
+7	16	Hospital Base Osorno	Laboratorios Saval S.A	0
+8	16	Hospital Clínico San Borja Arriarán	Laboratorios Saval S.A	0
+9	16	Hospital Curanilahue	Laboratorios Saval S.A	0
+10	16	Hospital De Copiapó	Laboratorios Saval S.A	0
+11	16	Hospital De Puerto Montt	Laboratorios Saval S.A	0
+12	16	Hospital De Talagante	Laboratorios Saval S.A	0
+13	16	Hospital Doctor Hernán Henríquez Aravena	Laboratorios Saval S.A	0
+14	16	Hospital Dr. Lautaro Navarro Avaria	Laboratorios Saval S.A	0
+15	16	Hospital San José	Laboratorios Saval S.A	0
+16	16	Hospital San José De Coronel	Laboratorios Saval S.A	0
+17	16	Hospital San Juan De Dios De Los Andes	Laboratorios Saval S.A	0
+18	16	Hospital San Martín De Quillota	Laboratorios Saval S.A	0
+19	16	Hospital Teno	Laboratorios Saval S.A	0
+20	16	Hospital Tocopilla	Laboratorios Saval S.A	0
+21	16	Hospital Valdivia	Laboratorios Saval S.A	0
+22	16	Hospital Victoria	Laboratorios Saval S.A	0
+23	16	I.Municipalidad De Concepcion	Laboratorios Saval S.A	0
+24	16	I.Municipalidad De La Cruz	Laboratorios Saval S.A	0
+25	16	Ilustre Municipalidad De Cerrillos	Laboratorios Saval S.A	0
+26	16	Ilustre Municipalidad De Chillan Viejo	Laboratorios Saval S.A	0
+27	16	Ilustre Municipalidad De Linares	Laboratorios Saval S.A	0
+28	16	Ilustre Municipalidad De Navidad	Laboratorios Saval S.A	0
+29	16	Ilustre Municipalidad De Pelarco	Laboratorios Saval S.A	0
+30	16	Instituto Nacional Del Torax	Laboratorios Saval S.A	0
+31	16	Servicio De Salud Del Reloncaví	Laboratorios Saval S.A	0
+32	16	Servicio De Salud Iquique	Laboratorios Saval S.A	0
+33	16	Servicio Salud Aconcagua	Laboratorios Saval S.A	0
+1	17	Armada De Chile	Margarita Andrade Cuadra	0
+2	17	Capredena	Margarita Andrade Cuadra	0
+3	17	Comisión Chilena De Energía Nuclear	Margarita Andrade Cuadra	0
+4	17	Comprador	Margarita Andrade Cuadra	0
+5	17	Corporación Nacional Forestal - Conaf	Margarita Andrade Cuadra	0
+6	17	Ejército De Chile	Margarita Andrade Cuadra	0
+7	17	Hospital Base Osorno	Margarita Andrade Cuadra	1690
+8	17	Hospital Clínico San Borja Arriarán	Margarita Andrade Cuadra	0
+9	17	Hospital Curanilahue	Margarita Andrade Cuadra	0
+10	17	Hospital De Copiapó	Margarita Andrade Cuadra	0
+11	17	Hospital De Puerto Montt	Margarita Andrade Cuadra	0
+12	17	Hospital De Talagante	Margarita Andrade Cuadra	0
+13	17	Hospital Doctor Hernán Henríquez Aravena	Margarita Andrade Cuadra	0
+14	17	Hospital Dr. Lautaro Navarro Avaria	Margarita Andrade Cuadra	0
+15	17	Hospital San José	Margarita Andrade Cuadra	0
+16	17	Hospital San José De Coronel	Margarita Andrade Cuadra	0
+17	17	Hospital San Juan De Dios De Los Andes	Margarita Andrade Cuadra	0
+18	17	Hospital San Martín De Quillota	Margarita Andrade Cuadra	0
+19	17	Hospital Teno	Margarita Andrade Cuadra	0
+20	17	Hospital Tocopilla	Margarita Andrade Cuadra	0
+21	17	Hospital Valdivia	Margarita Andrade Cuadra	0
+22	17	Hospital Victoria	Margarita Andrade Cuadra	0
+23	17	I.Municipalidad De Concepcion	Margarita Andrade Cuadra	0
+24	17	I.Municipalidad De La Cruz	Margarita Andrade Cuadra	0
+25	17	Ilustre Municipalidad De Cerrillos	Margarita Andrade Cuadra	0
+26	17	Ilustre Municipalidad De Chillan Viejo	Margarita Andrade Cuadra	0
+27	17	Ilustre Municipalidad De Linares	Margarita Andrade Cuadra	0
+28	17	Ilustre Municipalidad De Navidad	Margarita Andrade Cuadra	0
+29	17	Ilustre Municipalidad De Pelarco	Margarita Andrade Cuadra	0
+30	17	Instituto Nacional Del Torax	Margarita Andrade Cuadra	0
+31	17	Servicio De Salud Del Reloncaví	Margarita Andrade Cuadra	0
+32	17	Servicio De Salud Iquique	Margarita Andrade Cuadra	0
+33	17	Servicio Salud Aconcagua	Margarita Andrade Cuadra	0
+1	18	Armada De Chile	Mayordent	0
+2	18	Capredena	Mayordent	29899
+3	18	Comisión Chilena De Energía Nuclear	Mayordent	0
+4	18	Comprador	Mayordent	0
+5	18	Corporación Nacional Forestal - Conaf	Mayordent	0
+6	18	Ejército De Chile	Mayordent	0
+7	18	Hospital Base Osorno	Mayordent	0
+8	18	Hospital Clínico San Borja Arriarán	Mayordent	0
+9	18	Hospital Curanilahue	Mayordent	0
+10	18	Hospital De Copiapó	Mayordent	0
+11	18	Hospital De Puerto Montt	Mayordent	0
+12	18	Hospital De Talagante	Mayordent	0
+13	18	Hospital Doctor Hernán Henríquez Aravena	Mayordent	0
+14	18	Hospital Dr. Lautaro Navarro Avaria	Mayordent	0
+15	18	Hospital San José	Mayordent	0
+16	18	Hospital San José De Coronel	Mayordent	0
+17	18	Hospital San Juan De Dios De Los Andes	Mayordent	0
+18	18	Hospital San Martín De Quillota	Mayordent	0
+19	18	Hospital Teno	Mayordent	0
+20	18	Hospital Tocopilla	Mayordent	0
+21	18	Hospital Valdivia	Mayordent	0
+22	18	Hospital Victoria	Mayordent	0
+23	18	I.Municipalidad De Concepcion	Mayordent	0
+24	18	I.Municipalidad De La Cruz	Mayordent	0
+25	18	Ilustre Municipalidad De Cerrillos	Mayordent	0
+26	18	Ilustre Municipalidad De Chillan Viejo	Mayordent	0
+27	18	Ilustre Municipalidad De Linares	Mayordent	0
+28	18	Ilustre Municipalidad De Navidad	Mayordent	0
+29	18	Ilustre Municipalidad De Pelarco	Mayordent	0
+30	18	Instituto Nacional Del Torax	Mayordent	0
+31	18	Servicio De Salud Del Reloncaví	Mayordent	0
+32	18	Servicio De Salud Iquique	Mayordent	0
+33	18	Servicio Salud Aconcagua	Mayordent	0
+1	19	Armada De Chile	Reutter S.A	0
+2	19	Capredena	Reutter S.A	0
+3	19	Comisión Chilena De Energía Nuclear	Reutter S.A	0
+4	19	Comprador	Reutter S.A	0
+5	19	Corporación Nacional Forestal - Conaf	Reutter S.A	0
+6	19	Ejército De Chile	Reutter S.A	0
+7	19	Hospital Base Osorno	Reutter S.A	0
+8	19	Hospital Clínico San Borja Arriarán	Reutter S.A	0
+9	19	Hospital Curanilahue	Reutter S.A	0
+10	19	Hospital De Copiapó	Reutter S.A	0
+11	19	Hospital De Puerto Montt	Reutter S.A	0
+12	19	Hospital De Talagante	Reutter S.A	0
+13	19	Hospital Doctor Hernán Henríquez Aravena	Reutter S.A	0
+14	19	Hospital Dr. Lautaro Navarro Avaria	Reutter S.A	0
+15	19	Hospital San José	Reutter S.A	0
+16	19	Hospital San José De Coronel	Reutter S.A	0
+17	19	Hospital San Juan De Dios De Los Andes	Reutter S.A	0
+18	19	Hospital San Martín De Quillota	Reutter S.A	2640
+19	19	Hospital Teno	Reutter S.A	0
+20	19	Hospital Tocopilla	Reutter S.A	0
+21	19	Hospital Valdivia	Reutter S.A	0
+22	19	Hospital Victoria	Reutter S.A	0
+23	19	I.Municipalidad De Concepcion	Reutter S.A	0
+24	19	I.Municipalidad De La Cruz	Reutter S.A	0
+25	19	Ilustre Municipalidad De Cerrillos	Reutter S.A	0
+26	19	Ilustre Municipalidad De Chillan Viejo	Reutter S.A	0
+27	19	Ilustre Municipalidad De Linares	Reutter S.A	0
+28	19	Ilustre Municipalidad De Navidad	Reutter S.A	0
+29	19	Ilustre Municipalidad De Pelarco	Reutter S.A	0
+30	19	Instituto Nacional Del Torax	Reutter S.A	0
+31	19	Servicio De Salud Del Reloncaví	Reutter S.A	0
+32	19	Servicio De Salud Iquique	Reutter S.A	0
+33	19	Servicio Salud Aconcagua	Reutter S.A	0
+1	20	Armada De Chile	Servicentro Chilin	0
+2	20	Capredena	Servicentro Chilin	0
+3	20	Comisión Chilena De Energía Nuclear	Servicentro Chilin	0
+4	20	Comprador	Servicentro Chilin	14957.983
+5	20	Corporación Nacional Forestal - Conaf	Servicentro Chilin	0
+6	20	Ejército De Chile	Servicentro Chilin	0
+7	20	Hospital Base Osorno	Servicentro Chilin	0
+8	20	Hospital Clínico San Borja Arriarán	Servicentro Chilin	0
+9	20	Hospital Curanilahue	Servicentro Chilin	0
+10	20	Hospital De Copiapó	Servicentro Chilin	0
+11	20	Hospital De Puerto Montt	Servicentro Chilin	0
+12	20	Hospital De Talagante	Servicentro Chilin	0
+13	20	Hospital Doctor Hernán Henríquez Aravena	Servicentro Chilin	0
+14	20	Hospital Dr. Lautaro Navarro Avaria	Servicentro Chilin	0
+15	20	Hospital San José	Servicentro Chilin	0
+16	20	Hospital San José De Coronel	Servicentro Chilin	0
+17	20	Hospital San Juan De Dios De Los Andes	Servicentro Chilin	0
+18	20	Hospital San Martín De Quillota	Servicentro Chilin	0
+19	20	Hospital Teno	Servicentro Chilin	0
+20	20	Hospital Tocopilla	Servicentro Chilin	0
+21	20	Hospital Valdivia	Servicentro Chilin	0
+22	20	Hospital Victoria	Servicentro Chilin	0
+23	20	I.Municipalidad De Concepcion	Servicentro Chilin	0
+24	20	I.Municipalidad De La Cruz	Servicentro Chilin	0
+25	20	Ilustre Municipalidad De Cerrillos	Servicentro Chilin	0
+26	20	Ilustre Municipalidad De Chillan Viejo	Servicentro Chilin	0
+27	20	Ilustre Municipalidad De Linares	Servicentro Chilin	0
+28	20	Ilustre Municipalidad De Navidad	Servicentro Chilin	0
+29	20	Ilustre Municipalidad De Pelarco	Servicentro Chilin	0
+30	20	Instituto Nacional Del Torax	Servicentro Chilin	0
+31	20	Servicio De Salud Del Reloncaví	Servicentro Chilin	0
+32	20	Servicio De Salud Iquique	Servicentro Chilin	0
+33	20	Servicio Salud Aconcagua	Servicentro Chilin	0
+1	21	Armada De Chile	Soc Grimaldi Rojas Y Compania Limitada	0
+2	21	Capredena	Soc Grimaldi Rojas Y Compania Limitada	0
+3	21	Comisión Chilena De Energía Nuclear	Soc Grimaldi Rojas Y Compania Limitada	0
+4	21	Comprador	Soc Grimaldi Rojas Y Compania Limitada	0
+5	21	Corporación Nacional Forestal - Conaf	Soc Grimaldi Rojas Y Compania Limitada	0
+6	21	Ejército De Chile	Soc Grimaldi Rojas Y Compania Limitada	2150
+7	21	Hospital Base Osorno	Soc Grimaldi Rojas Y Compania Limitada	0
+8	21	Hospital Clínico San Borja Arriarán	Soc Grimaldi Rojas Y Compania Limitada	0
+9	21	Hospital Curanilahue	Soc Grimaldi Rojas Y Compania Limitada	0
+10	21	Hospital De Copiapó	Soc Grimaldi Rojas Y Compania Limitada	0
+11	21	Hospital De Puerto Montt	Soc Grimaldi Rojas Y Compania Limitada	0
+12	21	Hospital De Talagante	Soc Grimaldi Rojas Y Compania Limitada	0
+13	21	Hospital Doctor Hernán Henríquez Aravena	Soc Grimaldi Rojas Y Compania Limitada	0
+14	21	Hospital Dr. Lautaro Navarro Avaria	Soc Grimaldi Rojas Y Compania Limitada	0
+15	21	Hospital San José	Soc Grimaldi Rojas Y Compania Limitada	0
+16	21	Hospital San José De Coronel	Soc Grimaldi Rojas Y Compania Limitada	0
+17	21	Hospital San Juan De Dios De Los Andes	Soc Grimaldi Rojas Y Compania Limitada	0
+18	21	Hospital San Martín De Quillota	Soc Grimaldi Rojas Y Compania Limitada	0
+19	21	Hospital Teno	Soc Grimaldi Rojas Y Compania Limitada	0
+20	21	Hospital Tocopilla	Soc Grimaldi Rojas Y Compania Limitada	0
+21	21	Hospital Valdivia	Soc Grimaldi Rojas Y Compania Limitada	0
+22	21	Hospital Victoria	Soc Grimaldi Rojas Y Compania Limitada	0
+23	21	I.Municipalidad De Concepcion	Soc Grimaldi Rojas Y Compania Limitada	0
+24	21	I.Municipalidad De La Cruz	Soc Grimaldi Rojas Y Compania Limitada	0
+25	21	Ilustre Municipalidad De Cerrillos	Soc Grimaldi Rojas Y Compania Limitada	0
+26	21	Ilustre Municipalidad De Chillan Viejo	Soc Grimaldi Rojas Y Compania Limitada	0
+27	21	Ilustre Municipalidad De Linares	Soc Grimaldi Rojas Y Compania Limitada	0
+28	21	Ilustre Municipalidad De Navidad	Soc Grimaldi Rojas Y Compania Limitada	0
+29	21	Ilustre Municipalidad De Pelarco	Soc Grimaldi Rojas Y Compania Limitada	0
+30	21	Instituto Nacional Del Torax	Soc Grimaldi Rojas Y Compania Limitada	0
+31	21	Servicio De Salud Del Reloncaví	Soc Grimaldi Rojas Y Compania Limitada	0
+32	21	Servicio De Salud Iquique	Soc Grimaldi Rojas Y Compania Limitada	0
+33	21	Servicio Salud Aconcagua	Soc Grimaldi Rojas Y Compania Limitada	0
+1	22	Armada De Chile	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+2	22	Capredena	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+3	22	Comisión Chilena De Energía Nuclear	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+4	22	Comprador	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+5	22	Corporación Nacional Forestal - Conaf	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+6	22	Ejército De Chile	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+7	22	Hospital Base Osorno	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+8	22	Hospital Clínico San Borja Arriarán	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+9	22	Hospital Curanilahue	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+10	22	Hospital De Copiapó	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+11	22	Hospital De Puerto Montt	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+12	22	Hospital De Talagante	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+13	22	Hospital Doctor Hernán Henríquez Aravena	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+14	22	Hospital Dr. Lautaro Navarro Avaria	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+15	22	Hospital San José	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+16	22	Hospital San José De Coronel	Soluciones Integrales De Limpieza Ltda. (Bienek)	1300
+17	22	Hospital San Juan De Dios De Los Andes	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+18	22	Hospital San Martín De Quillota	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+19	22	Hospital Teno	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+20	22	Hospital Tocopilla	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+21	22	Hospital Valdivia	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+22	22	Hospital Victoria	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+23	22	I.Municipalidad De Concepcion	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+24	22	I.Municipalidad De La Cruz	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+25	22	Ilustre Municipalidad De Cerrillos	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+26	22	Ilustre Municipalidad De Chillan Viejo	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+27	22	Ilustre Municipalidad De Linares	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+28	22	Ilustre Municipalidad De Navidad	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+29	22	Ilustre Municipalidad De Pelarco	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+30	22	Instituto Nacional Del Torax	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+31	22	Servicio De Salud Del Reloncaví	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+32	22	Servicio De Salud Iquique	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+33	22	Servicio Salud Aconcagua	Soluciones Integrales De Limpieza Ltda. (Bienek)	0
+1	23	Armada De Chile	Winpharma Spa	0
+2	23	Capredena	Winpharma Spa	0
+3	23	Comisión Chilena De Energía Nuclear	Winpharma Spa	0
+4	23	Comprador	Winpharma Spa	0
+5	23	Corporación Nacional Forestal - Conaf	Winpharma Spa	0
+6	23	Ejército De Chile	Winpharma Spa	0
+7	23	Hospital Base Osorno	Winpharma Spa	0
+8	23	Hospital Clínico San Borja Arriarán	Winpharma Spa	0
+9	23	Hospital Curanilahue	Winpharma Spa	0
+10	23	Hospital De Copiapó	Winpharma Spa	0
+11	23	Hospital De Puerto Montt	Winpharma Spa	0
+12	23	Hospital De Talagante	Winpharma Spa	0
+13	23	Hospital Doctor Hernán Henríquez Aravena	Winpharma Spa	0
+14	23	Hospital Dr. Lautaro Navarro Avaria	Winpharma Spa	0
+15	23	Hospital San José	Winpharma Spa	0
+16	23	Hospital San José De Coronel	Winpharma Spa	0
+17	23	Hospital San Juan De Dios De Los Andes	Winpharma Spa	0
+18	23	Hospital San Martín De Quillota	Winpharma Spa	0
+19	23	Hospital Teno	Winpharma Spa	0
+20	23	Hospital Tocopilla	Winpharma Spa	0
+21	23	Hospital Valdivia	Winpharma Spa	0
+22	23	Hospital Victoria	Winpharma Spa	14000
+23	23	I.Municipalidad De Concepcion	Winpharma Spa	0
+24	23	I.Municipalidad De La Cruz	Winpharma Spa	0
+25	23	Ilustre Municipalidad De Cerrillos	Winpharma Spa	0
+26	23	Ilustre Municipalidad De Chillan Viejo	Winpharma Spa	0
+27	23	Ilustre Municipalidad De Linares	Winpharma Spa	0
+28	23	Ilustre Municipalidad De Navidad	Winpharma Spa	0
+29	23	Ilustre Municipalidad De Pelarco	Winpharma Spa	0
+30	23	Instituto Nacional Del Torax	Winpharma Spa	0
+31	23	Servicio De Salud Del Reloncaví	Winpharma Spa	0
+32	23	Servicio De Salud Iquique	Winpharma Spa	0
+33	23	Servicio Salud Aconcagua	Winpharma Spa	0

@@ -45,19 +45,26 @@
                 row: +d.x,
                 col: +d.y,
                 value: +d.val,
-                xlabel: +d.x,
-                ylabel: +d.y,
+                xlabel: d.xlabel,
+                ylabel: d.ylabel,
                 tenders: d.tenders,
                 orders: d.orders
             };
         },
         function(error, data) {
 
+            var maxval=0
             for (var i = 0; i < data.length; i++) {
                 rowLabel.push(data[i].xlabel)
                 colLabel.push(data[i].ylabel)
                 //console.log(data[i].tenders)
+                if (parseInt(data[i].value)>maxval){
+                    maxval= parseInt(data[i].value);
+                    console.log(maxval, "entro")
+                }
             }
+            
+           
             //rowLabel = rowLabel.unique();
             //colLabel = colLabel.unique();
             rowLabel = eliminateDuplicates(rowLabel);
@@ -155,14 +162,15 @@
                 .attr("width", cellSize)
                 .attr("height", cellSize)
                 .style("fill", function(d) {
-                    return colorScale(d.value);
+                    console.log(maxval);
+                    return colorScale(parseInt(d.value*10/maxval));
                 })
                 .on("click", function(d) {
                     //console.log(d, " click");
                     mySwiper.swipeNext();
 
-                    tender = d.tenders.split(" ");
-                    order = d.orders.split(" ");
+                    tender = d.tenders.split("_");
+                    order = d.orders.split("_");
                     //console.log(tender);
                     //console.log(order);
                     
@@ -288,7 +296,7 @@
                         .style("left", (d3.event.pageX + 10 + $(document).width()) + "px")
                         .style("top", (d3.event.pageY - 10) + "px")
                         .select("#value")
-                        .text("lables:" + rowLabel[d.row - 1] + "," + colLabel[d.col - 1] + "\ndata:" + d.value + "\nrow-col-idx:" + d.col + "," + d.row + "\ncell-xy " + this.x.baseVal.value + ", " + this.y.baseVal.value);
+                        .text("Monto Promedio: "+ d.value);
                     //Show the tooltip
                     d3.select("#tooltip").classed("hidden", false);
                 })
