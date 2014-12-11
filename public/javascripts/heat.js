@@ -163,7 +163,8 @@
                 .attr("height", cellSize)
                 .style("fill", function(d) {
                     console.log(maxval);
-                    return colorScale(parseInt(d.value*10/maxval));
+
+                    return colorScale(Math.ceil(d.value*10/maxval)+1);
                 })
                 .on("click", function(d) {
                     //console.log(d, " click");
