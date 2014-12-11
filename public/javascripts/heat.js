@@ -172,12 +172,13 @@
                         dataType: "json",
                         url: "http://chilecompra.cloudapp.net/api/tendersArray",
                         success: function (data) {
-                            console.log(data);
-                            $('.tenders').empty();
+                            //console.log(data);
+                            $('.tenders .main-content').empty();
+                            
                             for (var i = 0; i< data.length; i++){
-                                var $title = $('<h2 class="title" data-id="'+ data[i].code +'">').text(data[i].name);
-                                var $code = $('<p>').text(data[i].code);
-                                var $desc = $('<p>').text(data[i].desc);
+
+                                var item_text = data[i].items_num == 1 ? 'ítem' : 'items';
+
                                 if(data[i].state == "5")
                                     data[i].state = "Publicada"
                                 if(data[i].state == "6")
@@ -190,17 +191,11 @@
                                     data[i].state = "Revocada"
                                 if(data[i].state == "16")
                                     data[i].state = "Suspendida"
-                                var $state = $('<p>').text(data[i].state);
                                 
-
-                                $('.tenders')
-                                    .append($title)
-                                    .append($code)
-                                    .append($desc)
-                                    .append($state);
+                                $(".tenders .main-content").append('<div class="row" data-id="'+ data[i].code +'"> <div class="col-sm-12"> <div class="xe-widget xe-counter-block xe-counter-block-blue" data-count=".num" data-from="0" data-to="0" data-duration="2"> <div class="xe-upper"> <div class="xe-icon"> <i class="linecons-doc"></i> </div> <div class="xe-label"> <strong class="num">'+ data[i].items_num +' '+ item_text +'</strong> <span>'+ data[i].name +'</span> </div> </div> <div class="xe-lower"> <div class="border"></div> <span>Código</span> <strong>'+ data[i].code +'</strong> </div> <div class="xe-lower top-p"> <div class="border"></div> <span>Estado</span> <strong>'+ data[i].state +'</strong> </div><div class="xe-lower top-p"> <div class="border"></div> <span>Comprador</span> <strong>'+ data[i].buyer.name +'</strong> </div> </div> </div> </div>');
                             }
 
-                            $(".tenders .title").click(function(){
+                            $(".tenders .row").click(function(){
                                 $(".doc-info").empty();
 
                                 mySwiper.swipeNext();
@@ -228,8 +223,9 @@
                         dataType: "json",
                         url: "http://chilecompra.cloudapp.net/api/ordersArray",
                         success: function (data) {
-                            console.log(data);
+                            //console.log(data);
                             $('.orders .main-content').empty();
+                            
                             for (var i = 0; i< data.length; i++){
 
                                 if(data[i].state == "4")
@@ -247,7 +243,7 @@
                                 if(data[i].state == "15")
                                     data[i].state = "Recepción Conforme Incompleta"
 
-                                $(".orders .main-content").append('<div class="row" data-id="'+ data[i].code +'"> <div class="col-sm-12"> <div class="xe-widget xe-counter-block" data-count=".num" data-from="0" data-to="'+ data[i].total +'" data-duration="2"> <div class="xe-upper"> <div class="xe-icon"> <i class="linecons-money"></i> </div> <div class="xe-label"> <strong class="num">0</strong> <span>'+ data[i].name +'</span> </div> </div> <div class="xe-lower"> <div class="border"></div> <span>Código</span> <strong>'+ data[i].code +'</strong> </div> <div class="xe-lower top-p"> <div class="border"></div> <span>Estado</span> <strong>'+ data[i].state +'</strong> </div> </div> </div> </div>');
+                                $(".orders .main-content").append('<div class="row" data-id="'+ data[i].code +'"> <div class="col-sm-12"> <div class="xe-widget xe-counter-block" data-count=".num" data-from="0" data-to="'+ data[i].total +'" data-duration="2"> <div class="xe-upper"> <div class="xe-icon"> <i class="linecons-money"></i> </div> <div class="xe-label"> <strong class="num">$'+ data[i].total +'</strong> <span>'+ data[i].name +'</span> </div> </div> <div class="xe-lower"> <div class="border"></div> <span>Código</span> <strong>'+ data[i].code +'</strong> </div> <div class="xe-lower top-p"> <div class="border"></div> <span>Estado</span> <strong>'+ data[i].state +'</strong> </div> </div> </div> </div>');
                             }
 
                             $(".orders .row").click(function(){

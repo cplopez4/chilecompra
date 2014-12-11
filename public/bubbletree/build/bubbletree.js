@@ -26,7 +26,7 @@ var BubbleTree = function(config, onHover, onUnHover) {
 		// hide labels at all for bubbles with min radius of 0 (deactivated by def)
 		minRadiusHideLabels: 0,
 		// trim labels after 50 characters
-		cutLabelsAt: 50
+		cutLabelsAt: 15
 	}, config);
 
 	/*
@@ -1003,7 +1003,7 @@ BubbleTree.MouseEventGroup = function(target, members) {
 		if(target.node.children.length<2){
 			mySwiper.swipeNext();
 			var tsv = "heatmáp 2.tsv";
-			//var tsv = target.node.label+".tsv";  ////////////////////////Descomentar
+			//var tsv = target.node.label+".tsv";  ////////////////////////Descomentar///////////////////////////////////////////////////////////////////////////////////
 			update(tsv);
 
 		}
@@ -1046,13 +1046,13 @@ BubbleTree.MouseEventGroup = function(target, members) {
 		// since we don't know which event will receive first, the unhover of the member
 		// the mouse is leaving or the hover of the member the mouse is entering, we will
 		// delay the final check a bit
-		console.log(target.node.label)
+		console.log(target)
 		
 		d3.select("#tooltip")
-		    .style("left", (d3.event.pageX + 10 + $(document).width()) + "px")
-		    .style("top", (d3.event.pageY - 10) + "px")
+		    .style("left",target.pos.x+"px")
+		    .style("top", target.pos.y+"px")
 		    .select("#value")
-		    .text(target.node.label+ "hola");
+		    .text(target.node.label);
 		//Show the tooltip
 		d3.select("#tooltip").classed("hidden", false);
 
@@ -1083,6 +1083,7 @@ BubbleTree.MouseEventGroup = function(target, members) {
 	me.handleMemberUnHover = function(evt) {
 		var me = this;
 		me.mouseIsOver = false;
+		d3.select("#tooltip").classed("hidden", true);
 		// we need to wait a bit to find out if this is a real unhover event
 		// or just the change to another element in the member list
 		// so we need to delay the final check a bit (let's say 30ms)

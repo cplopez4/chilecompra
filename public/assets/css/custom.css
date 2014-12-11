@@ -10,8 +10,9 @@ body {
 a {
 }
 
-.page-container.orders.list-fix{
+.page-container.orders.list-fix, .page-container.tenders.list-fix{
 	width: 50%;
+	float: left;
 }
 .xe-lower.top-p{
 	padding-top: 0px !important;
