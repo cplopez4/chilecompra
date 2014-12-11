@@ -10,12 +10,42 @@
 }
 .toggle-sidebar{
   position: absolute;
-  right: 20px;
-  top: 5px;
+  right: 45px;
+  top: 12px;
   z-index: 9999;
 }
+.back-cont, .back-cont-list, .back-cont-detail{
+  float: left;
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.to-cont{
+  display: inline-block;
+}
+.page-container{
+  margin-top: -35px;
+}
+.page-container.orders, .page-container.tenders{
+  margin-top: 0px;
+}
+.page-container.doc-info .main-content{
+  padding-top: 50px;
+}
+.back-cont:hover, .back-cont-list:hover, .back-cont-detail:hover{
+  opacity: 0.8;
+}
+.back-cont img, .back-cont-list img, .back-cont-detail img{
+  width: 45px;
+}
 .toggle-sidebar.logo2{
-  right: 120px;
+  right: 145px;
+  top: 10px;
 }
 .toggle-sidebar.logo2 img{
   height: 58px;
@@ -41,6 +71,12 @@
 .swiper-container {
   height: 100%;
   width: 100%;
+}
+.swiper-slide.overflow-auto{
+  overflow: auto;
+}
+.page-container .main-content{
+  padding-top: 90px;
 }
 .swiper-slide{
   background: #d5d5d5;

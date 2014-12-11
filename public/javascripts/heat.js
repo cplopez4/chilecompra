@@ -1,4 +1,5 @@
     var ticket = "0942223B-FAE2-4060-950E-36D16916F7E2";
+    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
     var order =[];
     var tender = [];
     var margin = {
@@ -196,8 +197,9 @@
                             }
 
                             $(".tenders .row").click(function(){
-                                $(".doc-info").empty();
-
+                                // $(".doc-info").empty();
+                                $(".doc-info .main-info .xe-widget").addClass("xe-counter-block-blue");
+                                $(".doc-info .main-info .xe-icon i").attr("class", "linecons-doc");
                                 mySwiper.swipeNext();
 
                                 var code = $(this).attr("data-id");
@@ -209,7 +211,37 @@
                                     crossDomain: true,
                                     dataType: 'jsonp',
                                     success: function (data) {
-                                        $(".doc-info").append("<p>"+ JSON.stringify(data) +"</p>");
+                                        $(".items-info-cont").empty();
+                                        var tender = data.Listado[0];
+                                        var item_text = tender.Items.Cantidad == 1 ? 'ítem' : 'items';
+                                        var date = new Date(tender.Fechas.FechaCierre);
+                                        var dateStr = date.getDate().toString() + " de " + meses[date.getMonth()] + " de " + date.getFullYear().toString();
+                                        var renovStr = tender.EsRenovable == 0 ? 'NO' : 'SI';
+
+                                        // $(".doc-info .num").text(tender.Items.Cantidad.toString() + " " + item_text);
+                                        $(".doc-info .main-info .num").text(tender.Nombre);
+                                        $(".doc-info .main-info .xe-label span").text(tender.CodigoExterno);
+                                        $(".doc-info .main-info .desc strong").text(tender.Descripcion);
+                                        $(".doc-info .main-info .state strong").text(tender.Estado);
+                                        $(".doc-info .main-info .date span").text("Fecha de Cierre");
+                                        $(".doc-info .main-info .date strong").text(dateStr);
+                                        $(".doc-info .main-info .payment span").html("Responsable Pago");
+                                        $(".doc-info .main-info .payment strong").html(tender.NombreResponsablePago + " (<a href='mailto:"+ tender.EmailResponsablePago +"'>" + tender.EmailResponsablePago + "</a>)");
+                                        $(".doc-info .main-info .contract span").html("Responsable Contrato");
+                                        $(".doc-info .main-info .contract strong").html(tender.NombreResponsableContrato + " (<a href='mailto:"+ tender.EmailResponsableContrato +"'>" + tender.EmailResponsableContrato + "</a>)");
+                                        $(".doc-info .main-info .renov span").text("Renovable");                                        
+                                        $(".doc-info .main-info .renov strong").text(renovStr);
+
+                                        $(".doc-info .buyer-info .xe-label span").text(tender.Comprador.CodigoOrganismo);
+                                        $(".doc-info .buyer-info .name strong").text(tender.Comprador.NombreOrganismo);
+                                        $(".doc-info .buyer-info .rut strong").text(tender.Comprador.RutUnidad);
+                                        $(".doc-info .buyer-info .address strong").text(tender.Comprador.DireccionUnidad);
+                                        $(".doc-info .buyer-info .comuna strong").html(tender.Comprador.ComunaUnidad);
+                                        $(".doc-info .buyer-info .region strong").html(tender.Comprador.RegionUnidad);
+
+                                        $.each(tender.Items.Listado, function(index, item){
+                                            $(".items-info-cont").append('<div class="row"> <div class="col-sm-12"> <div class="xe-widget xe-counter-block xe-counter-block-orange" data-count=".num" data-from="0" data-to="0" data-duration="2"> <div class="xe-upper"> <div class="xe-icon"> <i class="linecons-truck"></i> </div> <div class="xe-label"> <strong class="num">'+ item.NombreProducto +'</strong> <span>'+ item.CodigoProducto +'</span> </div> </div> <div class="xe-lower"> <div class="border"></div> <span>Categoría</span> <strong>'+ item.Categoria +'</strong> </div> <div class="xe-lower top-p"> <div class="border"></div> <span>Descripción</span> <strong>'+ item.Descripcion +'</strong> </div><div class="xe-lower top-p"> <div class="border"></div> <span>Cantidad</span> <strong>'+ item.Cantidad +'</strong> </div> </div> </div> </div>');
+                                        })
                                     }
                                 });
                             })
@@ -247,8 +279,9 @@
                             }
 
                             $(".orders .row").click(function(){
-                                $(".doc-info").empty();
-
+                                // $(".doc-info").empty();
+                                $(".doc-info .main-info .xe-widget").removeClass("xe-counter-block-blue");
+                                $(".doc-info .main-info .xe-icon i").attr("class", "linecons-money");
                                 mySwiper.swipeNext();
 
                                 var code = $(this).attr("data-id");
@@ -260,7 +293,36 @@
                                     crossDomain: true,
                                     dataType: 'jsonp',
                                     success: function (data) {
-                                        $(".doc-info").append("<p>"+ JSON.stringify(data) +"</p>");
+                                        $(".items-info-cont").empty();
+                                        var order = data.Listado[0];
+                                        var item_text = order.Items.Cantidad == 1 ? 'ítem' : 'items';
+                                        var date = new Date(order.Fechas.FechaCreacion);
+                                        var dateStr = date.getDate().toString() + " de " + meses[date.getMonth()] + " de " + date.getFullYear().toString();
+
+                                        // $(".doc-info .num").text(order.Items.Cantidad.toString() + " " + item_text);
+                                        $(".doc-info .main-info .num").text(order.Nombre);
+                                        $(".doc-info .main-info .xe-label span").text(order.Codigo);
+                                        $(".doc-info .main-info .desc strong").text(order.Descripcion);
+                                        $(".doc-info .main-info .state strong").text(order.Estado);
+                                        $(".doc-info .main-info .date span").text("Fecha de Creación");
+                                        $(".doc-info .main-info .date strong").text(dateStr);
+                                        $(".doc-info .main-info .payment span").html("Nombre Proveedor");
+                                        $(".doc-info .main-info .payment strong").html(order.Proveedor.Nombre);
+                                        $(".doc-info .main-info .contract span").html("Rut Proveedor");
+                                        $(".doc-info .main-info .contract strong").html(order.Proveedor.RutSucursal);
+                                        $(".doc-info .main-info .renov span").text("Total");
+                                        $(".doc-info .main-info .renov strong").text("$"+ order.Total);
+
+                                        $(".doc-info .buyer-info .xe-label span").text(order.Comprador.CodigoOrganismo);
+                                        $(".doc-info .buyer-info .name strong").text(order.Comprador.NombreOrganismo);
+                                        $(".doc-info .buyer-info .rut strong").text(order.Comprador.RutUnidad);
+                                        $(".doc-info .buyer-info .address strong").text(order.Comprador.DireccionUnidad);
+                                        $(".doc-info .buyer-info .comuna strong").html(order.Comprador.ComunaUnidad);
+                                        $(".doc-info .buyer-info .region strong").html(order.Comprador.RegionUnidad);
+
+                                        $.each(order.Items.Listado, function(index, item){
+                                            $(".items-info-cont").append('<div class="row"> <div class="col-sm-12"> <div class="xe-widget xe-counter-block xe-counter-block-orange" data-count=".num" data-from="0" data-to="0" data-duration="2"> <div class="xe-upper"> <div class="xe-icon"> <i class="linecons-truck"></i> </div> <div class="xe-label"> <strong class="num">'+ item.Producto +'</strong> <span>'+ item.CodigoProducto +'</span> </div> </div> <div class="xe-lower"> <div class="border"></div> <span>Categoría</span> <strong>'+ item.Categoria +'</strong> </div> <div class="xe-lower top-p"> <div class="border"></div> <span>Descripción</span> <strong>'+ item.EspecificacionProveedor +'</strong> </div><div class="xe-lower top-p"> <div class="border"></div> <span>Cantidad</span> <strong>'+ item.Cantidad +'</strong> </div><div class="xe-lower top-p"> <div class="border"></div> <span>Total</span> <strong>$'+ item.Total +'</strong> </div> </div> </div> </div>');
+                                        })
                                     }
                                 });
                             })

@@ -48,7 +48,7 @@
         <div class="swiper-wrapper">
 
         <div id="tooltip" class="hidden">
-                <p><span id="value"></p>
+          <p><span id="value"></span></p>
         </div>
 
           <div class="swiper-slide swiper-no-swiping">
@@ -63,6 +63,9 @@
           
           <div class="swiper-slide">
             <div class="content-slide">
+              <div class="back-cont clearfix">
+                <img src="images/back_arrow.png">
+              </div>
               Ordenar: 
               <select id="order">
               <option value="hclust">Por Cluster</option>
@@ -80,14 +83,19 @@
 
           <div class="swiper-slide swiper-no-swiping">
             <div class="content-slide">
-
-              <div class="page-container tenders list-fix">
-                <div class="main-content"></div>
+              <div class="back-cont-list clearfix">
+                <img src="images/back_arrow.png">
               </div>
 
-              
-              <div class="page-container orders list-fix">
-                <div class="main-content"></div>
+              <div class="to-cont">
+                <div class="page-container tenders list-fix">
+                  <div class="main-content"></div>
+                </div>
+
+                
+                <div class="page-container orders list-fix">
+                  <div class="main-content"></div>
+                </div>
               </div>
             
             </div>
@@ -95,10 +103,93 @@
           </div>
            
 
-          <div class="swiper-slide">
+          <div class="swiper-slide overflow-auto swiper-no-swiping">
             <div class="content-slide">
+              <div class="back-cont-detail clearfix">
+                <img src="images/back_arrow.png">
+              </div>
 
-              <div class="doc-info"></div>
+              <div class="page-container doc-info list-fix">
+                <div class="main-content">
+                  
+                  <div class="row main-info"> 
+                    <div class="col-sm-12"> 
+                      <div class="xe-widget xe-counter-block" data-count=".num" data-from="0" data-to="350000" data-duration="2"> 
+                        <div class="xe-upper"> 
+                          <div class="xe-icon"> 
+                            <i class="linecons-money"></i> 
+                          </div> 
+                          <div class="xe-label"> 
+                            <strong class="num">$350000</strong> <span>VIAJE A SANTIAGO ESC. F-657</span> 
+                          </div> 
+                        </div> 
+                        <div class="xe-lower desc"> 
+                          <div class="border"></div> 
+                          <span>Descripción</span> <strong>3995-1053-SE14</strong> 
+                        </div>
+                        <div class="xe-lower top-p state"> 
+                          <div class="border"></div> 
+                          <span>Estado</span> <strong>Aceptada</strong> 
+                        </div>
+                        <div class="xe-lower top-p date"> 
+                          <div class="border"></div> 
+                          <span>Fecha de Cierre</span> <strong>23 de Diciembre de 2014</strong> 
+                        </div>
+                        <div class="xe-lower top-p payment"> 
+                          <div class="border"></div> 
+                          <span>Responsable Pago</span> <strong>Verónica Ortega Naranjo (veronica.ortega@redsalud.gov.cl)</strong> 
+                        </div>
+                        <div class="xe-lower top-p contract"> 
+                          <div class="border"></div> 
+                          <span>Responsable Contrato</span> <strong>Verónica Ortega Naranjo (veronica.ortega@redsalud.gov.cl)</strong> 
+                        </div>
+                        <div class="xe-lower top-p renov"> 
+                          <div class="border"></div> 
+                          <span>Renovable</span> <strong>Si</strong> 
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div>
+
+                  <div class="row buyer-info"> 
+                    <div class="col-sm-12"> 
+                      <div class="xe-widget xe-counter-block xe-counter-block-purple" data-count=".num" data-from="0" data-to="350000" data-duration="2"> 
+                        <div class="xe-upper"> 
+                          <div class="xe-icon"> 
+                            <i class="linecons-user"></i> 
+                          </div> 
+                          <div class="xe-label"> 
+                            <strong class="num">COMPRADOR</strong><span>645543329</span> 
+                          </div> 
+                        </div> 
+                        <div class="xe-lower name"> 
+                          <div class="border"></div> 
+                          <span>Nombre</span> <strong>3995-1053-SE14</strong> 
+                        </div> 
+                        <div class="xe-lower top-p rut"> 
+                          <div class="border"></div> 
+                          <span>Rut</span> <strong>Aceptada</strong> 
+                        </div>
+                        <div class="xe-lower top-p address"> 
+                          <div class="border"></div> 
+                          <span>Dirección</span> <strong>23 de Diciembre de 2014</strong> 
+                        </div>
+                        <div class="xe-lower top-p comuna"> 
+                          <div class="border"></div> 
+                          <span>Comuna</span> <strong>Verónica Ortega Naranjo (veronica.ortega@redsalud.gov.cl)</strong> 
+                        </div>
+                        <div class="xe-lower top-p region"> 
+                          <div class="border"></div> 
+                          <span>Región</span> <strong>Si</strong> 
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div>
+
+                  <div class="items-info-cont"></div>
+                
+                </div>
+              </div>
 
             </div>
           </div>
@@ -109,7 +200,6 @@
 
 
   <script>
-
   var mySwiper = new Swiper('.swiper-container',{
     loop:false,
     grabCursor: false,
@@ -118,6 +208,21 @@
     moveStartThreshold: 10
   });
   
+  $(document).ready(function(){
+    $(".back-cont").click(function(){
+      mySwiper.swipePrev();
+    })
+  });
+  $(document).ready(function(){
+    $(".back-cont-list").click(function(){
+      mySwiper.swipePrev();
+    })
+  });
+  $(document).ready(function(){
+    $(".back-cont-detail").click(function(){
+      mySwiper.swipePrev();
+    })
+  });
   </script>
 
  
