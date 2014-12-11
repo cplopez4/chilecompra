@@ -7,9 +7,9 @@
             bottom: 50,
             left: 100
         },
-        cellSize = 25;
-    col_number = 60;
-    row_number = 60;
+        cellSize = 20;
+    col_number = 1000;
+    row_number = 1000;
     width = cellSize * col_number, // - margin.left - margin.right,
         height = cellSize * row_number, // - margin.top - margin.bottom,
         gridSize = Math.floor(width / 24),
@@ -169,8 +169,8 @@
                     //console.log(d, " click");
                     mySwiper.swipeNext();
 
-                    tender = d.tenders.split("_");
-                    order = d.orders.split("_");
+                    tender = d.tenders.split(";");
+                    order = d.orders.split(";");
                     //console.log(tender);
                     //console.log(order);
                     
@@ -296,7 +296,7 @@
                         .style("left", (d3.event.pageX + 10 + $(document).width()) + "px")
                         .style("top", (d3.event.pageY - 10) + "px")
                         .select("#value")
-                        .text("Monto Promedio: "+ d.value);
+                        .text("Monto Promedio: "+ d.value+"\n Comprador: "+d.xlabel+"\n Vendedor: "+d.ylabel);
                     //Show the tooltip
                     d3.select("#tooltip").classed("hidden", false);
                 })
