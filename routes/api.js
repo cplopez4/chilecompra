@@ -6,9 +6,6 @@ var Tender = require('../models/tender');
 var User   = require('../models/user');
 var Insertion   = require('../models/insertion');
 
-/* Sequelize Models */
-var db  = require('../models/postgres');
-
 var router = express.Router();
 
 /* POST TENDERS ARRAY */
