@@ -22,6 +22,9 @@ var express = require('express')
   , logger = require('morgan')
   , cookieParser = require('cookie-parser');
 
+  /* Sequelize - Postgres */
+var db = require('./models/postgres');
+
 /* Mongoose - MongoDB */
 var mongoose = require('mongoose');
 var mongo = mongoose.connect('mongodb://127.0.0.1:27017/chilecompra');
@@ -43,6 +46,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/api', api);
+
+db.sequelize.sync({force: true});
 
 app.listen(3000, function(){
 	console.log("Bienvenido a Chile Compra - AbreCL 2014");

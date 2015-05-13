@@ -4,6 +4,10 @@ var express = require('express');
 var Order  = require('../models/order');
 var Tender = require('../models/tender');
 var User   = require('../models/user');
+var Insertion   = require('../models/insertion');
+
+/* Sequelize Models */
+var db  = require('../models/postgres');
 
 var router = express.Router();
 
@@ -44,6 +48,52 @@ router.post('/register', function(req, res) {
 router.post('/login', function(req, res) {
 	res.send("Login");
 });
+
+/* POST INSERTION */
+/* {"closed_at": "2014-01-27T15:25:00", "name": "Medicamentos", "code": "213-L12-20", "state": 8, "query_date": "02022014"} */
+router.route('/insertion')
+
+	.post(function(req, res){
+		var code = req.body.code;
+		var state = parseInt(req.body.state);
+		var state_hash = { "state": state, "date": req.body.query_date };
+
+		Insertion.findOne({ code: code }, function(err, insertion){
+			res.header('Access-Control-Allow-Origin', '*');
+			
+			if(insertion == null){
+				var new_insertion = new Insertion();
+
+				new_insertion.code = req.body.code;
+				new_insertion.name = req.body.name;
+				new_insertion.closed_at = new Date(req.body.closed_at);
+				new_insertion.states.push(state_hash);
+
+				new_insertion.save(function(err, insertionSaved){
+					if(err)
+						res.send(err);
+
+					res.json(insertionSaved);
+				})
+			}
+			else{
+				insertion.states.push(state_hash);
+				insertion.save(function(err, insertionSaved){
+					if(err)
+						res.send(err);
+
+					res.json(insertionSaved);
+				})
+			}
+		})
+	})
+
+	.get(function(req, res){
+		Insertion.find({}, function(err, insertions){
+			res.header('Access-Control-Allow-Origin', '*');
+			res.json(insertions);
+		})
+	});
 
 /* POST NEW STATE */
 /* {"state": 8, "date": "27022014", "type": 0, "code": "213-L12-20"} */
