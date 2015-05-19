@@ -428,17 +428,30 @@ def daily_scraper(startingDate):
         #print dailyTenders['Cantidad']
         for element in dailyTenders['Listado']:
             #print element
-            nameT = element['Nombre'].encode('utf-8')
-            codeT = element['CodigoExterno'].encode('utf-8')
-            closedT = element['FechaCierre'].encode('utf-8')
-            stateT = element['CodigoEstado']
+            try:
+                nameT = element['Nombre'].encode('utf-8')
+            except:
+                nameT = "null"
+            try:
+                codeT = element['CodigoExterno'].encode('utf-8')
+            except:
+                codeT = "null"
+            try:
+                closedT = element['FechaCierre'].encode('utf-8')
+            except:
+                closedT = "null"
+            try:
+                stateT = element['CodigoEstado']
+            except:
+                stateT = 999
             postMethodData = {
                     "name": nameT,
                     "code": codeT,
                     "closed_at": closedT,
                     "state": stateT,
                     "query_date": dateParam}
-            #print postMethodData
+            print postMethodData
+            #localhost:3000
             postData = requests.post('http://localhost:3000/api/insertion',data=json.dumps(postMethodData), headers = headers)
         fesha = fesha - delta
 
@@ -450,7 +463,7 @@ if __name__ == "__main__":
     #query_database_order()
     #query_try()
     #fixx()
-    daily_scraper(dd.date(2015,05,19))
+    daily_scraper(dd.date(2015,05,13))
 
 
 
