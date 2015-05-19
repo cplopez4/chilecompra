@@ -439,7 +439,7 @@ def daily_scraper(startingDate):
                     "state": stateT,
                     "query_date": dateParam}
             #print postMethodData
-            postData = requests.post('http://chilecompra.cloudapp.net/api/insertion',data=json.dumps(postMethodData), headers = headers)
+            postData = requests.post('http://localhost:3000/api/insertion',data=json.dumps(postMethodData), headers = headers)
         fesha = fesha - delta
 
 
