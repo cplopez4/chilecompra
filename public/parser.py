@@ -398,15 +398,59 @@ def fixx():
             postData = requests.post('http://localhost:3000/api/tenders',data=json.dumps(postMethodData), headers = headers)
             #print  postData.text.encode('utf-8')
 
+def daily_scraper(startingDate):
+    fesha = startingDate
+    delta = dd.timedelta(days=1)
+    endDate = dd.date(2010,01,01)
+    while fesha >= endDate:
+        if fesha.day<10:
+            theDay = "0"+str(fesha.day)
+        else:
+            theDay = str(fesha.day)
+        #print theDay
+
+        if fesha.month<10:
+            theMonth = "0"+str(fesha.month)
+        else:
+            theMonth = str(fesha.month)
+        #print theMonth
+        theYear = str(fesha.year)
+        #theYear= '2014'
+        dateParam = theDay+theMonth+theYear
+        print dateParam
+        headers = {'content-type': 'application/json'}
+        dailyTendersRequest = requests.get('http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?fecha='+dateParam+'&estado=Todos&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844', headers = headers)
+
+        #Error exception
+        dailyTendersRequest.raise_for_status()
+
+        dailyTenders = json.loads(dailyTendersRequest.text.encode('utf-8'))
+        #print dailyTenders['Cantidad']
+        for element in dailyTenders['Listado']:
+            #print element
+            nameT = element['Nombre'].encode('utf-8')
+            codeT = element['CodigoExterno'].encode('utf-8')
+            closedT = element['FechaCierre'].encode('utf-8')
+            stateT = element['CodigoEstado']
+            postMethodData = {
+                    "name": nameT,
+                    "code": codeT,
+                    "closed_at": closedT,
+                    "state": stateT,
+                    "query_date": dateParam}
+            #print postMethodData
+            postData = requests.post('http://chilecompra.cloudapp.net/api/insertion',data=json.dumps(postMethodData), headers = headers)
+        fesha = fesha - delta
 
 
 if __name__ == "__main__":
     #order_scraper(dd.date(2014,12,06))
-    tender_scraper(dd.date(2015,01,15))
+    #tender_scraper(dd.date(2015,05,18))
     #query_database_tender()
     #query_database_order()
     #query_try()
     #fixx()
+    daily_scraper(dd.date(2015,05,19))
 
 
 
