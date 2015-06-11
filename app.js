@@ -24,7 +24,7 @@ var express = require('express')
 
 /* Mongoose - MongoDB */
 var mongoose = require('mongoose');
-var mongo = mongoose.connect('mongodb://127.0.0.1:27017/chilecompra');
+var mongo = mongoose.connect('mongodb://127.0.0.1:27017/chilecompra3');
 
 /* Routes */
 var routes = require('./routes/index');

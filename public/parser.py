@@ -419,7 +419,7 @@ def daily_scraper(startingDate):
         dateParam = theDay+theMonth+theYear
         print dateParam
         headers = {'content-type': 'application/json'}
-        dailyTendersRequest = requests.get('http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?fecha='+dateParam+'&estado=Todos&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844', headers = headers)
+        dailyTendersRequest = requests.get('http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?fecha='+dateParam+'&estado=Todos&ticket=0942223B-FAE2-4060-950E-36D16916F7E2', headers = headers)
 
         #Error exception
         dailyTendersRequest.raise_for_status()
@@ -450,7 +450,7 @@ def daily_scraper(startingDate):
                     "closed_at": closedT,
                     "state": stateT,
                     "query_date": dateParam}
-            print postMethodData
+            #print postMethodData
             #localhost:3000
             postData = requests.post('http://localhost:3000/api/insertion',data=json.dumps(postMethodData), headers = headers)
         fesha = fesha - delta
@@ -463,7 +463,7 @@ if __name__ == "__main__":
     #query_database_order()
     #query_try()
     #fixx()
-    daily_scraper(dd.date(2015,05,13))
+    daily_scraper(dd.date(2013,11,21))
 
 
 
