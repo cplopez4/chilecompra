@@ -92,6 +92,21 @@ router.route('/insertion')
 		})
 	});
 
+/* GET INSETIONS PAGINATED WITH PAGE & ITEMS_COUNT */
+/* http://root/api/insertions_pag?page=2&items=10 */
+router.get('/insertions_pag', function(req, res){
+	var page = parseInt(req.query.page) || 1;
+	var items = parseInt(req.query.items) || 10;
+
+	Insertion.paginate({}, page, items, function(err, pageCount, insertions, itemCount) {
+		res.header('Access-Control-Allow-Origin', '*');
+		if (err)
+			res.send(err);
+
+		res.json(insertions);
+	}, { sortBy: { created_at: -1 } });
+});	
+
 /* POST NEW STATE */
 /* {"state": 8, "date": "27022014", "type": 0, "code": "213-L12-20"} */
 router.post('/state', function(req, res) {
