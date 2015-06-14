@@ -463,7 +463,7 @@ if __name__ == "__main__":
     #query_database_order()
     #query_try()
     #fixx()
-    daily_scraper(dd.date(2013,11,21))
+    daily_scraper(dd.date(2012,5,30))
 
 
 
