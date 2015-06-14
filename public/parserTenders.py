@@ -177,8 +177,8 @@ def tender_scraper(arrayIndex):
             #Post Data to local database
 
             headers = {'content-type': 'application/json'}
-            #postData = requests.post('http://localhost:3000/api/tenders',data=json.dumps(postMethodData), headers = headers)
-            print postMethodData
+            postData = requests.post('http://localhost:3000/api/tenders',data=json.dumps(postMethodData), headers = headers)
+            #print postMethodData
             #print  postData.text.encode('utf-8')
 
 
