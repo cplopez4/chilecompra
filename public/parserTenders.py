@@ -28,7 +28,7 @@ def tender_array_creation():
         #Set variables
         #Get codes from our API
         headers = {'content-type': 'application/json'}
-        codeIndex = requests.get('http://chilecompra.cloudapp.net/api/insertions_pag?items='+str(itemNumber)+'&page='+str(pageNumber), headers = headers)
+        codeIndex = requests.get('http://localhost:3000/api/insertions_pag?items='+str(itemNumber)+'&page='+str(pageNumber), headers = headers)
         arrayGlobal =  json.loads(codeIndex.text.encode('utf-8'))
         #print arrayGlobal
 
@@ -179,7 +179,7 @@ def tender_scraper(arrayIndex):
             headers = {'content-type': 'application/json'}
             postData = requests.post('http://localhost:3000/api/tenders',data=json.dumps(postMethodData), headers = headers)
             #print postMethodData
-            #print  postData.text.encode('utf-8')
+            print postData.text.encode('utf-8')
 
 
 
